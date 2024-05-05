@@ -1,0 +1,169 @@
+#EXTM3U
+#EXTINF:-1 group-title="经典频道",经典功夫台
+http://43.138.170.29:35455/yy/1355002394
+#EXTINF:-1 group-title="经典频道",星光视界台
+http://ali.hlspull.yximgs.com/live/zxcvbnm9852.flv
+#EXTINF:-1 group-title="经典频道",重温经典台
+http://mtw.so/5NPX0U
+#EXTINF:-1 group-title="中央频道",CCTV5+
+http://183.204.13.13/1.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/ysp/2022576302.m3u8
+#EXTINF:-1 group-title="重庆酒店",CCTV1
+http://27.8.167.227:8089/newlive/live/hls/2/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",CCTV2
+http://27.8.167.227:8089/newlive/live/hls/3/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",CCTV3
+http://27.8.167.227:8089/newlive/live/hls/4/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",CCTV4
+http://27.8.167.227:8089/newlive/live/hls/5/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",CCTV5
+http://27.8.167.227:8089/newlive/live/hls/6/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",CCTV6
+http://27.8.167.227:8089/newlive/live/hls/7/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",CCTV7
+http://27.8.167.227:8089/newlive/live/hls/8/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",CCTV8
+http://27.8.167.227:8089/newlive/live/hls/9/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",CCTV8
+http://27.8.167.227:8089/newlive/live/hls/10/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",CCTV10
+http://27.8.167.227:8089/newlive/live/hls/11/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",CCTV11
+http://27.8.167.227:8089/newlive/live/hls/12/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",CCTV12
+http://27.8.167.227:8089/newlive/live/hls/13/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",CCTV13
+http://27.8.167.227:8089/newlive/live/hls/14/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",CCTV14
+http://27.8.167.227:8089/newlive/live/hls/15/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",CCTV15
+http://27.8.167.227:8089/newlive/live/hls/16/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",CGTN
+http://27.8.167.227:8089/newlive/live/hls/17/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",重庆卫视
+http://27.8.167.227:8089/newlive/live/hls/18/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",浙江卫视
+http://27.8.167.227:8089/newlive/live/hls/19/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",江苏卫视
+http://27.8.167.227:8089/newlive/live/hls/20/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",东方卫视
+http://27.8.167.227:8089/newlive/live/hls/21/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",湖南卫视
+http://27.8.167.227:8089/newlive/live/hls/22/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",东南卫视
+http://27.8.167.227:8089/newlive/live/hls/23/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",云南卫视
+http://27.8.167.227:8089/newlive/live/hls/24/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",安徽卫视
+http://27.8.167.227:8089/newlive/live/hls/25/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",辽宁卫视
+http://27.8.167.227:8089/newlive/live/hls/26/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",北京卫视
+http://27.8.167.227:8089/newlive/live/hls/27/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",广东卫视
+http://27.8.167.227:8089/newlive/live/hls/28/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",河南卫视
+http://27.8.167.227:8089/newlive/live/hls/29/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",贵州卫视
+http://27.8.167.227:8089/newlive/live/hls/30/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",湖北卫视
+http://27.8.167.227:8089/newlive/live/hls/31/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",宁夏卫视
+http://27.8.167.227:8089/newlive/live/hls/32/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",新疆卫视
+http://27.8.167.227:8089/newlive/live/hls/33/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",山东卫视
+http://27.8.167.227:8089/newlive/live/hls/34/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",陕西卫视
+http://27.8.167.227:8089/newlive/live/hls/35/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",天津卫视
+http://27.8.167.227:8089/newlive/live/hls/36/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",西藏卫视
+http://27.8.167.227:8089/newlive/live/hls/37/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",甘肃卫视
+http://27.8.167.227:8089/newlive/live/hls/38/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",内蒙古卫视
+http://27.8.167.227:8089/newlive/live/hls/39/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",黑龙江卫视
+http://27.8.167.227:8089/newlive/live/hls/40/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",山西卫视
+http://27.8.167.227:8089/newlive/live/hls/41/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",青海卫视
+http://27.8.167.227:8089/newlive/live/hls/42/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",广西卫视
+http://27.8.167.227:8089/newlive/live/hls/43/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",湖北卫视
+http://27.8.167.227:8089/newlive/live/hls/44/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",四川卫视
+http://27.8.167.227:8089/newlive/live/hls/45/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",吉林卫视
+http://27.8.167.227:8089/newlive/live/hls/46/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",江西卫视
+http://27.8.167.227:8089/newlive/live/hls/47/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",深圳卫视
+http://27.8.167.227:8089/newlive/live/hls/48/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",海南卫视
+http://27.8.167.227:8089/newlive/live/hls/49/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",北京少儿
+http://27.8.167.227:8089/newlive/live/hls/50/live.m3u8
+#EXTINF:-1 group-title="重庆酒店",金鹰卡通
+http://27.8.167.227:8089/newlive/live/hls/51/live.m3u8
+#EXTINF:-1 group-title="回归频道",C+
+http://mtw.so/5GjUs9
+#EXTINF:-1 group-title="回归频道",翡翠台
+http://60.30.198.43:5080/HK/tvb/hls.m3u8
+#EXTINF:-1 group-title="回归频道",无线新闻
+http://154.yfvodcdn.com:8080/live/TVBtyzxt1/hls.m3u8
+#EXTINF:-1 group-title="回归频道",无线新闻
+http://154.yfvodcdn.com:8080/live/TVBwxxwt/hls.m3u8
+#EXTINF:-1 group-title="回归频道",三立新闻
+http://154.yfvodcdn.com:8080/live/slxw01/hls.m3u8
+#EXTINF:-1 group-title="回归频道",三立新闻
+http://154.yfvodcdn.com:8080/live/slxw02/hls.m3u8
+#EXTINF:-1 group-title="回归频道",民视新闻
+http://154.yfvodcdn.com:8080/live/tymsxw1/hls.m3u8
+#EXTINF:-1 group-title="回归频道",台视新闻
+http://154.yfvodcdn.com:8080/live/tyxltsxw3/hls.m3u8
+#EXTINF:-1 group-title="回归频道",中天新闻
+http://154.yfvodcdn.com:8080/live/ztylt01/hls.m3u8
+#EXTINF:-1 group-title="回归频道",华视
+http://154.yfvodcdn.com:8080/live/ztylt13/hls.m3u8
+#EXTINF:-1 group-title="回归频道",凤凰中文
+http://mtw.so/6wk5PS
+#EXTINF:-1 group-title="回归频道",凤凰资讯
+http://mtw.so/5NXoZ0
+#EXTINF:-1 group-title="回归频道",凤凰
+http://mtw.so/6hhFIg
+#EXTINF:-1 group-title="回归频道",探索亚洲
+http://61.221.215.25:8800/hls/50/index.m3u8
+#EXTINF:-1 group-title="回归频道",八大第一
+http://61.221.215.25:8800/hls/55/index.m3u8
+#EXTINF:-1 group-title="回归频道",动物星球
+http://61.221.215.25:8800/hls/57/index.m3u8
+#EXTINF:-1 group-title="回归频道",八大综合
+http://61.221.215.25:8800/hls/56/index.m3u8
+#EXTINF:-1 group-title="回归频道",中視新聞
+http://csscc.onflashdrive.app:2095/live.m3u8?c=2
+#EXTINF:-1 group-title="回归频道",三立新闻
+http://csscc.onflashdrive.app:2095/live.m3u8?c=3
+#EXTINF:-1 group-title="回归频道",寰宇新聞
+http://csscc.onflashdrive.app:2095/live.m3u8?c=4
+#EXTINF:-1 group-title="回归频道",大愛一臺
+http://csscc.onflashdrive.app:2095/live.m3u8?c=5
+#EXTINF:-1 group-title="回归频道",民視新聞
+http://csscc.onflashdrive.app:2095/live.m3u8?c=8
+#EXTINF:-1 group-title="回归频道",TVBS新聞
+http://csscc.onflashdrive.app:2095/live.m3u8?c=11
+#EXTINF:-1 group-title="回归频道",公視新聞
+http://csscc.onflashdrive.app:2095/live.m3u8?c=13
+#EXTINF:-1 group-title="回归频道",凤凰
+http://mtw.so/5NZZ0M
+#EXTINF:-1 group-title="回归频道",翡翠台
+http://grandprix2023.asuscomm.com:8889/bysid/1
+#EXTINF:-1 group-title="回归频道",明珠台
+http://grandprix2023.asuscomm.com:8892/bysid/2
+#EXTINF:-1 group-title="回归频道",無綫新聞台
+http://grandprix2023.asuscomm.com:8892/bysid/83
+#EXTINF:-1 group-title="回归频道",凤凰
+http://grandprix2023.asuscomm.com:8892/bysid/85
+#EXTINF:-1 group-title="回归频道",广东体育
+http://www.kitcc.cn:8887/udp/239.77.0.6:5146
