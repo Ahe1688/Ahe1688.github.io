@@ -4,13 +4,13 @@ http://183.204.13.195/1.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/ysp/2022576802.
 #EXTINF:-1 group-title="中央频道",CCTV2
 http://liveop.cctv.cn/hls/CCTV28bee868714f04ea2af79947bb9b46fc3H/playlist.m3u8
 #EXTINF:-1 group-title="中央频道",CCTV3
-http://27.8.167.227:8089/newlive/live/hls/4/live.m3u8
+http://183.204.13.185/mmst.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2022576502.m3u8
 #EXTINF:-1 group-title="中央频道",CCTV4
-http://27.8.167.227:8089/newlive/live/hls/5/live.m3u8
+http://183.204.13.195/1.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/ysp/2022576602.m3u8
 #EXTINF:-1 group-title="中央频道",CCTV5
-http://27.8.167.227:8089/newlive/live/hls/6/live.m3u8
+http://183.204.13.185/mmst.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2022576401.m3u8
 #EXTINF:-1 group-title="中央频道",CCTV6
-http://27.8.167.227:8089/newlive/live/hls/7/live.m3u8
+http://183.204.13.185/mmst.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2022576401.m3u8
 #EXTINF:-1 group-title="中央频道",CCTV7
 http://27.8.167.227:8089/newlive/live/hls/8/live.m3u8
 #EXTINF:-1 group-title="中央频道",CCTV8
