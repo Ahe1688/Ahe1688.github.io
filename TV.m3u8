@@ -1,21 +1,21 @@
 #EXTM3U
-#EXTINF:-1 group-title="中央频道",CCTV1
-http://183.204.13.195/1.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/ysp/2022576802.m3u8
-#EXTINF:-1 group-title="中央频道",CCTV2
+#EXTINF:-1 group-title="中央频道",CCTV1 综合
+https://ldncctvwbndhwy.cntv.myhwcdn.cn/ldncctvwbnd/ldcctv1_2/index.m3u8
+#EXTINF:-1 group-title="中央频道",CCTV2 财经
 http://liveop.cctv.cn/hls/CCTV28bee868714f04ea2af79947bb9b46fc3H/playlist.m3u8
-#EXTINF:-1 group-title="中央频道",CCTV3
-http://183.204.13.185/mmst.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2022576502.m3u8
-#EXTINF:-1 group-title="中央频道" tvg-id="CCTV-4",CCTV4 中文国际
-https://edge2.laotv.la/live/CCTV4A/index.m3u8
-#EXTINF:-1 group-title="中央频道",CCTV5
-http://183.204.13.185/mmst.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2022576401.m3u8
-#EXTINF:-1 group-title="中央频道",CCTV6
-http://183.204.13.185/mmst.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2022576401.m3u8
-#EXTINF:-1 group-title="中央频道",CCTV7
+#EXTINF:-1 group-title="中央频道",CCTV3 综艺
+http://125.210.150.58:9090/live/hzgq-cctv3gq-h264.m3u8
+#EXTINF:-1 group-title="中央频道",CCTV4 中文国际
+http://125.210.150.58:9090/live/hzgq-cctv4gq-h264.m3u8
+#EXTINF:-1 group-title="中央频道",CCTV5 体育
+http://125.210.150.58:9090/live/hzgq-cctv5gq-h264.m3u8
+#EXTINF:-1 group-title="中央频道",CCTV6 电影
+http://125.210.150.58:9090/live/hzgq-cctv6gq-h264.m3u8
+#EXTINF:-1 group-title="中央频道",CCTV7 农村
 http://27.8.167.227:8089/newlive/live/hls/8/live.m3u8
-#EXTINF:-1 group-title="中央频道",CCTV8
+#EXTINF:-1 group-title="中央频道",CCTV8 电视剧
 http://183.204.13.185/mmst.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2022576101.m3u8
-#EXTINF:-1 group-title="中央频道",CCTV8
+#EXTINF:-1 group-title="中央频道",CCTV9
 http://27.8.167.227:8089/newlive/live/hls/10/live.m3u8
 #EXTINF:-1 group-title="中央频道",CCTV10
 http://27.8.167.227:8089/newlive/live/hls/11/live.m3u8
@@ -38,7 +38,7 @@ http://27.8.167.227:8089/newlive/live/hls/20/live.m3u8
 #EXTINF:-1 group-title="地方卫视",东方卫视
 http://27.8.167.227:8089/newlive/live/hls/21/live.m3u8
 #EXTINF:-1 group-title="地方卫视",湖南卫视
-http://27.8.167.227:8089/newlive/live/hls/22/live.m3u8
+http://125.210.150.58:9090/live/hzgq-hnwsgq-h264.m3u8
 #EXTINF:-1 group-title="地方卫视",东南卫视
 http://27.8.167.227:8089/newlive/live/hls/23/live.m3u8
 #EXTINF:-1 group-title="地方卫视",云南卫视
