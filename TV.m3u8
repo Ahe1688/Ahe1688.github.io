@@ -5,8 +5,8 @@ http://183.204.13.195/1.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/ysp/2022576802.
 http://liveop.cctv.cn/hls/CCTV28bee868714f04ea2af79947bb9b46fc3H/playlist.m3u8
 #EXTINF:-1 group-title="中央频道",CCTV3
 http://183.204.13.185/mmst.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2022576502.m3u8
-#EXTINF:-1 group-title="中央频道",CCTV4
-http://183.204.13.195/1.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/ysp/2022576602.m3u8
+#EXTINF:-1 group-title="中央频道" tvg-id="CCTV-4",CCTV4 中文国际
+https://edge2.laotv.la/live/CCTV4A/index.m3u8
 #EXTINF:-1 group-title="中央频道",CCTV5
 http://183.204.13.185/mmst.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2022576401.m3u8
 #EXTINF:-1 group-title="中央频道",CCTV6
