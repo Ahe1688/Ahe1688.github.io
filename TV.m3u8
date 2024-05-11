@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 group-title="中央频道",CCTV1 综合
-https://ldncctvwbndhwy.cntv.myhwcdn.cn/ldncctvwbnd/ldcctv1_2/index.m3u8
+http://220.180.116.153:6003/rtp/238.1.78.166:7200
 #EXTINF:-1 group-title="中央频道",CCTV2 财经
 http://liveop.cctv.cn/hls/CCTV28bee868714f04ea2af79947bb9b46fc3H/playlist.m3u8
 #EXTINF:-1 group-title="中央频道",CCTV3 综艺
