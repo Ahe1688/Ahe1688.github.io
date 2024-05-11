@@ -2,158 +2,101 @@
 #EXTINF:-1 group-title="中央频道",CCTV1 综合
 http://220.180.116.153:6003/rtp/238.1.78.166:7200
 #EXTINF:-1 group-title="中央频道",CCTV2 财经
-http://liveop.cctv.cn/hls/CCTV28bee868714f04ea2af79947bb9b46fc3H/playlist.m3u8
+http://220.180.116.153:6003/rtp/238.1.78.235:7752
 #EXTINF:-1 group-title="中央频道",CCTV3 综艺
-http://125.210.150.58:9090/live/hzgq-cctv3gq-h264.m3u8
+http://220.180.116.153:6003/rtp/238.1.78.170:7232
 #EXTINF:-1 group-title="中央频道",CCTV4 中文国际
-http://125.210.150.58:9090/live/hzgq-cctv4gq-h264.m3u8
+http://220.180.116.153:6003/rtp/238.1.78.236:7760
 #EXTINF:-1 group-title="中央频道",CCTV5 体育
-http://125.210.150.58:9090/live/hzgq-cctv5gq-h264.m3u8
+http://220.180.116.153:6003/rtp/238.1.78.171:7240
 #EXTINF:-1 group-title="中央频道",CCTV6 电影
-http://125.210.150.58:9090/live/hzgq-cctv6gq-h264.m3u8
-#EXTINF:-1 group-title="中央频道",CCTV7 农村
-http://27.8.167.227:8089/newlive/live/hls/8/live.m3u8
+http://220.180.116.153:6003/rtp/238.1.78.172:7248
+#EXTINF:-1 group-title="中央频道",CCTV7 军事
+http://220.180.116.153:6003/rtp/238.1.78.239:7784
 #EXTINF:-1 group-title="中央频道",CCTV8 电视剧
-http://183.204.13.185/mmst.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2022576101.m3u8
-#EXTINF:-1 group-title="中央频道",CCTV9
-http://27.8.167.227:8089/newlive/live/hls/10/live.m3u8
-#EXTINF:-1 group-title="中央频道",CCTV10
-http://27.8.167.227:8089/newlive/live/hls/11/live.m3u8
-#EXTINF:-1 group-title="中央频道",CCTV11
-http://27.8.167.227:8089/newlive/live/hls/12/live.m3u8
-#EXTINF:-1 group-title="中央频道",CCTV12
-http://27.8.167.227:8089/newlive/live/hls/13/live.m3u8
-#EXTINF:-1 group-title="中央频道",CCTV13
-http://27.8.167.227:8089/newlive/live/hls/14/live.m3u8
-#EXTINF:-1 group-title="中央频道",CCTV14
-http://27.8.167.227:8089/newlive/live/hls/15/live.m3u8
-#EXTINF:-1 group-title="中央频道",CCTV15
-http://27.8.167.227:8089/newlive/live/hls/16/live.m3u8
-#EXTINF:-1 group-title="地方卫视",重庆卫视
-http://27.8.167.227:8089/newlive/live/hls/18/live.m3u8
-#EXTINF:-1 group-title="地方卫视",浙江卫视
-http://27.8.167.227:8089/newlive/live/hls/19/live.m3u8
-#EXTINF:-1 group-title="地方卫视",江苏卫视
-http://27.8.167.227:8089/newlive/live/hls/20/live.m3u8
-#EXTINF:-1 group-title="地方卫视",东方卫视
-http://27.8.167.227:8089/newlive/live/hls/21/live.m3u8
-#EXTINF:-1 group-title="地方卫视",湖南卫视
-http://125.210.150.58:9090/live/hzgq-hnwsgq-h264.m3u8
-#EXTINF:-1 group-title="地方卫视",东南卫视
-http://27.8.167.227:8089/newlive/live/hls/23/live.m3u8
-#EXTINF:-1 group-title="地方卫视",云南卫视
-http://27.8.167.227:8089/newlive/live/hls/24/live.m3u8
-#EXTINF:-1 group-title="地方卫视",安徽卫视
-http://27.8.167.227:8089/newlive/live/hls/25/live.m3u8
-#EXTINF:-1 group-title="地方卫视",辽宁卫视
-http://27.8.167.227:8089/newlive/live/hls/26/live.m3u8
-#EXTINF:-1 group-title="地方卫视",北京卫视
-http://27.8.167.227:8089/newlive/live/hls/27/live.m3u8
-#EXTINF:-1 group-title="地方卫视",广东卫视
-http://27.8.167.227:8089/newlive/live/hls/28/live.m3u8
+http://220.180.116.153:6003/rtp/238.1.78.173:7256
+#EXTINF:-1 group-title="中央频道",CCTV9 纪录
+http://220.180.116.153:6003/rtp/238.1.78.240:7792
+#EXTINF:-1 group-title="中央频道",CCTV10 科教
+http://220.180.116.153:6003/rtp/238.1.78.241:7800
+#EXTINF:-1 group-title="中央频道",CCTV11 戏曲
+http://220.180.116.153:6003/rtp/238.1.78.206:7502
+#EXTINF:-1 group-title="中央频道",CCTV12 法治
+http://220.180.116.153:6003/rtp/238.1.78.242:7808
+#EXTINF:-1 group-title="中央频道",CCTV13 新闻
+http://220.180.116.153:6003/rtp/238.1.79.35:4392
+#EXTINF:-1 group-title="中央频道",CCTV17 农村
+http://220.180.116.153:6003/rtp/238.1.78.178:7296
+#EXTINF:-1 group-title="中央频道",CNTV-1 教育
+http://220.180.116.153:6003/rtp/238.1.78.158:7136
+
 #EXTINF:-1 group-title="地方卫视",河南卫视
-http://27.8.167.227:8089/newlive/live/hls/29/live.m3u8
-#EXTINF:-1 group-title="地方卫视",贵州卫视
-http://27.8.167.227:8089/newlive/live/hls/30/live.m3u8
-#EXTINF:-1 group-title="重庆酒店",湖北卫视
-http://27.8.167.227:8089/newlive/live/hls/31/live.m3u8
-#EXTINF:-1 group-title="重庆酒店",宁夏卫视
-http://27.8.167.227:8089/newlive/live/hls/32/live.m3u8
-#EXTINF:-1 group-title="重庆酒店",新疆卫视
-http://27.8.167.227:8089/newlive/live/hls/33/live.m3u8
-#EXTINF:-1 group-title="重庆酒店",山东卫视
-http://27.8.167.227:8089/newlive/live/hls/34/live.m3u8
-#EXTINF:-1 group-title="重庆酒店",陕西卫视
-http://27.8.167.227:8089/newlive/live/hls/35/live.m3u8
-#EXTINF:-1 group-title="重庆酒店",天津卫视
-http://27.8.167.227:8089/newlive/live/hls/36/live.m3u8
-#EXTINF:-1 group-title="重庆酒店",西藏卫视
-http://27.8.167.227:8089/newlive/live/hls/37/live.m3u8
-#EXTINF:-1 group-title="重庆酒店",甘肃卫视
-http://27.8.167.227:8089/newlive/live/hls/38/live.m3u8
-#EXTINF:-1 group-title="重庆酒店",内蒙古卫视
-http://27.8.167.227:8089/newlive/live/hls/39/live.m3u8
-#EXTINF:-1 group-title="重庆酒店",黑龙江卫视
-http://27.8.167.227:8089/newlive/live/hls/40/live.m3u8
-#EXTINF:-1 group-title="重庆酒店",山西卫视
-http://27.8.167.227:8089/newlive/live/hls/41/live.m3u8
-#EXTINF:-1 group-title="重庆酒店",青海卫视
-http://27.8.167.227:8089/newlive/live/hls/42/live.m3u8
-#EXTINF:-1 group-title="重庆酒店",广西卫视
-http://27.8.167.227:8089/newlive/live/hls/43/live.m3u8
-#EXTINF:-1 group-title="重庆酒店",湖北卫视
-http://27.8.167.227:8089/newlive/live/hls/44/live.m3u8
-#EXTINF:-1 group-title="重庆酒店",四川卫视
-http://27.8.167.227:8089/newlive/live/hls/45/live.m3u8
-#EXTINF:-1 group-title="重庆酒店",吉林卫视
-http://27.8.167.227:8089/newlive/live/hls/46/live.m3u8
-#EXTINF:-1 group-title="重庆酒店",江西卫视
-http://27.8.167.227:8089/newlive/live/hls/47/live.m3u8
-#EXTINF:-1 group-title="重庆酒店",深圳卫视
-http://27.8.167.227:8089/newlive/live/hls/48/live.m3u8
-#EXTINF:-1 group-title="重庆酒店",海南卫视
-http://27.8.167.227:8089/newlive/live/hls/49/live.m3u8
-#EXTINF:-1 group-title="重庆酒店",北京少儿
-http://27.8.167.227:8089/newlive/live/hls/50/live.m3u8
-#EXTINF:-1 group-title="重庆酒店",金鹰卡通
-http://27.8.167.227:8089/newlive/live/hls/51/live.m3u8
-#EXTINF:-1 group-title="回归频道",C+
-http://mtw.so/5GjUs9
-#EXTINF:-1 group-title="回归频道",翡翠台
+http://220.180.116.153:6003/rtp/238.1.79.65:463
+#EXTINF:-1 group-title="地方卫视",北京卫视
+http://220.180.116.153:6003/rtp/238.1.78.162:7168
+#EXTINF:-1 group-title="地方卫视",天津卫视
+http://220.180.116.153:6003/rtp/238.1.78.20:6088
+#EXTINF:-1 group-title="地方卫视",重庆卫视
+http://220.180.116.153:6003/rtp/238.1.78.31:6176
+#EXTINF:-1 group-title="地方卫视",东方卫视
+http://220.180.116.153:6003/rtp/238.1.78.163:7176
+#EXTINF:-1 group-title="地方卫视",江苏卫视
+http://220.180.116.153:6003/rtp/238.1.78.165:7192
+#EXTINF:-1 group-title="地方卫视",浙江卫视
+http://220.180.116.153:6003/rtp/238.1.78.164:7184
+#EXTINF:-1 group-title="地方卫视",湖南卫视
+http://220.180.116.153:6003/rtp/238.1.78.160:7152
+
+
+
+#EXTINF:-1 group-title="港澳台",翡翠台
 http://60.30.198.43:5080/HK/tvb/hls.m3u8
-#EXTINF:-1 group-title="回归频道",无线新闻
+#EXTINF:-1 group-title="港澳台",无线新闻
 http://154.yfvodcdn.com:8080/live/TVBtyzxt1/hls.m3u8
-#EXTINF:-1 group-title="回归频道",无线新闻
+#EXTINF:-1 group-title="港澳台",无线新闻
 http://154.yfvodcdn.com:8080/live/TVBwxxwt/hls.m3u8
-#EXTINF:-1 group-title="回归频道",三立新闻
+#EXTINF:-1 group-title="港澳台",三立新闻
 http://154.yfvodcdn.com:8080/live/slxw01/hls.m3u8
-#EXTINF:-1 group-title="回归频道",三立新闻
+#EXTINF:-1 group-title="港澳台",三立新闻
 http://154.yfvodcdn.com:8080/live/slxw02/hls.m3u8
-#EXTINF:-1 group-title="回归频道",民视新闻
+#EXTINF:-1 group-title="港澳台",民视新闻
 http://154.yfvodcdn.com:8080/live/tymsxw1/hls.m3u8
-#EXTINF:-1 group-title="回归频道",台视新闻
+#EXTINF:-1 group-title="港澳台",台视新闻
 http://154.yfvodcdn.com:8080/live/tyxltsxw3/hls.m3u8
-#EXTINF:-1 group-title="回归频道",中天新闻
+#EXTINF:-1 group-title="港澳台",中天新闻
 http://154.yfvodcdn.com:8080/live/ztylt01/hls.m3u8
-#EXTINF:-1 group-title="回归频道",华视
+#EXTINF:-1 group-title="港澳台",华视
 http://154.yfvodcdn.com:8080/live/ztylt13/hls.m3u8
-#EXTINF:-1 group-title="回归频道",凤凰中文
+#EXTINF:-1 group-title="港澳台",凤凰中文
 http://mtw.so/6wk5PS
-#EXTINF:-1 group-title="回归频道",凤凰资讯
+#EXTINF:-1 group-title="港澳台",凤凰资讯
 http://mtw.so/5NXoZ0
-#EXTINF:-1 group-title="回归频道",凤凰
+#EXTINF:-1 group-title="港澳台",凤凰
 http://mtw.so/6hhFIg
-#EXTINF:-1 group-title="回归频道",探索亚洲
+#EXTINF:-1 group-title="港澳台",探索亚洲
 http://61.221.215.25:8800/hls/50/index.m3u8
-#EXTINF:-1 group-title="回归频道",八大第一
-http://61.221.215.25:8800/hls/55/index.m3u8
-#EXTINF:-1 group-title="回归频道",动物星球
-http://61.221.215.25:8800/hls/57/index.m3u8
-#EXTINF:-1 group-title="回归频道",八大综合
-http://61.221.215.25:8800/hls/56/index.m3u8
-#EXTINF:-1 group-title="回归频道",中視新聞
+#EXTINF:-1 group-title="港澳台",中視新聞
 http://csscc.onflashdrive.app:2095/live.m3u8?c=2
-#EXTINF:-1 group-title="回归频道",三立新闻
+#EXTINF:-1 group-title="港澳台",三立新闻
 http://csscc.onflashdrive.app:2095/live.m3u8?c=3
-#EXTINF:-1 group-title="回归频道",寰宇新聞
+#EXTINF:-1 group-title="港澳台",寰宇新聞
 http://csscc.onflashdrive.app:2095/live.m3u8?c=4
-#EXTINF:-1 group-title="回归频道",大愛一臺
+#EXTINF:-1 group-title="港澳台",大愛一臺
 http://csscc.onflashdrive.app:2095/live.m3u8?c=5
-#EXTINF:-1 group-title="回归频道",民視新聞
+#EXTINF:-1 group-title="港澳台",民視新聞
 http://csscc.onflashdrive.app:2095/live.m3u8?c=8
-#EXTINF:-1 group-title="回归频道",TVBS新聞
+#EXTINF:-1 group-title="港澳台",TVBS新聞
 http://csscc.onflashdrive.app:2095/live.m3u8?c=11
-#EXTINF:-1 group-title="回归频道",公視新聞
+#EXTINF:-1 group-title="港澳台",公視新聞
 http://csscc.onflashdrive.app:2095/live.m3u8?c=13
-#EXTINF:-1 group-title="回归频道",凤凰
+#EXTINF:-1 group-title="港澳台",凤凰
 http://mtw.so/5NZZ0M
-#EXTINF:-1 group-title="回归频道",翡翠台
+#EXTINF:-1 group-title="港澳台",翡翠台
 http://grandprix2023.asuscomm.com:8889/bysid/1
-#EXTINF:-1 group-title="回归频道",明珠台
+#EXTINF:-1 group-title="港澳台",明珠台
 http://grandprix2023.asuscomm.com:8892/bysid/2
-#EXTINF:-1 group-title="回归频道",無綫新聞台
+#EXTINF:-1 group-title="港澳台",無綫新聞台
 http://grandprix2023.asuscomm.com:8892/bysid/83
-#EXTINF:-1 group-title="回归频道",凤凰
+#EXTINF:-1 group-title="港澳台",凤凰
 http://grandprix2023.asuscomm.com:8892/bysid/85
-#EXTINF:-1 group-title="回归频道",广东体育
-http://www.kitcc.cn:8887/udp/239.77.0.6:5146
+
