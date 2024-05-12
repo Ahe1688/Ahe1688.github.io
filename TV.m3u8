@@ -1,102 +1,82 @@
 #EXTM3U
 #EXTINF:-1 group-title="中央频道",CCTV1 综合
-http://220.180.116.153:6003/rtp/238.1.78.166:7200
+http://36.248.223.25/4.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2022576803.m3u8
 #EXTINF:-1 group-title="中央频道",CCTV2 财经
-http://220.180.116.153:6003/rtp/238.1.78.235:7752
+http://36.248.223.25/4.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2022576703.m3u8
 #EXTINF:-1 group-title="中央频道",CCTV3 综艺
 http://220.180.116.153:6003/rtp/238.1.78.170:7232
 #EXTINF:-1 group-title="中央频道",CCTV4 中文国际
-http://220.180.116.153:6003/rtp/238.1.78.236:7760
+http://36.248.223.25/4.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2022576602.m3u8
 #EXTINF:-1 group-title="中央频道",CCTV5 体育
-http://220.180.116.153:6003/rtp/238.1.78.171:7240
+http://36.248.223.25/4.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2022576402.m3u8
 #EXTINF:-1 group-title="中央频道",CCTV6 电影
-http://220.180.116.153:6003/rtp/238.1.78.172:7248
+http://36.248.223.25/4.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2022574303.m3u8
 #EXTINF:-1 group-title="中央频道",CCTV7 军事
-http://220.180.116.153:6003/rtp/238.1.78.239:7784
+http://36.248.223.25/4.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2022576203.m3u8
 #EXTINF:-1 group-title="中央频道",CCTV8 电视剧
-http://220.180.116.153:6003/rtp/238.1.78.173:7256
+http://36.248.223.25/4.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2022576101.m3u8
 #EXTINF:-1 group-title="中央频道",CCTV9 纪录
-http://220.180.116.153:6003/rtp/238.1.78.240:7792
+http://36.248.223.25/4.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2022576001.m3u8
 #EXTINF:-1 group-title="中央频道",CCTV10 科教
-http://220.180.116.153:6003/rtp/238.1.78.241:7800
+http://36.248.223.25/4.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2022573001.m3u8
 #EXTINF:-1 group-title="中央频道",CCTV11 戏曲
-http://220.180.116.153:6003/rtp/238.1.78.206:7502
+http://36.248.223.25/4.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2022575901.m3u8
 #EXTINF:-1 group-title="中央频道",CCTV12 法治
-http://220.180.116.153:6003/rtp/238.1.78.242:7808
+http://36.248.223.25/4.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2022575801.m3u8
 #EXTINF:-1 group-title="中央频道",CCTV13 新闻
-http://220.180.116.153:6003/rtp/238.1.79.35:4392
+http://36.248.223.25/4.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2022575702.m3u8
 #EXTINF:-1 group-title="中央频道",CCTV17 农村
-http://220.180.116.153:6003/rtp/238.1.78.178:7296
+http://36.248.223.25/4.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2022575302.m3u8
 #EXTINF:-1 group-title="中央频道",CNTV-1 教育
 http://220.180.116.153:6003/rtp/238.1.78.158:7136
 
 #EXTINF:-1 group-title="地方卫视",河南卫视
-http://220.180.116.153:6003/rtp/238.1.79.65:4632
+http://36.248.223.25/4.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2000296102.m3u8
 #EXTINF:-1 group-title="地方卫视",北京卫视
-http://220.180.116.153:6003/rtp/238.1.78.162:7168
+http://36.248.223.25/4.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2000272101.m3u8
 #EXTINF:-1 group-title="地方卫视",天津卫视
 http://220.180.116.153:6003/rtp/238.1.78.20:6088
 #EXTINF:-1 group-title="地方卫视",重庆卫视
-http://220.180.116.153:6003/rtp/238.1.78.31:6176
+http://36.248.223.25/4.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2000297801.m3u8
 #EXTINF:-1 group-title="地方卫视",东方卫视
-http://220.180.116.153:6003/rtp/238.1.78.163:7176
+http://36.248.223.25/4.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2000292401.m3u8
 #EXTINF:-1 group-title="地方卫视",江苏卫视
-http://220.180.116.153:6003/rtp/238.1.78.165:7192
+http://36.248.223.25/4.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2000295602.m3u8
 #EXTINF:-1 group-title="地方卫视",浙江卫视
-http://220.180.116.153:6003/rtp/238.1.78.164:7184
+http://36.248.223.25/4.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2000295501.m3u8
 #EXTINF:-1 group-title="地方卫视",湖南卫视
-http://220.180.116.153:6003/rtp/238.1.78.160:7152
+http://36.248.223.25/4.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2000296202.m3u8
 
 
-
+#EXTINF:-1 group-title="港澳台",凤凰中文
+http://223.109.210.49/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pcc72.m3u8
+#EXTINF:-1 group-title="港澳台",凤凰资讯
+http://223.109.210.49/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pin72.m3u8
+#EXTINF:-1 group-title="港澳台",香港台
+http://mtw.so/6hhFIg
 #EXTINF:-1 group-title="港澳台",翡翠台
 http://60.30.198.43:5080/HK/tvb/hls.m3u8
 #EXTINF:-1 group-title="港澳台",无线新闻
 http://154.yfvodcdn.com:8080/live/TVBtyzxt1/hls.m3u8
-#EXTINF:-1 group-title="港澳台",无线新闻
-http://154.yfvodcdn.com:8080/live/TVBwxxwt/hls.m3u8
+#EXTINF:-1 group-title="港澳台",明珠台
+http://grandprix2023.asuscomm.com:8892/bysid/2
+
+
 #EXTINF:-1 group-title="港澳台",三立新闻
 http://154.yfvodcdn.com:8080/live/slxw01/hls.m3u8
-#EXTINF:-1 group-title="港澳台",三立新闻
-http://154.yfvodcdn.com:8080/live/slxw02/hls.m3u8
 #EXTINF:-1 group-title="港澳台",民视新闻
 http://154.yfvodcdn.com:8080/live/tymsxw1/hls.m3u8
 #EXTINF:-1 group-title="港澳台",台视新闻
 http://154.yfvodcdn.com:8080/live/tyxltsxw3/hls.m3u8
 #EXTINF:-1 group-title="港澳台",中天新闻
 http://154.yfvodcdn.com:8080/live/ztylt01/hls.m3u8
-#EXTINF:-1 group-title="港澳台",华视
-http://154.yfvodcdn.com:8080/live/ztylt13/hls.m3u8
-#EXTINF:-1 group-title="港澳台",凤凰中文
-http://mtw.so/6wk5PS
-#EXTINF:-1 group-title="港澳台",凤凰资讯
-http://mtw.so/5NXoZ0
-#EXTINF:-1 group-title="港澳台",凤凰
-http://mtw.so/6hhFIg
-#EXTINF:-1 group-title="港澳台",探索亚洲
-http://61.221.215.25:8800/hls/50/index.m3u8
 #EXTINF:-1 group-title="港澳台",中視新聞
 http://csscc.onflashdrive.app:2095/live.m3u8?c=2
-#EXTINF:-1 group-title="港澳台",三立新闻
-http://csscc.onflashdrive.app:2095/live.m3u8?c=3
-#EXTINF:-1 group-title="港澳台",寰宇新聞
-http://csscc.onflashdrive.app:2095/live.m3u8?c=4
-#EXTINF:-1 group-title="港澳台",大愛一臺
-http://csscc.onflashdrive.app:2095/live.m3u8?c=5
-#EXTINF:-1 group-title="港澳台",民視新聞
-http://csscc.onflashdrive.app:2095/live.m3u8?c=8
-#EXTINF:-1 group-title="港澳台",TVBS新聞
-http://csscc.onflashdrive.app:2095/live.m3u8?c=11
-#EXTINF:-1 group-title="港澳台",公視新聞
-http://csscc.onflashdrive.app:2095/live.m3u8?c=13
-#EXTINF:-1 group-title="港澳台",凤凰
-http://mtw.so/5NZZ0M
-#EXTINF:-1 group-title="港澳台",翡翠台
-http://grandprix2023.asuscomm.com:8889/bysid/1
-#EXTINF:-1 group-title="港澳台",明珠台
-http://grandprix2023.asuscomm.com:8892/bysid/2
-#EXTINF:-1 group-title="港澳台",無綫新聞台
-http://grandprix2023.asuscomm.com:8892/bysid/83
-#EXTINF:-1 group-title="港澳台",凤凰
-http://grandprix2023.asuscomm.com:8892/bysid/85
+#EXTINF:-1 group-title="港澳台",华视
+http://154.yfvodcdn.com:8080/live/ztylt13/hls.m3u8
+
+
+
+
+
 
