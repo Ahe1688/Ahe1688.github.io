@@ -4,7 +4,7 @@ http://36.248.223.25/4.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2022576803.
 #EXTINF:-1 group-title="中央频道",CCTV2 财经
 http://36.248.223.25/4.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2022576703.m3u8
 #EXTINF:-1 group-title="中央频道",CCTV3 综艺
-http://220.180.116.153:6003/rtp/238.1.78.170:7232
+http://223.151.49.74:59901/tsfile/live/0003_1.m3u8?key=txiptv
 #EXTINF:-1 group-title="中央频道",CCTV4 中文国际
 http://36.248.223.25/4.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2022576602.m3u8
 #EXTINF:-1 group-title="中央频道",CCTV5 体育
@@ -28,14 +28,14 @@ http://36.248.223.25/4.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2022575702.
 #EXTINF:-1 group-title="中央频道",CCTV17 农村
 http://36.248.223.25/4.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2022575302.m3u8
 #EXTINF:-1 group-title="中央频道",CNTV-1 教育
-http://220.180.116.153:6003/rtp/238.1.78.158:7136
+http://183.11.239.36:808/hls/122/index.m3u8
 
 #EXTINF:-1 group-title="地方卫视",河南卫视
 http://36.248.223.25/4.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2000296102.m3u8
 #EXTINF:-1 group-title="地方卫视",北京卫视
 http://36.248.223.25/4.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2000272101.m3u8
 #EXTINF:-1 group-title="地方卫视",天津卫视
-http://220.180.116.153:6003/rtp/238.1.78.20:6088
+http://110.80.17.38:9901/tsfile/live/0135_1.m3u8
 #EXTINF:-1 group-title="地方卫视",重庆卫视
 http://36.248.223.25/4.v.smtcdns.net/hlslive-tx-cdn.ysp.cctv.cn/cctv/2000297801.m3u8
 #EXTINF:-1 group-title="地方卫视",东方卫视
@@ -53,21 +53,21 @@ http://223.109.210.49/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pcc72.m3u8
 #EXTINF:-1 group-title="港澳台",凤凰资讯
 http://223.109.210.49/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pin72.m3u8
 #EXTINF:-1 group-title="港澳台",香港台
-http://mtw.so/6hhFIg
+http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 #EXTINF:-1 group-title="港澳台",翡翠台
-http://60.30.198.43:5080/HK/tvb/hls.m3u8
+http://183.237.246.14:9931/tsfile/live/1007_1.m3u8
 #EXTINF:-1 group-title="港澳台",无线新闻
-http://154.yfvodcdn.com:8080/live/TVBtyzxt1/hls.m3u8
+http://bziyunshao.synology.me:8890/bysid/83
 #EXTINF:-1 group-title="港澳台",明珠台
-http://grandprix2023.asuscomm.com:8892/bysid/2
+http://1b6467f415.iok.la:9931/tsfile/live/1009_1.m3u8
 
 
 #EXTINF:-1 group-title="港澳台",三立新闻
 http://154.yfvodcdn.com:8080/live/slxw01/hls.m3u8
 #EXTINF:-1 group-title="港澳台",民视新闻
-http://154.yfvodcdn.com:8080/live/tymsxw1/hls.m3u8
+http://38.64.72.148/hls/modn/list/4012/playlist.m3u8
 #EXTINF:-1 group-title="港澳台",台视新闻
-http://154.yfvodcdn.com:8080/live/tyxltsxw3/hls.m3u8
+http://38.64.72.148/hls/modn/list/4013/playlist.m3u8
 #EXTINF:-1 group-title="港澳台",中天新闻
 http://154.yfvodcdn.com:8080/live/ztylt01/hls.m3u8
 #EXTINF:-1 group-title="港澳台",中視新聞
