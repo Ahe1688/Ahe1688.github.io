@@ -1,32 +1,32 @@
 #EXTM3U
 #EXTINF:-1 group-title="中央频道",CCTV1 综合
-https://histar.zapi.us.kg/?id=cctv1
+http://tv1.771993.xyz:9901/tsfile/live/1156_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="中央频道",CCTV2 财经
-https://histar.zapi.us.kg/?id=cctv2
+http://tv1.771993.xyz:9901/tsfile/live/1157_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="中央频道",CCTV3 综艺
-https://histar.zapi.us.kg/?id=cctv3
+http://tv1.771993.xyz:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="中央频道",CCTV4 中文国际
-https://histar.zapi.us.kg/?id=cctv4
+http://tv1.771993.xyz:9901/tsfile/live/1158_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="中央频道",CCTV5 体育
-https://histar.zapi.us.kg/?id=cctv5
+http://tv1.771993.xyz:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="中央频道",CCTV6 电影
-https://histar.zapi.us.kg/?id=cctv6
+http://tv1.771993.xyz:9901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="中央频道",CCTV7 军事
-https://histar.zapi.us.kg/?id=cctv7
+http://tv1.771993.xyz:9901/tsfile/live/1159_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="中央频道",CCTV8 电视剧
-https://histar.zapi.us.kg/?id=cctv8
+http://tv1.771993.xyz:9901/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="中央频道",CCTV9 纪录
-https://histar.zapi.us.kg/?id=cctv9
+http://tv1.771993.xyz:9901/tsfile/live/1160_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="中央频道",CCTV10 科教
-https://histar.zapi.us.kg/?id=cctv10
+http://tv1.771993.xyz:9901/tsfile/live/1161_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="中央频道",CCTV11 戏曲
-https://histar.zapi.us.kg/?id=cctv11
+http://tv1.771993.xyz:9901/tsfile/live/1010_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="中央频道",CCTV12 法治
-https://histar.zapi.us.kg/?id=cctv12
+http://tv1.771993.xyz:9901/tsfile/live/1162_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="中央频道",CCTV13 新闻
-https://histar.zapi.us.kg/?id=cctv13
+http://tv1.771993.xyz:9901/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="中央频道",CCTV17 农村
-https://histar.zapi.us.kg/?id=cctv17
+http://tv1.771993.xyz:9901/tsfile/live/1164_1.m3u8?key=txiptv&playlive=1&authid=0
 
 #EXTINF:-1 group-title="中央频道1",CCTV1 综合
 http://110.80.17.38:9901/tsfile/live/0001_1.m3u8?key=txiptv
@@ -127,82 +127,38 @@ http://59.62.8.250:9901/tsfile/live/0124_1.m3u8
 http://59.62.8.250:9901/tsfile/live/0128_1.m3u8
 
 #EXTINF:-1 group-title="地方卫视2",河南卫视
-https://histar.zapi.us.kg/?id=henan
+http://tv1.771993.xyz:9901/tsfile/live/1050_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="地方卫视2",湖南卫视
-https://histar.zapi.us.kg/?id=hunan
+http://tv1.771993.xyz:9901/tsfile/live/1143_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="地方卫视2",浙江卫视
-https://histar.zapi.us.kg/?id=zhejiang
+http://tv1.771993.xyz:9901/tsfile/live/1128_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="地方卫视2",东方卫视
-https://histar.zapi.us.kg/?id=dongfang
+http://tv1.771993.xyz:9901/tsfile/live/1133_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="地方卫视2",江苏卫视
-https://histar.zapi.us.kg/?id=jiangsu
+http://tv1.771993.xyz:9901/tsfile/live/1140_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="地方卫视2",北京卫视
-https://histar.zapi.us.kg/?id=beijing
+http://tv1.771993.xyz:9901/tsfile/live/1151_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="地方卫视2",深圳卫视
-https://histar.zapi.us.kg/?id=shenzhen
+http://tv1.771993.xyz:9901/tsfile/live/1132_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="地方卫视2",广东卫视
-https://histar.zapi.us.kg/?id=guangdong
-#EXTINF:-1 group-title="地方卫视2",大湾区卫视
-https://histar.zapi.us.kg/?id=gdwqws
+http://tv1.771993.xyz:9901/tsfile/live/1146_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="地方卫视2",重庆卫视
-https://histar.zapi.us.kg/?id=chongqing
+http://tv1.771993.xyz:9901/tsfile/live/1127_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="地方卫视2",东南卫视
-https://histar.zapi.us.kg/?id=dongnan
-#EXTINF:-1 group-title="地方卫视2",广西卫视
-https://histar.zapi.us.kg/?id=guangxi
-#EXTINF:-1 group-title="地方卫视2",贵州卫视
-https://histar.zapi.us.kg/?id=guizhou
-#EXTINF:-1 group-title="地方卫视2",海南卫视
-https://histar.zapi.us.kg/?id=hainan
-#EXTINF:-1 group-title="地方卫视2",河北卫视
-https://histar.zapi.us.kg/?id=hebei
-#EXTINF:-1 group-title="地方卫视2",黑龙江卫视
-https://histar.zapi.us.kg/?id=heilongjiang
+http://tv1.771993.xyz:9901/tsfile/live/1147_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="地方卫视2",湖北卫视
-https://histar.zapi.us.kg/?id=hubei
-#EXTINF:-1 group-title="地方卫视2",江西卫视
-https://histar.zapi.us.kg/?id=jiangxi
-#EXTINF:-1 group-title="地方卫视2",吉林卫视
-https://histar.zapi.us.kg/?id=jilin
-#EXTINF:-1 group-title="地方卫视2",辽宁卫视
-https://histar.zapi.us.kg/?id=liaoning
-#EXTINF:-1 group-title="地方卫视2",内蒙古卫视
-https://histar.zapi.us.kg/?id=neimenggu
-#EXTINF:-1 group-title="地方卫视2",宁夏卫视
-https://histar.zapi.us.kg/?id=ningxia
-#EXTINF:-1 group-title="地方卫视2",陕西卫视
-https://histar.zapi.us.kg/?id=shaanxi
-#EXTINF:-1 group-title="地方卫视2",山东卫视
-https://histar.zapi.us.kg/?id=shandong
-#EXTINF:-1 group-title="地方卫视2",山西卫视
-https://histar.zapi.us.kg/?id=shanxi
-#EXTINF:-1 group-title="地方卫视2",四川卫视
-https://histar.zapi.us.kg/?id=sichuan
-#EXTINF:-1 group-title="地方卫视2",天津卫视
-https://histar.zapi.us.kg/?id=tianjin
-#EXTINF:-1 group-title="地方卫视2",厦门卫视
-https://histar.zapi.us.kg/?id=xiamen
-#EXTINF:-1 group-title="地方卫视2",新疆卫视
-https://histar.zapi.us.kg/?id=xinjiang
-#EXTINF:-1 group-title="地方卫视2",西藏卫视
-https://histar.zapi.us.kg/?id=xizang
-#EXTINF:-1 group-title="地方卫视2",云南卫视
-https://histar.zapi.us.kg/?id=yunnan
-#EXTINF:-1 group-title="地方卫视2",安徽卫视
-https://histar.zapi.us.kg/?id=anhui
-#EXTINF:-1 group-title="地方卫视2",青海卫视
-https://histar.zapi.us.kg/?id=qinghai
+http://tv1.771993.xyz:9901/tsfile/live/1144_1.m3u8?key=txiptv&playlive=1&authid=0
+
 #EXTINF:-1 group-title="地方卫视2",甘肃卫视
 https://histar.zapi.us.kg/?id=gansu
 
 #EXTINF:-1 group-title="电影频道",CHC家庭影院
-https://histar.zapi.us.kg/?id=chc-jtyy
+http://tv1.771993.xyz:9901/tsfile/live/1105_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="电影频道",CHC动作电影
-https://histar.zapi.us.kg/?id=chc-dzdy
+http://tv1.771993.xyz:9901/tsfile/live/1101_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="电影频道",CHC高清电影
-https://histar.zapi.us.kg/?id=chc-gqdy
-#EXTINF:-1 group-title="电影频道",重温经典
-https://histar.zapi.us.kg/?id=cwjd
+http://tv1.771993.xyz:9901/tsfile/live/1104_1.m3u8?key=txiptv&playlive=1&authid=0
+
 
 #EXTINF:-1 group-title="港澳台",凤凰中文
 https://histar.zapi.us.kg/?id=phtv-info
