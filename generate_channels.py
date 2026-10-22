@@ -30,6 +30,9 @@ import sys
 import datetime
 import urllib.request
 
+# 央视/卫视频道可信源（独立模块，可被单独测试）
+from cctv_sources import build_cctv_channels, canon_cn
+
 # ---------------------------------------------------------------------------
 # 1) 抓取源（均为公开、每日自动维护的 M3U）
 #    若某源在 GitHub Actions 环境中不可达，会自动跳过，不影响整体。
@@ -160,75 +163,92 @@ def parse_m3u(text):
     return out
 
 
-def build(entries):
-    # category name -> id
-    cat_id = {}
-    categories = []
+class CatMap:
+    """分类名 -> id 映射，保证央视/卫视等分类 id 稳定。"""
+    def __init__(self):
+        self.cat_id = {}
+        self.categories = []
 
-    def get_cat(name):
-        if name not in cat_id:
-            cid = len(categories) + 1
-            cat_id[name] = cid
-            categories.append({
-                "id": cid,
-                "name": name,
-                "en_name": name,
-                "logo": "",
-                "sort": cid,
+    def get(self, name):
+        if name not in self.cat_id:
+            cid = len(self.categories) + 1
+            self.cat_id[name] = cid
+            self.categories.append({
+                "id": cid, "name": name, "en_name": name, "logo": "", "sort": cid,
             })
-        return cat_id[name]
+        return self.cat_id[name]
 
+    def bits(self, names):
+        bits = 0
+        for n in names:
+            bits |= (1 << (self.get(n) - 1))
+        return bits
+
+
+def build_iptv(entries, cm, skip_canons):
+    """从 iptv-org 条目构建频道；skip_canons 里的规范名（央视/卫视）跳过，
+    交由可信源接管，避免重复且陈旧的 403 烂源。"""
     channels = []
     seen_urls = set()
-    cid_counter = 1
-
+    cid = 1
     for name, logo, groups, url, tvg_id in entries:
         if url in seen_urls:
             continue
         seen_urls.add(url)
 
-        # 分类集合：来自 group-title + 中文名称规则
+        key = canon_cn(name)
+        if key and key in skip_canons:
+            continue  # 央视/卫视由可信源提供
+
         cat_names = set()
         for g in groups:
             cat_names.add(norm_group(g))
         for rx, cn in CN_RULES:
             if rx.search(name):
                 cat_names.add(cn)
+        if not cat_names:
+            cat_names.add("未分类")
 
-        cids = sorted(get_cat(c) for c in cat_names)
-        bits = 0
-        for c in cids:
-            bits |= (1 << (c - 1))
-
-        # 判断是否偏中国（用于 area 标注，便于 App 可能的地区筛选）
+        cids = sorted(cm.get(c) for c in cat_names)
+        bits = cm.bits(cat_names)
         area = "中国" if any(k in name for k in ("CCTV", "央视", "卫视")) or "中国" in name else ""
 
         channels.append({
-            "id": cid_counter,
-            "name": name,
-            "en_name": name,
-            "pinyin": "",
-            "channel_code": cid_counter,
-            "logo": logo,
-            "level": 0,                 # 全部免费，无需登录
-            "category_bits": bits,
-            "category_ids": cids,
-            "epg_id": tvg_id,          # 节目单匹配键（与 EPG 源的频道 ID 对齐才生效）
-            "catchup_id": "",
-            "timeshift_id": "",
-            "region_id": 0,
-            "area": area,
-            "urls": [url],
+            "id": cid, "name": name, "en_name": name, "pinyin": "",
+            "channel_code": cid, "logo": logo, "level": 0,
+            "category_bits": bits, "category_ids": cids, "epg_id": tvg_id,
+            "catchup_id": "", "timeshift_id": "", "region_id": 0,
+            "area": area, "urls": [url], "trusted": 0,
         })
-        cid_counter += 1
+        cid += 1
+    return channels, cid
 
-    # 分类按 id 排序输出
-    categories.sort(key=lambda c: c["id"])
-    return {"categories": categories, "channels": channels}
+
+def merge_cn(channels, cn_chs, cm, start_cid):
+    """把可信央视/卫视频道并入，分配分类位与 id。"""
+    cid = start_cid
+    for c in cn_chs:
+        names = c.get("category_names") or ["未分类"]
+        cids = sorted(cm.get(n) for n in names)
+        bits = cm.bits(names)
+        channels.append({
+            "id": cid, "name": c["name"], "en_name": c["en_name"], "pinyin": "",
+            "channel_code": cid, "logo": c.get("logo", ""), "level": 0,
+            "category_bits": bits, "category_ids": cids,
+            "epg_id": c.get("epg_id", ""), "catchup_id": "", "timeshift_id": "",
+            "region_id": 0, "area": c.get("area", "中国"), "urls": c["urls"],
+            "trusted": 1,
+        })
+        cid += 1
+    return cid
 
 
 def main():
     out_path = sys.argv[1] if len(sys.argv) > 1 else "channels.json"
+    cm = CatMap()
+    cm.get("央视")
+    cm.get("卫视")
+
     all_entries = []
     for url in SOURCES:
         try:
@@ -240,15 +260,26 @@ def main():
         except Exception as e:
             print(f"        !! 失败，跳过: {e}")
 
-    print(f"[合计] 原始条目 {len(all_entries)}")
+    # 央视/卫视可信源（硬编码主源 + best-fan 每日校验备用）
+    cn_chs, fetched = build_cctv_channels()
+    claim = {k for k in (canon_cn(c["name"]) for c in cn_chs) if k}
+    print(f"[央视/卫视] 可信频道 {len(cn_chs)} 个（best-fan 拉取 {fetched}/{len(SOURCES)}）")
 
-    print(f"[合计] 原始条目 {len(all_entries)}")
-    data = build(all_entries)
-    data["generated_at"] = int(datetime.datetime.now().timestamp())
+    channels, cid = build_iptv(all_entries, cm, claim)
+    merge_cn(channels, cn_chs, cm, cid)
+    cm.categories.sort(key=lambda c: c["id"])
 
+    print(f"[合计] iptv-org 条目 {len(all_entries)}；最终频道 {len(channels)}；"
+          f"分类 {len(cm.categories)}")
+
+    data = {
+        "categories": cm.categories,
+        "channels": channels,
+        "generated_at": int(datetime.datetime.now().timestamp()),
+    }
     with open(out_path, "w", encoding="utf-8", newline="\n") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
-    print(f"[写出] {out_path} | 频道 {len(data['channels'])} | 分类 {len(data['categories'])}")
+    print(f"[写出] {out_path} | 频道 {len(channels)} | 分类 {len(cm.categories)}")
 
 
 if __name__ == "__main__":
