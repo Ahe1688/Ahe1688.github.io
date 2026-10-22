@@ -24,6 +24,9 @@ jobs:
       - name: 生成 channels.json
         run: python3 generate_channels.py channels.json
 
+      - name: 剔除失效源（保守策略：只删 404/5xx/DNS失败/连接拒绝/重置/SSL错误/HTML错误页）
+        run: python3 filter_sources.py channels.json channels.json --workers 80 --timeout 7
+
       - name: 提交（仅在有变化时）
         run: |
           git config user.name  "github-actions[bot]"
