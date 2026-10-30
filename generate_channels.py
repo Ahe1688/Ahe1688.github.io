@@ -31,7 +31,8 @@ import datetime
 import urllib.request
 
 # 央视/卫视频道可信源（独立模块，可被单独测试）
-from cctv_sources import build_cctv_channels, canon_cn
+from cctv_sources import (build_cctv_channels, canon_cn,
+                          BESTFAN_SOURCES)
 
 # ---------------------------------------------------------------------------
 # 1) 抓取源（均为公开、每日自动维护的 M3U）
@@ -260,10 +261,11 @@ def main():
         except Exception as e:
             print(f"        !! 失败，跳过: {e}")
 
-    # 央视/卫视可信源（硬编码主源 + best-fan 每日校验备用）
-    cn_chs, fetched = build_cctv_channels()
+    # 央视/卫视可信源（best-fan 主源 + 74.91 终极兜底）
+    cn_chs, fetched_bf = build_cctv_channels()
     claim = {k for k in (canon_cn(c["name"]) for c in cn_chs) if k}
-    print(f"[央视/卫视] 可信频道 {len(cn_chs)} 个（best-fan 拉取 {fetched}/{len(SOURCES)}）")
+    print(f"[央视/卫视] 可信频道 {len(cn_chs)} 个"
+          f"（best-fan 拉取 {fetched_bf}/{len(BESTFAN_SOURCES)}）")
 
     channels, cid = build_iptv(all_entries, cm, claim)
     merge_cn(channels, cn_chs, cm, cid)

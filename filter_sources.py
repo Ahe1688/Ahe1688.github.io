@@ -17,6 +17,11 @@
     skip     (rtmp 等非 HTTP 协议，本脚本不测)
     unknown  (无法识别的 200 响应)
 
+【可信源 trusted】央视/卫视等 trusted=1 频道做「弱探测」：仅剔除
+    DNS失败 / http404 / http410 / 5xx / HTML错误页 / SSL错误 这类“任何网络位置都必死”的 URL；
+    对防盗链(401/403/429)、超时、连接拒绝/重置等“可能仅 GitHub 机房不可达”的保留并告警，
+    避免误删国内实际可达的源。
+
 加 --strict 可把 blocked / timeout / unknown 也一并剔除，只保留验证可播的。
 
 用法：
@@ -55,6 +60,17 @@ REMOVE_REASONS = {
 }
 REMOVE_PREFIXES = ("http5", "oserr")  # http500~599、oserr0~...
 STRICT_EXTRA = {"timeout", "blocked", "unknown"}
+
+# 可信源（央视/卫视）弱探测：只剔除“在任何网络位置都必死”的 URL。
+# 防盗链(401/403/429)、超时、连接拒绝/重置等“可能仅 GitHub 机房不可达”的保留并告警，
+# 避免误删国内实际可达的源。
+TRUSTED_DEAD = {"dns", "http404", "http410", "html_page", "ssl"}
+
+
+def _trusted_dead(reason):
+    return (reason in TRUSTED_DEAD
+            or reason.startswith("http5")
+            or reason.startswith("oserr"))
 
 
 def classify(code, ctype, data):
@@ -249,13 +265,44 @@ def main():
     # 逐频道判定：只要任意一个 url 不算“应剔除”，就保留该频道
     kept, removed = [], []
     removed_rows = []
+    trusted_removed = 0
     for c in channels:
         urls = [u for u in (c.get("urls") or []) if u]
         if not urls:
             kept.append(c)
             continue
-        if c.get("trusted"):   # 可信央视/卫视源：不在 GitHub 机房探测，避免误删
-            kept.append(c)
+        if c.get("trusted"):
+            # === 可信央视/卫视源：弱探测 ===
+            # 只剔除“全局必死”的 URL（dns/404/410/5xx/html页/ssl）；
+            # 对防盗链/超时/连接拒绝/重置等“可能仅 GitHub 机房不可达”的保留并告警，
+            # 避免误删国内实际可达的源。
+            surviving, network_fail = [], False
+            for u in urls:
+                s, r = url_status.get(u, ("", ""))
+                if not s:                 # 未探测到（CSV 模式/跳过的协议）：保守保留
+                    surviving.append(u)
+                    continue
+                if s == "dead" and _trusted_dead(r):
+                    continue              # 全局必死，剔除该 URL
+                surviving.append(u)
+                if s == "dead":           # 网络类失败（refused/reset/timeout/urlerr）
+                    network_fail = True
+            if surviving:
+                newc = dict(c)
+                newc["urls"] = surviving
+                kept.append(newc)
+                if network_fail:
+                    print("  [WARN·trusted] %s：部分URL探测失败(可能仅GitHub机房不可达)，已保留待人工核查"
+                          % c.get("name"), flush=True)
+                elif len(surviving) < len(urls):
+                    print("  [info·trusted] %s：剔除 %d 个必死URL，保留 %d 个"
+                          % (c.get("name"), len(urls) - len(surviving), len(surviving)), flush=True)
+            else:
+                removed.append(c)
+                removed_rows.append({"name": c.get("name", ""), "url": urls[0],
+                                     "status": url_status.get(urls[0], ("", ""))[0],
+                                     "reason": url_status.get(urls[0], ("", ""))[1]})
+                trusted_removed += 1
             continue
         # 优先按 url 匹配；CSV 模式下也尝试按 id 匹配
         first = urls[0]
@@ -294,6 +341,9 @@ def main():
     print("原始频道 %d  →  保留 %d  →  剔除 %d (%.1f%%)"
           % (len(channels), len(kept), len(removed),
              100.0 * len(removed) / max(len(channels), 1)))
+    if trusted_removed:
+        print("  └ 其中可信源(trusted)剔除 %d 个（已做弱探测，仅删全局必死源）"
+              % trusted_removed)
     rc = Counter(r["reason"] for r in removed_rows)
     print("剔除原因分布:")
     for k, v in rc.most_common(15):

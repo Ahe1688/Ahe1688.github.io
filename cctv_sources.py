@@ -3,18 +3,25 @@
 """
 央视 / 卫视频道源（独立可测，被 generate_channels.py 调用）
 
-设计要点
-========
-1. 【央视 CCTV-1~17】主源固定用聚合机
-      http://74.91.26.218:82/live/cctvNhd.m3u8
-   该地址沙箱实测 17/17 全部返回标准 HLS（全球可达，国内也能播），
-   且为硬编码、不依赖任何外部抓取，保证“看央视”永远有兜底。
-2. 【备用源】再叠加 best-fan/iptv-sources 的 cn_cctv / cn_province
-   （作者每日从国内校验更新）。只保留不带过期令牌的 URL，剔除
-   auth_key= / txSecret= / txTime= / wsSecret= / wsTime= 这类会失效的地址。
-3. 【卫视】全部来自 best-fan 的 cn_province（同样只留非过期地址）。
-4. 每个频道打 trusted=1 标记，filter_sources.py 见到该标记会跳过探测，
-   避免 GitHub 机房探不到国内源而误删。
+设计要点（2026-10-23 复查后修订）
+================================
+1. 【央视 CCTV-1~17 两级兜底】
+   ① 主源：best-fan/iptv-sources 的 cn_cctv.m3u8
+           （社区每日从国内校验，是与 74.91 不同的独立源，放最前优先使用）
+   ② 终极兜底：硬编码聚合机 http://74.91.26.218:82/live/cctvNhd.m3u8
+       ⚠️ 该地址是第三方公开转播盒子（非央视官方、非授权），运营方未知；
+          2026-10 起已变为 301/302 重定向 + 防盗链 token 链，单点故障高，
+          随时可能改规则 / 断供。因此仅作为“最后才用的兜底”，不再视为可靠主源。
+   每个频道 urls 顺序 = [① best-fan …, ② 74.91]，播放器按顺序尝试。
+2. 【卫视】全部来自 best-fan 的 cn_province.m3u8（作者每日从国内校验更新）。
+3. 所有 URL 剔除过期令牌（auth_key=/txSecret=/txTime=/wsSecret=/wsTime= 等几天就失效的地址）。
+4. 每个频道打 trusted=1，filter_sources.py 对 trusted 源做“弱探测”：
+   只剔除【全局必死】的 URL（DNS/404/410/5xx/HTML页/SSL），
+   对防盗链/超时/连接拒绝等“可能仅 GitHub 机房不可达”的保留并告警，避免误删国内可达源。
+
+关于 iptv-org：曾考虑再用 iptv-org 中国子集(cn.m3u)做交叉备份，但实测其 CCTV 条目
+几乎全部指向 74.91.26.218:82 同一聚合机（仅路径/镜像略有差异），并非独立源，
+加入只会污染源、无真实冗余，故不纳入。
 
 用法
 ====
@@ -29,11 +36,11 @@ import urllib.request
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
 
-# 央视主源（硬编码，全球可达，沙箱已验证 CCTV1-17 全可用）
+# ② 终极兜底：硬编码第三方聚合机（仅最后兜底，非可靠主源）
 AGG_CCTV = "http://74.91.26.218:82/live/cctv{}.hd.m3u8"  # {} 替换为 1..17
 
-# 备用/卫视来源（每日国内校验）
-SOURCES = [
+# ① 主源（社区每日校验，与 74.91 不同的独立源，放最前优先）
+BESTFAN_SOURCES = [
     "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_cctv.m3u8",
     "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_province.m3u8",
 ]
@@ -73,6 +80,16 @@ def _clean(url):
     return u
 
 
+def _new_ch(key, name, logo=""):
+    """初始化一个可信频道字典（urls 为空，后续按优先级追加）。"""
+    is_cctv = key.startswith("CCTV-")
+    return {
+        "name": name, "en_name": name, "logo": logo or "",
+        "epg_id": "", "category_names": ["央视" if is_cctv else "卫视"],
+        "urls": [], "trusted": 1, "area": "中国",
+    }
+
+
 def parse_cn_m3u(text):
     """解析 best-fan 格式的 M3U，返回 [(name, logo, group, url)]"""
     out = []
@@ -109,28 +126,18 @@ def canon_cn(name):
 
 
 def build_cctv_channels():
-    """返回央视+卫视频道列表（dict，含 trusted 标记）。"""
-    # 1) 先放硬编码央视主源（保证可用，不依赖网络）
-    ch = {}
-    for n in range(1, 18):
-        key = "CCTV-%d" % n
-        ch[key] = {
-            "name": CCTV_NAMES.get(n, "CCTV-%d" % n),
-            "en_name": "CCTV-%d" % n,
-            "logo": "https://live.fanmingming.cn/tv/CCTV%d.png" % n,
-            "epg_id": "CCTV%d.cn@SD" % n,
-            "category_names": ["央视"],
-            "urls": [AGG_CCTV.format(n)],
-            "trusted": 1,
-            "area": "中国",
-        }
+    """返回央视+卫视频道列表（dict，含 trusted 标记）。
 
-    # 2) 叠加 best-fan 的央视/卫视，做备用与卫视补充
-    fetched = 0
-    for src in SOURCES:
+    返回 (channels, fetched_bf)：fetched_bf = best-fan 成功拉取的源文件数。
+    """
+    ch = {}
+
+    # ---- ① best-fan 主源（放最前，优先使用）----
+    fetched_bf = 0
+    for src in BESTFAN_SOURCES:
         try:
             txt = _fetch(src)
-            fetched += 1
+            fetched_bf += 1
         except Exception as e:
             print("  [warn] 拉取 %s 失败: %s" % (src, e), file=sys.stderr)
             continue
@@ -142,23 +149,23 @@ def build_cctv_channels():
             if not key:
                 continue
             if key not in ch:
-                # 卫视或新增央视：新建
-                is_cctv = key.startswith("CCTV-")
-                ch[key] = {
-                    "name": name,
-                    "en_name": name,
-                    "logo": logo or "",
-                    "epg_id": "",
-                    "category_names": ["央视" if is_cctv else "卫视"],
-                    "urls": [],
-                    "trusted": 1,
-                    "area": "中国",
-                }
+                ch[key] = _new_ch(key, name, logo)
             if cu not in ch[key]["urls"]:
-                # 主源（聚合）已在 urls[0]，其余放后面做备用
                 ch[key]["urls"].append(cu)
             if not ch[key].get("logo") and logo:
                 ch[key]["logo"] = logo
+
+    # ---- ② 74.91 硬编码聚合机：终极兜底，放到每个央视频道 urls 最后 ----
+    for n in range(1, 18):
+        key = "CCTV-%d" % n
+        if key not in ch:
+            ch[key] = _new_ch(
+                key, CCTV_NAMES.get(n, "CCTV-%d" % n),
+                "https://live.fanmingming.cn/tv/CCTV%d.png" % n)
+            ch[key]["epg_id"] = "CCTV%d.cn@SD" % n
+        agg = AGG_CCTV.format(n)
+        if agg not in ch[key]["urls"]:
+            ch[key]["urls"].append(agg)
 
     # 3) 转成与 generate_channels 对齐的频道 dict 列表
     channels = []
@@ -183,7 +190,7 @@ def build_cctv_channels():
             "trusted": 1,
         })
         cid += 1
-    return channels, fetched
+    return channels, fetched_bf
 
 
 if __name__ == "__main__":
@@ -191,12 +198,13 @@ if __name__ == "__main__":
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     except Exception:
         pass
-    chs, fetched = build_cctv_channels()
+    chs, fetched_bf = build_cctv_channels()
     cctv = [c for c in chs if "央视" in c["category_names"]]
     ws = [c for c in chs if "卫视" in c["category_names"]]
-    print("best-fan 成功拉取 %d/%d 个源文件" % (fetched, len(SOURCES)))
+    print("best-fan 成功拉取 %d/%d 个源文件"
+          % (fetched_bf, len(BESTFAN_SOURCES)))
     print("生成频道：央视 %d 个，卫视 %d 个，合计 %d 个" % (len(cctv), len(ws), len(chs)))
-    print("央视主源示例：", cctv[0]["name"], cctv[0]["urls"][0])
+    print("央视主源示例：", cctv[0]["name"], cctv[0]["urls"][0] if cctv else "")
     for c in cctv[:3]:
         print("  %-16s urls=%d  %s" % (c["name"], len(c["urls"]), c["urls"][0]))
     with open("cctv_channels.json", "w", encoding="utf-8") as f:
