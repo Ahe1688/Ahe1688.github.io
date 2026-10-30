@@ -7,7 +7,7 @@ on:
   workflow_dispatch: {}   # 允许在 Actions 页面手动点 “Run workflow” 立即更新
 
 permissions:
-  contents: write        # 允许把新生成的 channels.json 提交回仓库
+  contents: write        # 允许把新生成的 channels.json / live.m3u8 提交回仓库
 
 jobs:
   build:
@@ -27,11 +27,14 @@ jobs:
       - name: 剔除失效源（保守策略：只删 404/5xx/DNS失败/连接拒绝/重置/SSL错误/HTML错误页）
         run: python3 filter_sources.py channels.json channels.json --workers 80 --timeout 7
 
+      - name: 同步导出 M3U8 播放列表（与 channels.json 内容一致）
+        run: python3 export_m3u8.py channels.json live.m3u8
+
       - name: 提交（仅在有变化时）
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add channels.json
+          git add channels.json live.m3u8
           if git diff --cached --quiet; then
             echo "无变化，跳过提交"
           else
