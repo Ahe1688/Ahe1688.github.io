@@ -100,15 +100,15 @@
   },
   {
    "id": 15,
-   "name": "喜剧",
-   "en_name": "喜剧",
+   "name": "经典",
+   "en_name": "经典",
    "logo": "",
    "sort": 15
   },
   {
    "id": 16,
-   "name": "经典",
-   "en_name": "经典",
+   "name": "喜剧",
+   "en_name": "喜剧",
    "logo": "",
    "sort": 16
   },
@@ -1582,28 +1582,6 @@
    "trusted": 0
   },
   {
-   "id": 68,
-   "name": "6 Wise Tv",
-   "en_name": "6 Wise Tv",
-   "pinyin": "",
-   "channel_code": 68,
-   "logo": "",
-   "level": 0,
-   "category_bits": 128,
-   "category_ids": [
-    8
-   ],
-   "epg_id": "6WiseTv.us@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://live.enhdtv.com:8081/8150/index.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
    "id": 69,
    "name": "like Gecko) Chrome/149.0.0.0 Safari/537.3\" group-title=\"Entertainment\",7/8 TV",
    "en_name": "like Gecko) Chrome/149.0.0.0 Safari/537.3\" group-title=\"Entertainment\",7/8 TV",
@@ -2383,9 +2361,9 @@
    "channel_code": 106,
    "logo": "https://i.imgur.com/KvMuTzN.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "13Humor.cl@SD",
    "catchup_id": "",
@@ -3092,9 +3070,9 @@
    "channel_code": 140,
    "logo": "https://30a.media/wp-content/uploads/2023/08/pzaz-30atv-2-230x366-ridiculous.jpg",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "30ARidiculousTV.us@SD",
    "catchup_id": "",
@@ -5445,6 +5423,28 @@
    "trusted": 0
   },
   {
+   "id": 253,
+   "name": "ABC WBBJ-TV",
+   "en_name": "ABC WBBJ-TV",
+   "pinyin": "",
+   "channel_code": 253,
+   "logo": "https://i.imgur.com/pvXZ8DX.png",
+   "level": 0,
+   "category_bits": 8,
+   "category_ids": [
+    4
+   ],
+   "epg_id": "ABC.us@WBBJTV",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://dai.google.com/linear/hls/event/HZ3JdLVcQ463l3b1BLXmmQ/master.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
    "id": 254,
    "name": "ABC WBRZ-TV",
    "en_name": "ABC WBRZ-TV",
@@ -5948,28 +5948,6 @@
    "area": "",
    "urls": [
     "https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 283,
-   "name": "ABC Teleshow",
-   "en_name": "ABC Teleshow",
-   "pinyin": "",
-   "channel_code": 283,
-   "logo": "https://i.imgur.com/cF7gJ2Q.jpeg",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "ABCTeleshow.pe@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://live-evg10.tv360.bitel.com.pe/bitel/abctv/playlist.m3u8"
    ],
    "trusted": 0
   },
@@ -8339,9 +8317,9 @@
    "channel_code": 401,
    "logo": "https://i.imgur.com/TOB9vmW.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "AFV.us@SD",
    "catchup_id": "",
@@ -10468,6 +10446,28 @@
    "trusted": 0
   },
   {
+   "id": 503,
+   "name": "Al-Jawadain TV",
+   "en_name": "Al-Jawadain TV",
+   "pinyin": "",
+   "channel_code": 503,
+   "logo": "https://i.imgur.com/Eo3UYCK.png",
+   "level": 0,
+   "category_bits": 512,
+   "category_ids": [
+    10
+   ],
+   "epg_id": "AlJawadainTV.iq@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://live.aljawadain.org/live/aljawadaintv/playlist.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
    "id": 504,
    "name": "Al-Mahdi TV",
    "en_name": "Al-Mahdi TV",
@@ -11531,9 +11531,9 @@
    "channel_code": 559,
    "logo": "https://images.pluto.tv/channels/622f6e1e2792150007e0b2ff/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "AllehassenChris.de@DACH",
    "catchup_id": "",
@@ -13116,28 +13116,6 @@
    "trusted": 0
   },
   {
-   "id": 637,
-   "name": "AMGA TV",
-   "en_name": "AMGA TV",
-   "pinyin": "",
-   "channel_code": 637,
-   "logo": "https://i.imgur.com/NTlC6e7.png",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "AMGATV.us@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://streamer1.connectto.com/AMGA_WEB_1202/playlist.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
    "id": 638,
    "name": "Amigos TV Chiquimula",
    "en_name": "Amigos TV Chiquimula",
@@ -14290,9 +14268,9 @@
    "channel_code": 692,
    "logo": "https://i.imgur.com/VXZgrNy.png",
    "level": 0,
-   "category_bits": 81920,
+   "category_bits": 98304,
    "category_ids": [
-    15,
+    16,
     17
    ],
    "epg_id": "AngerManagementChannel.us@SD",
@@ -16914,10 +16892,10 @@
    "channel_code": 827,
    "logo": "https://i.imgur.com/5pOZQB4.png",
    "level": 0,
-   "category_bits": 32772,
+   "category_bits": 16388,
    "category_ids": [
     3,
-    16
+    15
    ],
    "epg_id": "ARTFLIXMovieClassics.us@SD",
    "catchup_id": "",
@@ -17058,28 +17036,6 @@
    "area": "",
    "urls": [
     "https://cdn07lhr.tamashaweb.com:8087/jazzauth/vsat-arynews-abr/live/vsat-arynews-H/chunks_dvr_timeshift-0-3600.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 835,
-   "name": "Aryan TV National",
-   "en_name": "Aryan TV National",
-   "pinyin": "",
-   "channel_code": 835,
-   "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ARYAN_TV_NATIONAL/images/LOGO_HD/image.png",
-   "level": 0,
-   "category_bits": 131072,
-   "category_ids": [
-    18
-   ],
-   "epg_id": "AryanTVNational.in@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://mumt04.tangotv.in/m18aqlK4ARYANTVNATIONAL/index.m3u8"
    ],
    "trusted": 0
   },
@@ -17567,6 +17523,28 @@
    "area": "",
    "urls": [
     "https://amg13737-amg13737c1-amgplt0016.playout.now3.amagi.tv/playlist/amg13737-amg13737c1-amgplt0016/playlist.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 860,
+   "name": "like Gecko) Chrome/147.0.0.0 Safari/537.36\" group-title=\"News\",Asianet Suvarna News",
+   "en_name": "like Gecko) Chrome/147.0.0.0 Safari/537.36\" group-title=\"News\",Asianet Suvarna News",
+   "pinyin": "",
+   "channel_code": 860,
+   "logo": "https://dtil.tmsimg.com/assets/s142682_ld_h15_aa.png?lock=720x540",
+   "level": 0,
+   "category_bits": 256,
+   "category_ids": [
+    9
+   ],
+   "epg_id": "AsianetSuvarnaNews.in@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://fta.ektv.in/live/692/master.m3u8"
    ],
    "trusted": 0
   },
@@ -19520,9 +19498,9 @@
    "channel_code": 964,
    "logo": "https://images.pluto.tv/channels/61c0925c738ecd000882450a/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "Awkward.se@DK",
    "catchup_id": "",
@@ -19542,9 +19520,9 @@
    "channel_code": 965,
    "logo": "https://i.imgur.com/2tdMyef.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "AWTV.br@HD",
@@ -24041,9 +24019,9 @@
    "channel_code": 1200,
    "logo": "https://images.pluto.tv/channels/6486e8984cfc2c0008b6844e/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "BeavisandButtHead.se@SE",
    "catchup_id": "",
@@ -24063,9 +24041,9 @@
    "channel_code": 1201,
    "logo": "https://images.pluto.tv/channels/6486e8984cfc2c0008b6844e/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "BeavisandButtHead.se@DK",
    "catchup_id": "",
@@ -24085,9 +24063,9 @@
    "channel_code": 1202,
    "logo": "https://images.pluto.tv/channels/6486e8984cfc2c0008b6844e/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "BeavisandButtHead.se@NO",
    "catchup_id": "",
@@ -24129,9 +24107,9 @@
    "channel_code": 1205,
    "logo": "https://images.pluto.tv/channels/630348a54c48ce00077eb6c7/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "Becker.de@DACH",
    "catchup_id": "",
@@ -24151,9 +24129,9 @@
    "channel_code": 1206,
    "logo": "https://images.pluto.tv/channels/672e157d7d5da5000812872d/colorLogoPNG-1731073515797.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "Becker.se@SE",
@@ -24174,9 +24152,9 @@
    "channel_code": 1207,
    "logo": "https://images.pluto.tv/channels/672e157d7d5da5000812872d/colorLogoPNG-1731073515797.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "Becker.se@DK",
@@ -24197,9 +24175,9 @@
    "channel_code": 1208,
    "logo": "https://images.pluto.tv/channels/672e157d7d5da5000812872d/colorLogoPNG-1731073515797.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "Becker.se@NO",
@@ -25521,9 +25499,9 @@
    "channel_code": 1270,
    "logo": "https://images.pluto.tv/channels/61326275b3c86a00078e4833/colorLogoPNG_1759340015358.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "BETThrowbacks.us@SD",
    "catchup_id": "",
@@ -25675,9 +25653,9 @@
    "channel_code": 1277,
    "logo": "https://i.imgur.com/OV9hT93.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "BeverlyHillbillies.us@US",
    "catchup_id": "",
@@ -27101,28 +27079,6 @@
    "trusted": 0
   },
   {
-   "id": 1347,
-   "name": "Bizz TV",
-   "en_name": "Bizz TV",
-   "pinyin": "",
-   "channel_code": 1347,
-   "logo": "https://i.imgur.com/UxHaJNR.png",
-   "level": 0,
-   "category_bits": 524288,
-   "category_ids": [
-    20
-   ],
-   "epg_id": "BizzTV.tt@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://stream.bizzmedia.biz/bizz_tv/index.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
    "id": 1348,
    "name": "Black",
    "en_name": "Black",
@@ -27152,9 +27108,9 @@
    "channel_code": 1349,
    "logo": "https://images.pluto.tv/channels/686d61503484d6073283059d/colorLogoPNG_1752619670829.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "BlackFamilySitcoms.us@SD",
    "catchup_id": "",
@@ -28388,10 +28344,10 @@
    "channel_code": 1408,
    "logo": "https://i.imgur.com/ugPo6ca.png",
    "level": 0,
-   "category_bits": 32772,
+   "category_bits": 16388,
    "category_ids": [
     3,
-    16
+    15
    ],
    "epg_id": "BollywoodClassic.ro@Romania",
    "catchup_id": "",
@@ -28411,10 +28367,10 @@
    "channel_code": 1409,
    "logo": "https://i.imgur.com/bEMUpHZ.png",
    "level": 0,
-   "category_bits": 32772,
+   "category_bits": 16388,
    "category_ids": [
     3,
-    16
+    15
    ],
    "epg_id": "BollywoodFilm.ro@SD",
    "catchup_id": "",
@@ -29429,10 +29385,10 @@
    "channel_code": 1458,
    "logo": "https://i.imgur.com/JJTQq81.png",
    "level": 0,
-   "category_bits": 32800,
+   "category_bits": 16416,
    "category_ids": [
     6,
-    16
+    15
    ],
    "epg_id": "BRIDGEClassic.ru@SD",
    "catchup_id": "",
@@ -29672,9 +29628,9 @@
    "channel_code": 1469,
    "logo": "https://images.pluto.tv/channels/638e11951177840007fdd6b2/colorLogoPNG_1745597179027.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "BritishComedy.us@CA",
    "catchup_id": "",
@@ -29716,9 +29672,9 @@
    "channel_code": 1471,
    "logo": "https://images.pluto.tv/channels/65cba73611ced700082123bc/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "BroadCity.se@SE",
    "catchup_id": "",
@@ -29738,9 +29694,9 @@
    "channel_code": 1472,
    "logo": "https://images.pluto.tv/channels/65cba73611ced700082123bc/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "BroadCity.se@DK",
    "catchup_id": "",
@@ -29760,9 +29716,9 @@
    "channel_code": 1473,
    "logo": "https://images.pluto.tv/channels/65cba73611ced700082123bc/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "BroadCity.se@NO",
    "catchup_id": "",
@@ -30334,9 +30290,9 @@
    "channel_code": 1503,
    "logo": "https://i.imgur.com/1c6A5dO.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "bTVComedy.bg@SD",
    "catchup_id": "",
@@ -31569,9 +31525,9 @@
    "channel_code": 1566,
    "logo": "https://i.imgur.com/V5h4R83.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "CameraSmileTV.us@SD",
    "catchup_id": "",
@@ -32158,28 +32114,6 @@
    "trusted": 0
   },
   {
-   "id": 1595,
-   "name": "Canal 2 NexTV Rafaela",
-   "en_name": "Canal 2 NexTV Rafaela",
-   "pinyin": "",
-   "channel_code": 1595,
-   "logo": "https://i.imgur.com/hgj3CaR.jpeg",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "Canal2NexTVRafaela.ar@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://edge.enhdtv.com/nexthd/index.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
    "id": 1596,
    "name": "Canal 2 Quellon",
    "en_name": "Canal 2 Quellon",
@@ -32528,28 +32462,6 @@
    "area": "",
    "urls": [
     "https://cdn.protvradiostream.com/canal4rd-1/ngrp:canal4rd-1_all/playlist.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 1616,
-   "name": "Canal 4 San Juan",
-   "en_name": "Canal 4 San Juan",
-   "pinyin": "",
-   "channel_code": 1616,
-   "logo": "https://i.imgur.com/MsCnwRA.png",
-   "level": 0,
-   "category_bits": 131072,
-   "category_ids": [
-    18
-   ],
-   "epg_id": "Canal4SanJuan.ar@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://streamlov.alsolnet.com/canal4sanjuan/live/playlist.m3u8"
    ],
    "trusted": 0
   },
@@ -33060,28 +32972,6 @@
    "trusted": 0
   },
   {
-   "id": 1647,
-   "name": "Canal 8 San Juan",
-   "en_name": "Canal 8 San Juan",
-   "pinyin": "",
-   "channel_code": 1647,
-   "logo": "https://files.catbox.moe/f7jbdo.png",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "Canal8SanJuan.ar@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://live20.bozztv.com/akamaissh101/ssh101/canal8sanjuan/playlist.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
    "id": 1648,
    "name": "Canal 8 TV+",
    "en_name": "Canal 8 TV+",
@@ -33254,28 +33144,6 @@
    "area": "",
    "urls": [
     "https://acceso.mediosdecostarica.com:3606/hybrid/play.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 1658,
-   "name": "Canal 10",
-   "en_name": "Canal 10",
-   "pinyin": "",
-   "channel_code": 1658,
-   "logo": "https://i.imgur.com/y2ppMnY.png",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "Canal10.sv@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://5ca3e84a76d30.streamlock.net/tves/videotves/playlist.m3u8"
    ],
    "trusted": 0
   },
@@ -33676,28 +33544,6 @@
    "trusted": 0
   },
   {
-   "id": 1695,
-   "name": "Canal 21 TV",
-   "en_name": "Canal 21 TV",
-   "pinyin": "",
-   "channel_code": 1695,
-   "logo": "https://i.imgur.com/Am7yMXg.png",
-   "level": 0,
-   "category_bits": 131072,
-   "category_ids": [
-    18
-   ],
-   "epg_id": "Canal21TV.ar@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
    "id": 1697,
    "name": "Canal 22 Nacional",
    "en_name": "Canal 22 Nacional",
@@ -33716,28 +33562,6 @@
    "area": "",
    "urls": [
     "https://5fc584f3f19c9.streamlock.net/canal22/smil:canal22.smil/playlist.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 1698,
-   "name": "Canal 25 Ayacucho",
-   "en_name": "Canal 25 Ayacucho",
-   "pinyin": "",
-   "channel_code": 1698,
-   "logo": "https://i.imgur.com/lU02cWc.png",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "Canal25Ayacucho.pe@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://live-evg10.tv360.bitel.com.pe/bitel/canal25ayacucho/playlist.m3u8"
    ],
    "trusted": 0
   },
@@ -34377,28 +34201,6 @@
    "area": "",
    "urls": [
     "https://canalalpha.vedge.infomaniak.com/livecast/ik:canalalpha/playlist.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 1732,
-   "name": "Canal C del Zulia",
-   "en_name": "Canal C del Zulia",
-   "pinyin": "",
-   "channel_code": 1732,
-   "logo": "https://i.imgur.com/ew44KOZ.png",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "CanalCdelZulia.ve@HD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://calm-forest-3478.cristianbracho904.workers.dev/live/index.m3u8"
    ],
    "trusted": 0
   },
@@ -35192,28 +34994,6 @@
    "area": "",
    "urls": [
     "https://movil.ejeserver.com/live/teledoradahd.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 1777,
-   "name": "Canal Mas TV",
-   "en_name": "Canal Mas TV",
-   "pinyin": "",
-   "channel_code": 1777,
-   "logo": "https://i.imgur.com/rdHygJ1.png",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "CanalMasTV.pe@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://live-evg11.tv360.bitel.com.pe/bitel/mastvSRT/playlist.m3u8"
    ],
    "trusted": 0
   },
@@ -37365,9 +37145,9 @@
    "channel_code": 1890,
    "logo": "https://images.pluto.tv/channels/66a7aa44cd0d31000843942b/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "CarolineintheCity.se@SE",
    "catchup_id": "",
@@ -37387,9 +37167,9 @@
    "channel_code": 1891,
    "logo": "https://images.pluto.tv/channels/66a7aa44cd0d31000843942b/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "CarolineintheCity.se@DK",
    "catchup_id": "",
@@ -37409,9 +37189,9 @@
    "channel_code": 1892,
    "logo": "https://images.pluto.tv/channels/66a7aa44cd0d31000843942b/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "CarolineintheCity.se@NO",
    "catchup_id": "",
@@ -39408,9 +39188,9 @@
    "channel_code": 1993,
    "logo": "https://images.pluto.tv/channels/5d4947590ba40f75dc29c26b/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "CCPlutoTV.de@DACH",
    "catchup_id": "",
@@ -39634,10 +39414,10 @@
    "channel_code": 2003,
    "logo": "https://i.imgur.com/TVs9PBc.png",
    "level": 0,
-   "category_bits": 32769,
+   "category_bits": 16385,
    "category_ids": [
     1,
-    16
+    15
    ],
    "epg_id": "CCTVNostalgiaTheater.cn@HD",
    "catchup_id": "",
@@ -39917,31 +39697,6 @@
    "area": "",
    "urls": [
     "https://hls.tvabierta.net/hls/036.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 2017,
-   "name": "CEACOM TV",
-   "en_name": "CEACOM TV",
-   "pinyin": "",
-   "channel_code": 2017,
-   "logo": "https://i.imgur.com/hutdRfk.png",
-   "level": 0,
-   "category_bits": 524584,
-   "category_ids": [
-    4,
-    6,
-    9,
-    20
-   ],
-   "epg_id": "CEACOMTV.bo@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://eu1.servers10.com:8081/ceacom/index.m3u8"
    ],
    "trusted": 0
   },
@@ -40537,28 +40292,6 @@
    "area": "",
    "urls": [
     "https://stream.berosat.live/hls/champion-tv/champion-tv.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 2050,
-   "name": "Chandel TV",
-   "en_name": "Chandel TV",
-   "pinyin": "",
-   "channel_code": 2050,
-   "logo": "https://i.imgur.com/jQO7dVE.png",
-   "level": 0,
-   "category_bits": 64,
-   "category_ids": [
-    7
-   ],
-   "epg_id": "ChandelTV.tg@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://kali.vdopanel.com:3660/live/vj6jlam1rlive.m3u8"
    ],
    "trusted": 0
   },
@@ -41605,9 +41338,9 @@
    "channel_code": 2108,
    "logo": "https://images.pluto.tv/channels/65e976ad0d456100082d9b74/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "ChappellesShow.se@SE",
    "catchup_id": "",
@@ -41627,9 +41360,9 @@
    "channel_code": 2109,
    "logo": "https://images.pluto.tv/channels/65e976ad0d456100082d9b74/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "ChappellesShow.se@DK",
    "catchup_id": "",
@@ -41649,9 +41382,9 @@
    "channel_code": 2110,
    "logo": "https://images.pluto.tv/channels/65e976ad0d456100082d9b74/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "ChappellesShow.se@NO",
    "catchup_id": "",
@@ -41914,9 +41647,9 @@
    "channel_code": 2125,
    "logo": "https://images.pluto.tv/channels/642e9575af2bd900088527dd/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "Cheers.se@NO",
    "catchup_id": "",
@@ -41958,9 +41691,9 @@
    "channel_code": 2127,
    "logo": "https://images.pluto.tv/channels/66ba495ffe11e5000881f049/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "CheersPlusFrasier.us@SD",
    "catchup_id": "",
@@ -42235,28 +41968,6 @@
    "area": "",
    "urls": [
     "http://15.204.246.24:8080/CHVHD/index.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 2140,
-   "name": "Chiloe Red 25",
-   "en_name": "Chiloe Red 25",
-   "pinyin": "",
-   "channel_code": 2140,
-   "logo": "https://i.imgur.com/3tqrImm.png",
-   "level": 0,
-   "category_bits": 2097152,
-   "category_ids": [
-    22
-   ],
-   "epg_id": "ChiloeRed25.cl@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://v2.tustreaming.cl/chiloered/index.m3u8"
    ],
    "trusted": 0
   },
@@ -42647,9 +42358,9 @@
    "channel_code": 2163,
    "logo": "https://images.pluto.tv/channels/65cb78b83a116800079e2e35/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "CinCin.de@IT",
@@ -43880,9 +43591,9 @@
    "channel_code": 2224,
    "logo": "https://i.imgur.com/K1W137J.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "CinevaultWesterns.us@SD",
    "catchup_id": "",
@@ -44089,6 +43800,381 @@
    "area": "",
    "urls": [
     "https://dev.aftermind.xyz/edge-hls/unitrust/citychannel/index.m3u8?token=8TXWzhY3h6jrzqEqx"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 2234,
+   "name": "City Eden AutoGid",
+   "en_name": "City Eden AutoGid",
+   "pinyin": "",
+   "channel_code": 2234,
+   "logo": "https://i.imgur.com/qpe8L27.png",
+   "level": 0,
+   "category_bits": 67108864,
+   "category_ids": [
+    27
+   ],
+   "epg_id": "CityEdenAutoGid.ru@HD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://cityeden.catcast.tv/content/47515/index.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 2235,
+   "name": "City Eden Birma Play",
+   "en_name": "City Eden Birma Play",
+   "pinyin": "",
+   "channel_code": 2235,
+   "logo": "https://i.imgur.com/38Q5L5W.png",
+   "level": 0,
+   "category_bits": 32,
+   "category_ids": [
+    6
+   ],
+   "epg_id": "CityEdenBirmaPlay.ru@HD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://cityeden.catcast.tv/content/34364/index.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 2236,
+   "name": "City Eden Classic Music",
+   "en_name": "City Eden Classic Music",
+   "pinyin": "",
+   "channel_code": 2236,
+   "logo": "https://i.imgur.com/l7BE8l6.png",
+   "level": 0,
+   "category_bits": 32,
+   "category_ids": [
+    6
+   ],
+   "epg_id": "CityEdenClassicMusic.ru@HD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://cityeden.catcast.tv/content/47400/index.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 2237,
+   "name": "City Eden KinoAction",
+   "en_name": "City Eden KinoAction",
+   "pinyin": "",
+   "channel_code": 2237,
+   "logo": "https://i.imgur.com/uuzuvD0.png",
+   "level": 0,
+   "category_bits": 4,
+   "category_ids": [
+    3
+   ],
+   "epg_id": "CityEdenKinoAction.ru@HD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://cityeden.catcast.tv/content/41333/index.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 2238,
+   "name": "City Eden KinoArt",
+   "en_name": "City Eden KinoArt",
+   "pinyin": "",
+   "channel_code": 2238,
+   "logo": "https://i.imgur.com/67CWCtz.png",
+   "level": 0,
+   "category_bits": 4,
+   "category_ids": [
+    3
+   ],
+   "epg_id": "CityEdenKinoArt.ru@HD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://cityeden.catcast.tv/content/38398/index.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 2239,
+   "name": "City Eden KinoAsia",
+   "en_name": "City Eden KinoAsia",
+   "pinyin": "",
+   "channel_code": 2239,
+   "logo": "https://i.imgur.com/gaket4B.png",
+   "level": 0,
+   "category_bits": 4,
+   "category_ids": [
+    3
+   ],
+   "epg_id": "CityEdenKinoAsia.ru@HD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://cityeden.catcast.tv/content/34393/index.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 2240,
+   "name": "City Eden KinoDetektiv",
+   "en_name": "City Eden KinoDetektiv",
+   "pinyin": "",
+   "channel_code": 2240,
+   "logo": "https://i.imgur.com/9rKHwBV.png",
+   "level": 0,
+   "category_bits": 4,
+   "category_ids": [
+    3
+   ],
+   "epg_id": "CityEdenKinoDetektiv.ru@HD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://cityeden.catcast.tv/content/41327/index.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 2241,
+   "name": "City Eden KinoDok",
+   "en_name": "City Eden KinoDok",
+   "pinyin": "",
+   "channel_code": 2241,
+   "logo": "https://i.imgur.com/itRbMX3.png",
+   "level": 0,
+   "category_bits": 33619968,
+   "category_ids": [
+    17,
+    26
+   ],
+   "epg_id": "CityEdenKinoDok.ru@HD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://cityeden.catcast.tv/content/38354/index.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 2242,
+   "name": "City Eden KinoDrama",
+   "en_name": "City Eden KinoDrama",
+   "pinyin": "",
+   "channel_code": 2242,
+   "logo": "https://i.imgur.com/29ddffh.png",
+   "level": 0,
+   "category_bits": 4,
+   "category_ids": [
+    3
+   ],
+   "epg_id": "CityEdenKinoDrama.ru@HD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://cityeden.catcast.tv/content/45269/index.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 2243,
+   "name": "City Eden KinoFantastika",
+   "en_name": "City Eden KinoFantastika",
+   "pinyin": "",
+   "channel_code": 2243,
+   "logo": "https://i.imgur.com/I64FeIO.png",
+   "level": 0,
+   "category_bits": 4,
+   "category_ids": [
+    3
+   ],
+   "epg_id": "CityEdenKinoFantastika.ru@HD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://cityeden.catcast.tv/content/45268/index.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 2244,
+   "name": "City Eden KinoKlassika",
+   "en_name": "City Eden KinoKlassika",
+   "pinyin": "",
+   "channel_code": 2244,
+   "logo": "https://i.imgur.com/0qGCS1S.png",
+   "level": 0,
+   "category_bits": 4,
+   "category_ids": [
+    3
+   ],
+   "epg_id": "CityEdenKinoKlassika.ru@HD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://cityeden.catcast.tv/content/34185/index.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 2245,
+   "name": "City Eden KinoKomediya",
+   "en_name": "City Eden KinoKomediya",
+   "pinyin": "",
+   "channel_code": 2245,
+   "logo": "https://i.imgur.com/Aga2XVA.png",
+   "level": 0,
+   "category_bits": 4,
+   "category_ids": [
+    3
+   ],
+   "epg_id": "CityEdenKinoKomediya.ru@HD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://cityeden.catcast.tv/content/41331/index.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 2246,
+   "name": "City Eden KinoMistika",
+   "en_name": "City Eden KinoMistika",
+   "pinyin": "",
+   "channel_code": 2246,
+   "logo": "https://i.imgur.com/s1Pid0K.png",
+   "level": 0,
+   "category_bits": 4,
+   "category_ids": [
+    3
+   ],
+   "epg_id": "CityEdenKinoMistika.ru@HD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://cityeden.catcast.tv/content/40783/index.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 2248,
+   "name": "City Eden MedZdrav",
+   "en_name": "City Eden MedZdrav",
+   "pinyin": "",
+   "channel_code": 2248,
+   "logo": "https://i.imgur.com/BM4E0Kr.png",
+   "level": 0,
+   "category_bits": 524288,
+   "category_ids": [
+    20
+   ],
+   "epg_id": "CityEdenMedZdrav.ru@HD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://cityeden.catcast.tv/content/47519/index.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 2249,
+   "name": "City Eden Play",
+   "en_name": "City Eden Play",
+   "pinyin": "",
+   "channel_code": 2249,
+   "logo": "https://i.imgur.com/ozEqob9.png",
+   "level": 0,
+   "category_bits": 32,
+   "category_ids": [
+    6
+   ],
+   "epg_id": "CityEdenPlay.ru@HD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://cityeden.catcast.tv/content/34100/index.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 2250,
+   "name": "City Eden Recepty Gurmana",
+   "en_name": "City Eden Recepty Gurmana",
+   "pinyin": "",
+   "channel_code": 2250,
+   "logo": "https://i.imgur.com/wR0pvRc.png",
+   "level": 0,
+   "category_bits": 4194304,
+   "category_ids": [
+    23
+   ],
+   "epg_id": "CityEdenReceptyGurmana.ru@HD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://cityeden.catcast.tv/content/47516/index.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 2251,
+   "name": "City Eden Sirtaki TV",
+   "en_name": "City Eden Sirtaki TV",
+   "pinyin": "",
+   "channel_code": 2251,
+   "logo": "https://i.imgur.com/V3MTfyc.png",
+   "level": 0,
+   "category_bits": 32,
+   "category_ids": [
+    6
+   ],
+   "epg_id": "CityEdenSirtakiTV.ru@HD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://cityeden.catcast.tv/content/46421/index.m3u8"
    ],
    "trusted": 0
   },
@@ -44962,9 +45048,9 @@
    "channel_code": 2293,
    "logo": "",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "ClassicTV.ir@SD",
    "catchup_id": "",
@@ -44984,9 +45070,9 @@
    "channel_code": 2294,
    "logo": "https://i.imgur.com/wg5I5Fb.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "ClassicTVComedy.us@SD",
    "catchup_id": "",
@@ -45006,9 +45092,9 @@
    "channel_code": 2295,
    "logo": "https://images.pluto.tv/channels/61325c4f982acd000723287e/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "ClassicTVCrimeDrama.us@SD",
    "catchup_id": "",
@@ -45028,9 +45114,9 @@
    "channel_code": 2296,
    "logo": "https://i.imgur.com/XHQxv0x.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "ClassicTVDrama.us@SD",
    "catchup_id": "",
@@ -45050,9 +45136,9 @@
    "channel_code": 2297,
    "logo": "https://images.pluto.tv/channels/62e91af00c43540007f2bb43/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "ClassicTVFamilies.us@US",
    "catchup_id": "",
@@ -45072,9 +45158,9 @@
    "channel_code": 2298,
    "logo": "https://images.pluto.tv/channels/62e91af00c43540007f2bb43/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "ClassicTVFamilies.us@CA",
    "catchup_id": "",
@@ -47056,9 +47142,9 @@
    "channel_code": 2393,
    "logo": "https://images.pluto.tv/channels/68de3db35fc0afe85de0b843/colorLogoPNG_1759402494389.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "ComediaalobestiadePlutoTV.de@ES",
    "catchup_id": "",
@@ -47078,9 +47164,9 @@
    "channel_code": 2394,
    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "ComedyCentral.de@SD",
    "catchup_id": "",
@@ -47100,9 +47186,9 @@
    "channel_code": 2395,
    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "ComedyCentral.it@SD",
    "catchup_id": "",
@@ -47122,9 +47208,9 @@
    "channel_code": 2397,
    "logo": "https://images.pluto.tv/channels/61c0989431084d0007eab12d/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "ComedyCentral.se@SE",
    "catchup_id": "",
@@ -47144,9 +47230,9 @@
    "channel_code": 2398,
    "logo": "https://images.pluto.tv/channels/61c0989431084d0007eab12d/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "ComedyCentral.se@DK",
    "catchup_id": "",
@@ -47166,9 +47252,9 @@
    "channel_code": 2399,
    "logo": "https://images.pluto.tv/channels/64f8a408bd341e000818fcda/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "ComedyCentral.us@CA",
    "catchup_id": "",
@@ -47188,9 +47274,9 @@
    "channel_code": 2400,
    "logo": "https://i.imgur.com/uENch0P.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "ComedyCentralAnimation.us@SD",
    "catchup_id": "",
@@ -47210,9 +47296,9 @@
    "channel_code": 2401,
    "logo": "https://comcastadvertising.com/wp-content/uploads/2021/10/Comedy-Central-White.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "ComedyCentralBrasil.br@SD",
    "catchup_id": "",
@@ -47232,9 +47318,9 @@
    "channel_code": 2402,
    "logo": "https://i.imgur.com/6xTD3G8.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "ComedyCentralenEspanol.us@SD",
    "catchup_id": "",
@@ -47254,9 +47340,9 @@
    "channel_code": 2403,
    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "ComedyCentralLatinAmerica.us@Panregional",
    "catchup_id": "",
@@ -47276,9 +47362,9 @@
    "channel_code": 2404,
    "logo": "https://images.pluto.tv/channels/5f357e91b18f0b00073583d2/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "ComedyCentralPlutoTV.us@US",
    "catchup_id": "",
@@ -47298,9 +47384,9 @@
    "channel_code": 2405,
    "logo": "https://images.pluto.tv/channels/5f357e91b18f0b00073583d2/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "ComedyCentralPlutoTV.us@BR",
    "catchup_id": "",
@@ -47320,9 +47406,9 @@
    "channel_code": 2406,
    "logo": "https://images.pluto.tv/channels/5f357e91b18f0b00073583d2/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "ComedyCentralPlutoTV.us@LatAm",
    "catchup_id": "",
@@ -47342,9 +47428,9 @@
    "channel_code": 2407,
    "logo": "https://images.pluto.tv/channels/6641fd41b18d700008e7e2b8/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "ComedyCentralRoast.se@DK",
    "catchup_id": "",
@@ -47364,10 +47450,10 @@
    "channel_code": 2408,
    "logo": "https://images.pluto.tv/channels/609ae66b359b270007869ff1/colorLogoPNG_1733160636316.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "ComedyCentralSouthPark.us@BR",
    "catchup_id": "",
@@ -47387,10 +47473,10 @@
    "channel_code": 2409,
    "logo": "https://images.pluto.tv/channels/609ae66b359b270007869ff1/colorLogoPNG_1733160636316.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "ComedyCentralSouthPark.us@LatAm",
    "catchup_id": "",
@@ -47432,9 +47518,9 @@
    "channel_code": 2412,
    "logo": "https://i.imgur.com/6kAeVOk.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "ComedyPlay.ro@SD",
    "catchup_id": "",
@@ -47454,9 +47540,9 @@
    "channel_code": 2413,
    "logo": "https://i.imgur.com/i1TANKv.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "ComedyTV.ge@SD",
    "catchup_id": "",
@@ -47476,9 +47562,9 @@
    "channel_code": 2414,
    "logo": "https://i.imgur.com/KLfXnba.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "ComedyTV.us@SD",
    "catchup_id": "",
@@ -48712,9 +48798,9 @@
    "channel_code": 2475,
    "logo": "https://images.pluto.tv/channels/693ae5660eedebc8d5db6579/colorLogoPNG_1770039249880.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "CrazyExGirlfriend.se@SE",
    "catchup_id": "",
@@ -48734,9 +48820,9 @@
    "channel_code": 2476,
    "logo": "https://images.pluto.tv/channels/693ae5660eedebc8d5db6579/colorLogoPNG_1770039249880.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "CrazyExGirlfriend.se@DK",
    "catchup_id": "",
@@ -48756,9 +48842,9 @@
    "channel_code": 2477,
    "logo": "https://images.pluto.tv/channels/693ae5660eedebc8d5db6579/colorLogoPNG_1770039249880.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "CrazyExGirlfriend.se@NO",
    "catchup_id": "",
@@ -49053,6 +49139,28 @@
    "area": "",
    "urls": [
     "http://88.212.7.14/live/test_cai_hevc/playlist.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 2491,
+   "name": "Crime + Investigation Polsat",
+   "en_name": "Crime + Investigation Polsat",
+   "pinyin": "",
+   "channel_code": 2491,
+   "logo": "https://i.imgur.com/kSZCvah.png",
+   "level": 0,
+   "category_bits": 64,
+   "category_ids": [
+    7
+   ],
+   "epg_id": "CrimePlusInvestigationPolsat.pl@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "http://92.114.85.87:8015/play/a00d/index.m3u8"
    ],
    "trusted": 0
   },
@@ -50685,50 +50793,6 @@
    "trusted": 0
   },
   {
-   "id": 2574,
-   "name": "Da Nang TV 1",
-   "en_name": "Da Nang TV 1",
-   "pinyin": "",
-   "channel_code": 2574,
-   "logo": "https://i.imgur.com/EOMuO1z.png",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "DaNangTV1.vn@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://live.mediatech.vn/live/285b59a111d76974225a8e3004bfc31a509/chunklist.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 2575,
-   "name": "Da Nang TV2",
-   "en_name": "Da Nang TV2",
-   "pinyin": "",
-   "channel_code": 2575,
-   "logo": "",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "DaNangTV2.vn@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://live.mediatech.vn/live/2859145290d0d7947ef88b6240123b62474/chunklist.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
    "id": 2576,
    "name": "Da Vinci",
    "en_name": "Da Vinci",
@@ -51287,9 +51351,9 @@
    "channel_code": 2606,
    "logo": "https://images.pluto.tv/channels/62d0895ebe7a970008785244/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "Daria.us@LatAm",
    "catchup_id": "",
@@ -51584,6 +51648,28 @@
    "area": "",
    "urls": [
     "https://ronhls.wns.live/hls/stream.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 2621,
+   "name": "Daystar TV",
+   "en_name": "Daystar TV",
+   "pinyin": "",
+   "channel_code": 2621,
+   "logo": "https://i.imgur.com/uVdKHMG.png",
+   "level": 0,
+   "category_bits": 512,
+   "category_ids": [
+    10
+   ],
+   "epg_id": "DaystarTV.us@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://live-mcl.cdn01.net/smarttv/48vy43564/playlist.m3u8"
    ],
    "trusted": 0
   },
@@ -54112,9 +54198,9 @@
    "channel_code": 2755,
    "logo": "https://images.pluto.tv/channels/668bf7dd74f5ec000817e6d1/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "DiagnosisMurder.se@SE",
@@ -54135,9 +54221,9 @@
    "channel_code": 2756,
    "logo": "https://images.pluto.tv/channels/668bf7dd74f5ec000817e6d1/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "DiagnosisMurder.se@DK",
@@ -54158,9 +54244,9 @@
    "channel_code": 2757,
    "logo": "https://images.pluto.tv/channels/668bf7dd74f5ec000817e6d1/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "DiagnosisMurder.se@NO",
@@ -55298,28 +55384,6 @@
    "trusted": 0
   },
   {
-   "id": 2814,
-   "name": "Disha TV",
-   "en_name": "Disha TV",
-   "pinyin": "",
-   "channel_code": 2814,
-   "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Disha_tv.png",
-   "level": 0,
-   "category_bits": 131072,
-   "category_ids": [
-    18
-   ],
-   "epg_id": "DishaTV.in@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://d1msejlow1t3l4.cloudfront.net/fta/dishatv/playlist.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
    "id": 2815,
    "name": "Dismar Radio TV",
    "en_name": "Dismar Radio TV",
@@ -55976,9 +56040,9 @@
    "channel_code": 2846,
    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/DistritoComediaLOGO2018.png/960px-DistritoComediaLOGO2018.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "DistritoComedia.mx@SD",
    "catchup_id": "",
@@ -58005,9 +58069,9 @@
    "channel_code": 2946,
    "logo": "https://i.imgur.com/3N2C60N.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "DryBarComedyPlus.us@SD",
    "catchup_id": "",
@@ -59316,28 +59380,6 @@
    "area": "",
    "urls": [
     "http://103.72.101.252:8080/live/1532.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 3017,
-   "name": "EAC News TV",
-   "en_name": "EAC News TV",
-   "pinyin": "",
-   "channel_code": 3017,
-   "logo": "https://i.imgur.com/EuYhS9Z.png",
-   "level": 0,
-   "category_bits": 256,
-   "category_ids": [
-    9
-   ],
-   "epg_id": "EACNewsTV.kh@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://live.eac-news.com/LiveApp/streams/eacnews.m3u8"
    ],
    "trusted": 0
   },
@@ -64290,9 +64332,9 @@
    "channel_code": 3270,
    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/ETV_Comedy.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "ETVComedy.in@HD",
    "catchup_id": "",
@@ -65368,9 +65410,9 @@
    "channel_code": 3330,
    "logo": "https://images.pluto.tv/channels/63a1cab19ab2df0007bf1c8b/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "EverybodyHatesChris.se@SE",
    "catchup_id": "",
@@ -65390,9 +65432,9 @@
    "channel_code": 3331,
    "logo": "https://images.pluto.tv/channels/63a1cab19ab2df0007bf1c8b/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "EverybodyHatesChris.se@DK",
    "catchup_id": "",
@@ -65412,9 +65454,9 @@
    "channel_code": 3332,
    "logo": "https://images.pluto.tv/channels/63a1cab19ab2df0007bf1c8b/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "EverybodyHatesChris.se@NO",
    "catchup_id": "",
@@ -66119,9 +66161,9 @@
    "channel_code": 3370,
    "logo": "https://i.imgur.com/VIpQJxL.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "FailArmy.us@US",
    "catchup_id": "",
@@ -66141,9 +66183,9 @@
    "channel_code": 3371,
    "logo": "https://i.imgur.com/VIpQJxL.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "FailArmy.us@Brazil",
    "catchup_id": "",
@@ -66163,9 +66205,9 @@
    "channel_code": 3372,
    "logo": "https://i.imgur.com/VIpQJxL.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "FailArmy.us@Italy",
    "catchup_id": "",
@@ -66185,9 +66227,9 @@
    "channel_code": 3373,
    "logo": "https://i.imgur.com/VIpQJxL.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "FailArmy.us@Poland",
    "catchup_id": "",
@@ -66207,9 +66249,9 @@
    "channel_code": 3374,
    "logo": "https://i.imgur.com/VIpQJxL.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "FailArmy.us@UK",
    "catchup_id": "",
@@ -66354,6 +66396,28 @@
    "trusted": 0
   },
   {
+   "id": 3381,
+   "name": "Fajar TV",
+   "en_name": "Fajar TV",
+   "pinyin": "",
+   "channel_code": 3381,
+   "logo": "https://i.imgur.com/mkuXxRK.png",
+   "level": 0,
+   "category_bits": 512,
+   "category_ids": [
+    10
+   ],
+   "epg_id": "FajarTV.id@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "http://122.248.43.242:1935/FAJARTV/_definst_/myStream/playlist.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
    "id": 3382,
    "name": "Fakt Marathi",
    "en_name": "Fakt Marathi",
@@ -66493,9 +66557,9 @@
    "channel_code": 3390,
    "logo": "https://images.pluto.tv/channels/654a4a3ef91d250008ac089b/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "FamilyTies.se@SE",
    "catchup_id": "",
@@ -66515,9 +66579,9 @@
    "channel_code": 3391,
    "logo": "https://images.pluto.tv/channels/654a4a3ef91d250008ac089b/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "FamilyTies.se@DK",
    "catchup_id": "",
@@ -66537,9 +66601,9 @@
    "channel_code": 3392,
    "logo": "https://images.pluto.tv/channels/654a4a3ef91d250008ac089b/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "FamilyTies.se@NO",
    "catchup_id": "",
@@ -67430,28 +67494,6 @@
    "area": "",
    "urls": [
     "http://31.148.48.15/Feniks_plus_kino/index.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 3439,
-   "name": "Fernandina Beach Channel",
-   "en_name": "Fernandina Beach Channel",
-   "pinyin": "",
-   "channel_code": 3439,
-   "logo": "https://i.imgur.com/9UfyekJ.png",
-   "level": 0,
-   "category_bits": 536870912,
-   "category_ids": [
-    30
-   ],
-   "epg_id": "FernandinaBeachChannel.us@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://edge-f.swagit.com/live/fernandinabeachfl/live-1-a/playlist.m3u8"
    ],
    "trusted": 0
   },
@@ -69776,9 +69818,9 @@
    "channel_code": 3557,
    "logo": "https://i.imgur.com/R9ul4T1.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "ForaTedioTV.br@SD",
    "catchup_id": "",
@@ -71648,9 +71690,9 @@
    "channel_code": 3658,
    "logo": "https://i.imgur.com/UCwjdtQ.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "FunnyAF.us@SD",
    "catchup_id": "",
@@ -71978,9 +72020,9 @@
    "channel_code": 3673,
    "logo": "https://i.imgur.com/ENj5GIp.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "Gagsnetwork.us@SD",
    "catchup_id": "",
@@ -72706,9 +72748,9 @@
    "channel_code": 3712,
    "logo": "https://i.imgur.com/25BhuOf.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "GEMClassic.tr@SD",
    "catchup_id": "",
@@ -72728,9 +72770,9 @@
    "channel_code": 3713,
    "logo": "https://i.imgur.com/FuscfJW.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "GEMComedy.tr@SD",
    "catchup_id": "",
@@ -74282,6 +74324,28 @@
    "area": "",
    "urls": [
     "http://170.82.202.31/Viva/index.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 3788,
+   "name": "Globovision",
+   "en_name": "Globovision",
+   "pinyin": "",
+   "channel_code": 3788,
+   "logo": "https://i.imgur.com/v6nRdxQ.png",
+   "level": 0,
+   "category_bits": 8,
+   "category_ids": [
+    4
+   ],
+   "epg_id": "Globovision.ve@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "http://181.78.8.199:8000/play/a09k/index.m3u8"
    ],
    "trusted": 0
   },
@@ -77229,9 +77293,9 @@
    "channel_code": 3942,
    "logo": "",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "HAHATV.sk@SD",
    "catchup_id": "",
@@ -77736,9 +77800,9 @@
    "channel_code": 3965,
    "logo": "https://images.pluto.tv/channels/654a4e29ab05240008a18625/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "HappyDays.se@SE",
@@ -77759,9 +77823,9 @@
    "channel_code": 3966,
    "logo": "https://images.pluto.tv/channels/654a4e29ab05240008a18625/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "HappyDays.se@DK",
@@ -77782,9 +77846,9 @@
    "channel_code": 3967,
    "logo": "https://images.pluto.tv/channels/654a4e29ab05240008a18625/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "HappyDays.se@NO",
@@ -80871,9 +80935,9 @@
    "channel_code": 4122,
    "logo": "https://images.pluto.tv/channels/68939e206727ec919bb39061/colorLogoPNG_1757523507747.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "HogansHeroes.us@SD",
    "catchup_id": "",
@@ -81060,28 +81124,6 @@
    "area": "",
    "urls": [
     "https://live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 4132,
-   "name": "Holy Quran Radio Nablus",
-   "en_name": "Holy Quran Radio Nablus",
-   "pinyin": "",
-   "channel_code": 4132,
-   "logo": "https://quran-radio.com/assets/images/site/quran-radio-logo-h-rtl.png",
-   "level": 0,
-   "category_bits": 512,
-   "category_ids": [
-    10
-   ],
-   "epg_id": "HolyQuranRadioNablus.ps@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "http://streaming.zaytonatube.com:8080/holyquran/holyquran/video.m3u8"
    ],
    "trusted": 0
   },
@@ -82119,6 +82161,28 @@
    "area": "",
    "urls": [
     "https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn1uswest/master.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 4190,
+   "name": "HSTV",
+   "en_name": "HSTV",
+   "pinyin": "",
+   "channel_code": 4190,
+   "logo": "https://ibb.co/Ng5nkX6F",
+   "level": 0,
+   "category_bits": 131072,
+   "category_ids": [
+    18
+   ],
+   "epg_id": "HSTV.in@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://live.castmaxcloud.com/live/hstv.m3u8"
    ],
    "trusted": 0
   },
@@ -84902,28 +84966,6 @@
    "trusted": 0
   },
   {
-   "id": 4331,
-   "name": "Imperial TV",
-   "en_name": "Imperial TV",
-   "pinyin": "",
-   "channel_code": 4331,
-   "logo": "https://i.ibb.co/8XHSVWY/IMG-20210613-153444.png",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "ImperialTV.bo@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://tv.centaurychile.com/imperial/streams/EnCyCiwNLsqEQ2kv2852222720686498.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
    "id": 4333,
    "name": "Impossible Quiz Show",
    "en_name": "Impossible Quiz Show",
@@ -84953,9 +84995,9 @@
    "channel_code": 4334,
    "logo": "https://assets.antenaplay.ro/2026/05/07/aUyRzOHx0tkHM6SXjA9K.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "InPuiiMei.ro@SD",
    "catchup_id": "",
@@ -85759,6 +85801,28 @@
    "area": "",
    "urls": [
     "https://jmp2.uk/plu-655f2d713944b60008bc7e90.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 4374,
+   "name": "Inooro TV",
+   "en_name": "Inooro TV",
+   "pinyin": "",
+   "channel_code": 4374,
+   "logo": "https://i.imgur.com/5qFJtmo.png",
+   "level": 0,
+   "category_bits": 8,
+   "category_ids": [
+    4
+   ],
+   "epg_id": "InooroTV.ke@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://live-onesignal.royalmedia.co.ke/live/T-MxRsFebq6zx7k2QFMbLw.m3u8"
    ],
    "trusted": 0
   },
@@ -87092,9 +87156,9 @@
    "channel_code": 4439,
    "logo": "https://assets.antenaplay.ro/2026/05/07/1CKR5EoJo1qeSZCe9lkT.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "iRoast.ro@SD",
    "catchup_id": "",
@@ -87303,28 +87367,6 @@
    "area": "",
    "urls": [
     "https://5c46fa289c89f.streamlock.net/pub2live/myStream/playlist.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 4450,
-   "name": "Isla TV",
-   "en_name": "Isla TV",
-   "pinyin": "",
-   "channel_code": 4450,
-   "logo": "https://i.imgur.com/l11Ixhi.jpeg",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "IslaTV.ve@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://59d39900ebfb8.streamlock.net/islatv/islatv/playlist.m3u8"
    ],
    "trusted": 0
   },
@@ -87799,9 +87841,9 @@
    "channel_code": 4478,
    "logo": "https://assets.antenaplay.ro/2026/05/07/pB32HtJzC1i0xlH75Rb0.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "iUmor.ro@SD",
    "catchup_id": "",
@@ -87975,9 +88017,9 @@
    "channel_code": 4487,
    "logo": "https://images.pluto.tv/channels/654a4ab92c1d330008657ae5/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "JAG.se@SE",
@@ -87998,9 +88040,9 @@
    "channel_code": 4488,
    "logo": "https://images.pluto.tv/channels/654a4ab92c1d330008657ae5/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "JAG.se@DK",
@@ -88021,9 +88063,9 @@
    "channel_code": 4489,
    "logo": "https://images.pluto.tv/channels/654a4ab92c1d330008657ae5/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "JAG.se@NO",
@@ -88876,28 +88918,6 @@
    "trusted": 0
   },
   {
-   "id": 4537,
-   "name": "JFV TV",
-   "en_name": "JFV TV",
-   "pinyin": "",
-   "channel_code": 4537,
-   "logo": "https://i.imgur.com/SrmI6nU.jpeg",
-   "level": 0,
-   "category_bits": 512,
-   "category_ids": [
-    10
-   ],
-   "epg_id": "JFVTV.sv@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://2nbyj587d53k-hls-live.5centscdn.com/09/25b94ec89b2aa708c3c4ad0014b09845.sdp/playlist.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
    "id": 4538,
    "name": "Jiangsu City Channel",
    "en_name": "Jiangsu City Channel",
@@ -89656,9 +89676,9 @@
    "channel_code": 4580,
    "logo": "https://i.imgur.com/DuwwoO2.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "JordanComedy.jo@SD",
    "catchup_id": "",
@@ -90383,9 +90403,9 @@
    "channel_code": 4616,
    "logo": "https://i.imgur.com/HjVEVMJ.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "JustforLaughsGags.us@SD",
    "catchup_id": "",
@@ -92740,9 +92760,9 @@
    "channel_code": 4737,
    "logo": "https://images.pluto.tv/channels/65cba715dc10a40008034917/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "KeyPeele.se@SE",
    "catchup_id": "",
@@ -92762,9 +92782,9 @@
    "channel_code": 4738,
    "logo": "https://images.pluto.tv/channels/65cba715dc10a40008034917/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "KeyPeele.se@DK",
    "catchup_id": "",
@@ -92784,9 +92804,9 @@
    "channel_code": 4739,
    "logo": "https://images.pluto.tv/channels/65cba715dc10a40008034917/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "KeyPeele.se@NO",
    "catchup_id": "",
@@ -93086,6 +93106,28 @@
    "trusted": 0
   },
   {
+   "id": 4754,
+   "name": "Kids TV",
+   "en_name": "Kids TV",
+   "pinyin": "",
+   "channel_code": 4754,
+   "logo": "https://i.imgur.com/B5YiUIP.png",
+   "level": 0,
+   "category_bits": 2048,
+   "category_ids": [
+    12
+   ],
+   "epg_id": "KidsTV.id@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "http://origin5.mediacdn.ru/live/kidstv/index.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
    "id": 4755,
    "name": "Kids Zone",
    "en_name": "Kids Zone",
@@ -93171,28 +93213,6 @@
    "area": "",
    "urls": [
     "http://livestream.usatv.com/hls/master-iUSATVLIVENET.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 4759,
-   "name": "KIIO-LD 10.4",
-   "en_name": "KIIO-LD 10.4",
-   "pinyin": "",
-   "channel_code": 4759,
-   "logo": "https://i.imgur.com/Spu4s89.png",
-   "level": 0,
-   "category_bits": 2097152,
-   "category_ids": [
-    22
-   ],
-   "epg_id": "KIIOLD104.us@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://streamer1.connectto.com/AABC_WEB_1201/index.m3u8"
    ],
    "trusted": 0
   },
@@ -93556,9 +93576,9 @@
    "channel_code": 4778,
    "logo": "https://i.imgur.com/dVjtth0.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "Kinokomedija.ru@SD",
    "catchup_id": "",
@@ -94106,9 +94126,9 @@
    "channel_code": 4805,
    "logo": "https://images.pluto.tv/channels/65a63ff00d9ab400080b101c/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "Klovn.se@SE",
    "catchup_id": "",
@@ -94570,9 +94590,9 @@
    "channel_code": 4827,
    "logo": "https://i.imgur.com/VRC5juh.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "Komedia.ru@SD",
    "catchup_id": "",
@@ -94592,9 +94612,9 @@
    "channel_code": 4828,
    "logo": "https://i.imgur.com/cEKe8XC.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "Komediynoe.ru@HD",
    "catchup_id": "",
@@ -94934,28 +94954,6 @@
    "area": "",
    "urls": [
     "https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 4848,
-   "name": "KRC TV",
-   "en_name": "KRC TV",
-   "pinyin": "",
-   "channel_code": 4848,
-   "logo": "https://i.imgur.com/8c9Uqks.jpeg",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "KRCTV.ug@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://channels.ad-ug.com/live/ch03/index.m3u8"
    ],
    "trusted": 0
   },
@@ -95851,9 +95849,9 @@
    "channel_code": 4892,
    "logo": "https://i.imgur.com/Vw3LFLX.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "KVNTV.ru@SD",
    "catchup_id": "",
@@ -97067,9 +97065,9 @@
    "channel_code": 4960,
    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/LAFF_logo.png/960px-LAFF_logo.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "Laff.us@SD",
    "catchup_id": "",
@@ -97199,11 +97197,11 @@
    "channel_code": 4969,
    "logo": "https://i.pinimg.com/736x/2d/fa/25/2dfa25f5d2e4d5c19886a3a263706317.jpg",
    "level": 0,
-   "category_bits": 33856,
+   "category_bits": 17472,
    "category_ids": [
     7,
     11,
-    16
+    15
    ],
    "epg_id": "LAMIL35TV.ar@SD",
    "catchup_id": "",
@@ -99393,28 +99391,6 @@
    "area": "",
    "urls": [
     "https://edge.enhdtv.com/litustv/index.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 5087,
-   "name": "Liv",
-   "en_name": "Liv",
-   "pinyin": "",
-   "channel_code": 5087,
-   "logo": "https://i.imgur.com/k6NsXBj.png",
-   "level": 0,
-   "category_bits": 64,
-   "category_ids": [
-    7
-   ],
-   "epg_id": "Liv.fi@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://live-fi.tvkaista.net/liv/live.m3u8?hd=true"
    ],
    "trusted": 0
   },
@@ -101761,9 +101737,9 @@
    "channel_code": 5210,
    "logo": "https://images.pluto.tv/channels/654a59742c1d33000865a797/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "MacGyver.se@SE",
@@ -101784,9 +101760,9 @@
    "channel_code": 5211,
    "logo": "https://images.pluto.tv/channels/654a59742c1d33000865a797/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "MacGyver.se@DK",
@@ -101807,9 +101783,9 @@
    "channel_code": 5212,
    "logo": "https://images.pluto.tv/channels/654a59742c1d33000865a797/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "MacGyver.se@NO",
@@ -101830,9 +101806,9 @@
    "channel_code": 5213,
    "logo": "https://images.pluto.tv/channels/63eb9dc84e83e70008abea92/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "MacGyver.us@BR",
    "catchup_id": "",
@@ -101852,9 +101828,9 @@
    "channel_code": 5214,
    "logo": "https://images.pluto.tv/channels/63eb9dc84e83e70008abea92/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "MacGyver.us@LatAm",
    "catchup_id": "",
@@ -103040,9 +103016,9 @@
    "channel_code": 5272,
    "logo": "https://images.pluto.tv/channels/678f88bb272ded16b1558c5e/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "ManwithaPlan.se@SE",
    "catchup_id": "",
@@ -103062,9 +103038,9 @@
    "channel_code": 5273,
    "logo": "https://images.pluto.tv/channels/678f88bb272ded16b1558c5e/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "ManwithaPlan.se@DK",
    "catchup_id": "",
@@ -103084,9 +103060,9 @@
    "channel_code": 5274,
    "logo": "https://images.pluto.tv/channels/678f88bb272ded16b1558c5e/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "ManwithaPlan.se@NO",
    "catchup_id": "",
@@ -103629,28 +103605,6 @@
    "trusted": 0
   },
   {
-   "id": 5299,
-   "name": "Maqui TV",
-   "en_name": "Maqui TV",
-   "pinyin": "",
-   "channel_code": 5299,
-   "logo": "https://i.imgur.com/U849xvX.png",
-   "level": 0,
-   "category_bits": 32,
-   "category_ids": [
-    6
-   ],
-   "epg_id": "MaquiTV.cl@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://streamyes.alsolnet.com/maquiradio/live/playlist.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
    "id": 5300,
    "name": "Maray TV",
    "en_name": "Maray TV",
@@ -103713,6 +103667,28 @@
    "area": "",
    "urls": [
     "http://200.7.219.221:8088/live/livetv/index.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 5303,
+   "name": "Marga Marga TV",
+   "en_name": "Marga Marga TV",
+   "pinyin": "",
+   "channel_code": 5303,
+   "logo": "https://i.imgur.com/4cg51eE.png",
+   "level": 0,
+   "category_bits": 8,
+   "category_ids": [
+    4
+   ],
+   "epg_id": "MargaMargaTV.cl@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://v1.tustreaming.cl/margamargatv/index.m3u8"
    ],
    "trusted": 0
   },
@@ -103911,6 +103887,28 @@
    "area": "",
    "urls": [
     "https://5790d294af2dc.streamlock.net/markatv/markatv/playlist.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 5314,
+   "name": "Marla Vision",
+   "en_name": "Marla Vision",
+   "pinyin": "",
+   "channel_code": 5314,
+   "logo": "https://www.vivalivetv.com/public/files/shows/0/1/3738-294x165-FFFFFF.jpg",
+   "level": 0,
+   "category_bits": 8,
+   "category_ids": [
+    4
+   ],
+   "epg_id": "MarlaVision.do@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://soportedvb.click:3877/live/merlavisionlive.m3u8"
    ],
    "trusted": 0
   },
@@ -104562,9 +104560,9 @@
    "channel_code": 5348,
    "logo": "https://images.pluto.tv/channels/66290a779e68c20008a18cf3/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "Matlock.se@SE",
@@ -104585,9 +104583,9 @@
    "channel_code": 5349,
    "logo": "https://images.pluto.tv/channels/66290a779e68c20008a18cf3/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "Matlock.se@DK",
@@ -104608,9 +104606,9 @@
    "channel_code": 5350,
    "logo": "https://images.pluto.tv/channels/66290a779e68c20008a18cf3/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "Matlock.se@NO",
@@ -106284,28 +106282,6 @@
    "trusted": 0
   },
   {
-   "id": 5433,
-   "name": "Media TV",
-   "en_name": "Media TV",
-   "pinyin": "",
-   "channel_code": 5433,
-   "logo": "https://i.imgur.com/BAaR5T5.png",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "MediaTV.pe@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://live-evg5.tv360.bitel.com.pe/bitel/mediatv/playlist.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
    "id": 5435,
    "name": "like Gecko) Chrome/149.0.0.0 Safari/537.36\" group-title=\"General\",Mediaset Italia",
    "en_name": "like Gecko) Chrome/149.0.0.0 Safari/537.36\" group-title=\"General\",Mediaset Italia",
@@ -107520,28 +107496,6 @@
    "trusted": 0
   },
   {
-   "id": 5495,
-   "name": "Metropolitana del Cuzco",
-   "en_name": "Metropolitana del Cuzco",
-   "pinyin": "",
-   "channel_code": 5495,
-   "logo": "https://i.imgur.com/0B04qgM.png",
-   "level": 0,
-   "category_bits": 32,
-   "category_ids": [
-    6
-   ],
-   "epg_id": "MetropolitanadelCuzco.pe@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://video1.earthcam.com/myearthcam/075ff02f78c35af55564cf3af3b3f750.flv/playlist.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
    "id": 5496,
    "name": "meWATCH LIVE 1",
    "en_name": "meWATCH LIVE 1",
@@ -107978,28 +107932,6 @@
    "area": "",
    "urls": [
     "https://scl.edge.grupoz.cl/miradio2/live/playlist.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 5517,
-   "name": "MI Turno TV",
-   "en_name": "MI Turno TV",
-   "pinyin": "",
-   "channel_code": 5517,
-   "logo": "https://imgur.com/uODDaEY.png",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "MITurnoTV.do@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://video.udwn.net:19360/miturnotv/miturnotv.m3u8"
    ],
    "trusted": 0
   },
@@ -109221,9 +109153,9 @@
    "channel_code": 5576,
    "logo": "https://images.pluto.tv/channels/6478a9e4f77b61000817034b/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "MissionImpossible.se@SE",
@@ -109244,9 +109176,9 @@
    "channel_code": 5577,
    "logo": "https://images.pluto.tv/channels/6478a9e4f77b61000817034b/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "MissionImpossible.se@DK",
@@ -109267,9 +109199,9 @@
    "channel_code": 5578,
    "logo": "https://images.pluto.tv/channels/6478a9e4f77b61000817034b/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "MissionImpossible.se@NO",
@@ -110567,9 +110499,9 @@
    "channel_code": 5651,
    "logo": "https://images.pluto.tv/channels/62e91c3add66e00007eeb24c/colorLogoPNG_1759310317971.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "MorePlutoTVComedy.us@CA",
    "catchup_id": "",
@@ -110677,9 +110609,9 @@
    "channel_code": 5657,
    "logo": "https://i.imgur.com/4mbhOEo.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "MoreTVSitcoms.us@SD",
    "catchup_id": "",
@@ -111517,10 +111449,10 @@
    "channel_code": 5698,
    "logo": "https://d2yv6y0n3qsl5c.cloudfront.net/MBEANP/MrBeanLiveAction-LG_LOGO_800x200.png",
    "level": 0,
-   "category_bits": 18432,
+   "category_bits": 34816,
    "category_ids": [
     12,
-    15
+    16
    ],
    "epg_id": "MrBeanLiveAction.uk@SD",
    "catchup_id": "",
@@ -114857,50 +114789,6 @@
    "trusted": 0
   },
   {
-   "id": 5861,
-   "name": "MWD",
-   "en_name": "MWD",
-   "pinyin": "",
-   "channel_code": 5861,
-   "logo": "https://i.imgur.com/zyTQG9F.png",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "MWD.mm@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "http://203.81.84.130/hls/mwd/index.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 5862,
-   "name": "MWD Documentary",
-   "en_name": "MWD Documentary",
-   "pinyin": "",
-   "channel_code": 5862,
-   "logo": "https://i.imgur.com/4XV7cjU.png",
-   "level": 0,
-   "category_bits": 33554432,
-   "category_ids": [
-    26
-   ],
-   "epg_id": "MWDDocumentary.mm@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "http://203.81.84.130/hls/mwd_document/index.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
    "id": 5863,
    "name": "MWD Movies",
    "en_name": "MWD Movies",
@@ -114919,28 +114807,6 @@
    "area": "",
    "urls": [
     "http://203.81.84.130/hls/mwd_movie/index.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 5864,
-   "name": "MWD Variety",
-   "en_name": "MWD Variety",
-   "pinyin": "",
-   "channel_code": 5864,
-   "logo": "https://i.imgur.com/wb3Ku8X.png",
-   "level": 0,
-   "category_bits": 64,
-   "category_ids": [
-    7
-   ],
-   "epg_id": "MWDVariety.mm@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "http://203.81.84.130/hls/mwd_variety/index.m3u8"
    ],
    "trusted": 0
   },
@@ -115055,6 +114921,28 @@
    "trusted": 0
   },
   {
+   "id": 5873,
+   "name": "My TV Channel",
+   "en_name": "My TV Channel",
+   "pinyin": "",
+   "channel_code": 5873,
+   "logo": "https://i.imgur.com/vh2373L.png",
+   "level": 0,
+   "category_bits": 131072,
+   "category_ids": [
+    18
+   ],
+   "epg_id": "MyTVChannel.cm@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "http://connectiktv.ddns.net:5000/mytvchannel/@mytvchannel/playlist.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
    "id": 5874,
    "name": "like Gecko) Chrome/149.0.0.0 Safari/537.36\" group-title=\"General\",My Ukraina+",
    "en_name": "like Gecko) Chrome/149.0.0.0 Safari/537.36\" group-title=\"General\",My Ukraina+",
@@ -115150,9 +115038,9 @@
    "channel_code": 5878,
    "logo": "https://i.imgur.com/8KWjY4o.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "MysteryScienceTheater3000.us@SD",
    "catchup_id": "",
@@ -115778,28 +115666,6 @@
    "area": "",
    "urls": [
     "https://streaming.nartv.fi/live/ngrp:NAR_TV.stream_all/playlist.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 5913,
-   "name": "Naranja TV",
-   "en_name": "Naranja TV",
-   "pinyin": "",
-   "channel_code": 5913,
-   "logo": "https://i.imgur.com/g7iFN3s.png",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "NaranjaTV.do@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://cdn.streamingcpanel.com:3526/live/teleraiceslive.m3u8"
    ],
    "trusted": 0
   },
@@ -117191,28 +117057,6 @@
    "trusted": 0
   },
   {
-   "id": 5989,
-   "name": "Nayarit Comunica",
-   "en_name": "Nayarit Comunica",
-   "pinyin": "",
-   "channel_code": 5989,
-   "logo": "https://i.imgur.com/aZCTkjU.jpg",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "NayaritComunica.mx@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://live.iplanay.gob.mx/hls/nayarittv.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
    "id": 5990,
    "name": "NBA TV",
    "en_name": "NBA TV",
@@ -117770,9 +117614,9 @@
    "channel_code": 6022,
    "logo": "https://i.imgur.com/nydZWwg.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "NBCComedyVault.us@SD",
    "catchup_id": "",
@@ -118685,6 +118529,28 @@
    "area": "",
    "urls": [
     "https://cdn4.skygo.mn/live/disk1/NeigMGL/HLSv3-FTA/NeigMGL.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 6066,
+   "name": "Nelonen",
+   "en_name": "Nelonen",
+   "pinyin": "",
+   "channel_code": 6066,
+   "logo": "https://i.imgur.com/BFbCyfY.png",
+   "level": 0,
+   "category_bits": 8,
+   "category_ids": [
+    4
+   ],
+   "epg_id": "Nelonen.fi@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://live-fi.tvkaista.net/nelonen/live.m3u8"
    ],
    "trusted": 0
   },
@@ -120628,29 +120494,6 @@
    "trusted": 0
   },
   {
-   "id": 6163,
-   "name": "Next HD",
-   "en_name": "Next HD",
-   "pinyin": "",
-   "channel_code": 6163,
-   "logo": "https://i.imgur.com/c2rF3SS.png",
-   "level": 0,
-   "category_bits": 36,
-   "category_ids": [
-    3,
-    6
-   ],
-   "epg_id": "NextHD.py@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://live.enhdtv.com:19360/nexthd/nexthd.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
    "id": 6165,
    "name": "Nexus TV",
    "en_name": "Nexus TV",
@@ -122416,6 +122259,28 @@
    "trusted": 0
   },
   {
+   "id": 6252,
+   "name": "like Gecko) Chrome/147.0.0.0 Safari/537.36\" group-title=\"Religious\",Nireekshana TV",
+   "en_name": "like Gecko) Chrome/147.0.0.0 Safari/537.36\" group-title=\"Religious\",Nireekshana TV",
+   "pinyin": "",
+   "channel_code": 6252,
+   "logo": "https://i.imgur.com/nGJv6QR.png",
+   "level": 0,
+   "category_bits": 512,
+   "category_ids": [
+    10
+   ],
+   "epg_id": "NireekshanaTV.in@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://fta.ektv.in/live/706/master.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
    "id": 6253,
    "name": "Nitida TV",
    "en_name": "Nitida TV",
@@ -123017,9 +122882,9 @@
    "channel_code": 6285,
    "logo": "https://i.imgur.com/JU1dFfK.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "Nostalgia.bg@SD",
    "catchup_id": "",
@@ -123039,9 +122904,9 @@
    "channel_code": 6286,
    "logo": "https://i.imgur.com/YBdBc0J.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "Nostalgia.ru@SD",
    "catchup_id": "",
@@ -123230,28 +123095,6 @@
    "trusted": 0
   },
   {
-   "id": 6295,
-   "name": "Notisur TV",
-   "en_name": "Notisur TV",
-   "pinyin": "",
-   "channel_code": 6295,
-   "logo": "https://rdomint.com/images/station/300.jpg",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "NotisurTV.do@HD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://ss2.tvrdomi.com:1936/notisur/notisur/playlist.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
    "id": 6296,
    "name": "Nour Al Koddass",
    "en_name": "Nour Al Koddass",
@@ -123402,6 +123245,28 @@
    "area": "",
    "urls": [
     "https://svs.itworkscdn.net/noursatenglive/noursateng.smil/playlist.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 6303,
+   "name": "like Gecko) Chrome/154.0.0.0 Safari/537.36\" group-title=\"General\",Nouvelle Caledonie 1ere",
+   "en_name": "like Gecko) Chrome/154.0.0.0 Safari/537.36\" group-title=\"General\",Nouvelle Caledonie 1ere",
+   "pinyin": "",
+   "channel_code": 6303,
+   "logo": "https://i.imgur.com/BJgNq21.png",
+   "level": 0,
+   "category_bits": 8,
+   "category_ids": [
+    4
+   ],
+   "epg_id": "NouvelleCaledonie1ere.nc@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/nouvelle-caledonie-1ere.m3u8"
    ],
    "trusted": 0
   },
@@ -124152,6 +124017,50 @@
    "area": "",
    "urls": [
     "https://fms.nrwision.de/live/ngrp:livestreamHD.stream/playlist.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 6345,
+   "name": "NS Home Shopping",
+   "en_name": "NS Home Shopping",
+   "pinyin": "",
+   "channel_code": 6345,
+   "logo": "https://i.imgur.com/Q9xsDQo.png",
+   "level": 0,
+   "category_bits": 16,
+   "category_ids": [
+    5
+   ],
+   "epg_id": "NSHomeShopping.kr@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://livestream.nsmall.com/IPHONE/nsmallMobile.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 6346,
+   "name": "NS Shop+",
+   "en_name": "NS Shop+",
+   "pinyin": "",
+   "channel_code": 6346,
+   "logo": "https://i.imgur.com/7KmXNci.png",
+   "level": 0,
+   "category_bits": 16,
+   "category_ids": [
+    5
+   ],
+   "epg_id": "NSShopPlus.kr@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://shoppstream.nsmall.com/IPHONE/mobile.m3u8"
    ],
    "trusted": 0
   },
@@ -129200,28 +129109,6 @@
    "trusted": 0
   },
   {
-   "id": 6599,
-   "name": "Oromar TV+",
-   "en_name": "Oromar TV+",
-   "pinyin": "",
-   "channel_code": 6599,
-   "logo": "https://oromartv.com/images/OTV400.png",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "OromarTVPlus.ec@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://stream.oromar.tv/hls/camriva/index.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
    "id": 6600,
    "name": "Oroszlanyi Varosi Televizio",
    "en_name": "Oroszlanyi Varosi Televizio",
@@ -130586,28 +130473,6 @@
    "area": "",
    "urls": [
     "https://samitaorigin.tangotv.in/PANKH/SAMITAORIGIN/index.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 6674,
-   "name": "Pannon TV",
-   "en_name": "Pannon TV",
-   "pinyin": "",
-   "channel_code": 6674,
-   "logo": "https://i.imgur.com/xQa2idL.png",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "PannonTV.rs@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://stream.nmih.hu:4102/live.m3u8"
    ],
    "trusted": 0
   },
@@ -132449,28 +132314,6 @@
    "trusted": 0
   },
   {
-   "id": 6765,
-   "name": "People Are Awesome",
-   "en_name": "People Are Awesome",
-   "pinyin": "",
-   "channel_code": 6765,
-   "logo": "https://i.imgur.com/MsIx7Ax.png",
-   "level": 0,
-   "category_bits": 64,
-   "category_ids": [
-    7
-   ],
-   "epg_id": "PeopleAreAwesome.us@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://mumbai-edge.smartplaytv.in/PeopleAreAwesome/index.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
    "id": 6766,
    "name": "People Are Awesome Poland",
    "en_name": "People Are Awesome Poland",
@@ -132555,28 +132398,6 @@
    "area": "",
    "urls": [
     "https://live-evg7.tv360.bitel.com.pe/bitel/pequestv/playlist.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 6771,
-   "name": "Peravia Vision",
-   "en_name": "Peravia Vision",
-   "pinyin": "",
-   "channel_code": 6771,
-   "logo": "https://i.imgur.com/k1Wj5ka.png",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "PeraviaVision.do@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://ss2.tvrdomi.com:1936/peraviavision/peraviavision/playlist.m3u8"
    ],
    "trusted": 0
   },
@@ -132764,9 +132585,9 @@
    "channel_code": 6780,
    "logo": "https://i.imgur.com/DBZ3Pi5.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "PersianaComedy.fr@SD",
    "catchup_id": "",
@@ -132984,10 +132805,10 @@
    "channel_code": 6790,
    "logo": "https://i.imgur.com/SWO9CKA.png",
    "level": 0,
-   "category_bits": 32800,
+   "category_bits": 16416,
    "category_ids": [
     6,
-    16
+    15
    ],
    "epg_id": "PersianaNostalgia.fr@SD",
    "catchup_id": "",
@@ -133909,9 +133730,9 @@
    "channel_code": 6839,
    "logo": "https://i.imgur.com/5U1iKUq.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "PlanetFun.uk@SD",
    "catchup_id": "",
@@ -133920,28 +133741,6 @@
    "area": "",
    "urls": [
     "http://66.102.126.10:8000/play/a02k/index.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 6840,
-   "name": "Planeta Channel",
-   "en_name": "Planeta Channel",
-   "pinyin": "",
-   "channel_code": 6840,
-   "logo": "https://i.imgur.com/XyBKaXI.png",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "PlanetaChannel.ec@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://vs20.live.opencaster.com/planetachannel_089eff6d/index.m3u8"
    ],
    "trusted": 0
   },
@@ -134012,6 +133811,28 @@
    "trusted": 0
   },
   {
+   "id": 6845,
+   "name": "Play TV",
+   "en_name": "Play TV",
+   "pinyin": "",
+   "channel_code": 6845,
+   "logo": "https://i.imgur.com/1dmBqpf.png",
+   "level": 0,
+   "category_bits": 32,
+   "category_ids": [
+    6
+   ],
+   "epg_id": "PlayTV.cm@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "http://connectiktv.ddns.net:5000/playtv/@playtv/playlist.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
    "id": 6846,
    "name": "Play TV",
    "en_name": "Play TV",
@@ -134074,6 +133895,28 @@
    "area": "",
    "urls": [
     "https://strv.painelvox.top/plenitude/plenitude/playlist.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 6850,
+   "name": "PLEX TV",
+   "en_name": "PLEX TV",
+   "pinyin": "",
+   "channel_code": 6850,
+   "logo": "https://i.ibb.co/H4VktvG/Plex-TV-237.jpg",
+   "level": 0,
+   "category_bits": 64,
+   "category_ids": [
+    7
+   ],
+   "epg_id": "PLEXTV.cm@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "http://connectiktv.ddns.net:5000/plextv/@plextv/playlist.m3u8"
    ],
    "trusted": 0
   },
@@ -134399,10 +134242,10 @@
    "channel_code": 6867,
    "logo": "https://images.pluto.tv/channels/67f68bd2135aeda9ddf0ef54/colorLogoPNG_1746816413112.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "PlutoTVAdultAnimation.de@DACH",
    "catchup_id": "",
@@ -134692,10 +134535,10 @@
    "channel_code": 6880,
    "logo": "https://images.pluto.tv/channels/612f761008a9e50007984ba0/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "PlutoTVAnimation.de@GB",
    "catchup_id": "",
@@ -135794,9 +135637,9 @@
    "channel_code": 6930,
    "logo": "https://images.pluto.tv/channels/5d134a74ca91eedee1630faa/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "PlutoTVClassicTV.de@GB",
    "catchup_id": "",
@@ -135816,9 +135659,9 @@
    "channel_code": 6931,
    "logo": "https://images.pluto.tv/channels/68d25c623175a2780d051d3a/colorLogoPNG_1758809678864.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "PlutoTVClassicTVVariety.us@CA",
    "catchup_id": "",
@@ -135861,9 +135704,9 @@
    "channel_code": 6933,
    "logo": "https://images.pluto.tv/channels/5f1abce155a03d0007718834/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "PlutoTVComediamadeinSpain.de@ES",
    "catchup_id": "",
@@ -135883,10 +135726,10 @@
    "channel_code": 6934,
    "logo": "https://images.pluto.tv/channels/655b5d865812e80008843bd1/colorLogoPNG_1747044085522.png",
    "level": 0,
-   "category_bits": 16388,
+   "category_bits": 32772,
    "category_ids": [
     3,
-    15
+    16
    ],
    "epg_id": "PlutoTVComediasRomanticas.de@ES",
    "catchup_id": "",
@@ -135906,9 +135749,9 @@
    "channel_code": 6935,
    "logo": "https://images.pluto.tv/channels/5f8eb91bb9b9e7000817e67f/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "PlutoTVComedie.de@FR",
    "catchup_id": "",
@@ -135928,10 +135771,10 @@
    "channel_code": 6936,
    "logo": "https://images.pluto.tv/channels/67b4b2d976a934282e92d71c/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16388,
+   "category_bits": 32772,
    "category_ids": [
     3,
-    15
+    16
    ],
    "epg_id": "PlutoTVComediesCultes.de@FR",
    "catchup_id": "",
@@ -135951,9 +135794,9 @@
    "channel_code": 6937,
    "logo": "https://images.pluto.tv/channels/62e92178946c8000079a3160/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "PlutoTVComedy.us@US",
    "catchup_id": "",
@@ -135973,9 +135816,9 @@
    "channel_code": 6938,
    "logo": "https://images.pluto.tv/channels/62e92178946c8000079a3160/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "PlutoTVComedy.us@CA",
    "catchup_id": "",
@@ -135995,10 +135838,10 @@
    "channel_code": 6939,
    "logo": "https://images.pluto.tv/channels/62ea3d24b8e02600071fa296/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16388,
+   "category_bits": 32772,
    "category_ids": [
     3,
-    15
+    16
    ],
    "epg_id": "PlutoTVComedyMovies.us@CA",
    "catchup_id": "",
@@ -136306,10 +136149,10 @@
    "channel_code": 6954,
    "logo": "https://images.pluto.tv/channels/67d2b814fe36d6e7b1d2318a/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 32772,
+   "category_bits": 16388,
    "category_ids": [
     3,
-    16
+    15
    ],
    "epg_id": "PlutoTVDanskeklassikere.se@DK",
    "catchup_id": "",
@@ -136373,9 +136216,9 @@
    "channel_code": 6957,
    "logo": "https://images.pluto.tv/channels/655e5c4d2c46f3000877a54b/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "PlutoTVDesenhosClassicos.us@BR",
    "catchup_id": "",
@@ -136395,9 +136238,9 @@
    "channel_code": 6958,
    "logo": "https://images.pluto.tv/channels/6672f49f61a39900089db68e/colorLogoPNG_1748857141516.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "PlutoTVDeutscheComedy.de@DACH",
    "catchup_id": "",
@@ -137834,10 +137677,10 @@
    "channel_code": 7026,
    "logo": "https://images.pluto.tv/channels/61c0974945b45d0007aaa5ac/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16388,
+   "category_bits": 32772,
    "category_ids": [
     3,
-    15
+    16
    ],
    "epg_id": "PlutoTVHumor.se@DK",
    "catchup_id": "",
@@ -138386,10 +138229,10 @@
    "channel_code": 7053,
    "logo": "https://images.pluto.tv/channels/61c0b36d18447e000717d686/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16388,
+   "category_bits": 32772,
    "category_ids": [
     3,
-    15
+    16
    ],
    "epg_id": "PlutoTVKomedi.se@SE",
    "catchup_id": "",
@@ -138409,10 +138252,10 @@
    "channel_code": 7054,
    "logo": "https://images.pluto.tv/channels/61c1e3a679a4390007c78136/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16388,
+   "category_bits": 32772,
    "category_ids": [
     3,
-    15
+    16
    ],
    "epg_id": "PlutoTVKomedie.se@NO",
    "catchup_id": "",
@@ -138432,10 +138275,10 @@
    "channel_code": 7055,
    "logo": "https://images.pluto.tv/channels/66337de656fc840008ff7a65/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16388,
+   "category_bits": 32772,
    "category_ids": [
     3,
-    15
+    16
    ],
    "epg_id": "PlutoTVKultComedies.de@DACH",
    "catchup_id": "",
@@ -139666,10 +139509,10 @@
    "channel_code": 7116,
    "logo": "https://images.pluto.tv/channels/69a9ae4d3bd16a4ed04240d7/colorLogoPNG_1774879695281.png",
    "level": 0,
-   "category_bits": 32772,
+   "category_bits": 16388,
    "category_ids": [
     3,
-    16
+    15
    ],
    "epg_id": "PlutoTVRetroActionMovies.us@CA",
    "catchup_id": "",
@@ -139689,9 +139532,9 @@
    "channel_code": 7117,
    "logo": "https://images.pluto.tv/channels/69aee8a1acb7eb0bb68df641/colorLogoPNG_1774899454178.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "PlutoTVRetroCrimeAction.us@CA",
    "catchup_id": "",
@@ -139711,9 +139554,9 @@
    "channel_code": 7118,
    "logo": "https://images.pluto.tv/channels/630f1e6073bd1800082107f0/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "PlutoTVRetroCrimeDrama.us@CA",
    "catchup_id": "",
@@ -139912,9 +139755,9 @@
    "channel_code": 7127,
    "logo": "https://images.pluto.tv/channels/609404b0a8ec810007d8de9d/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "PlutoTVScherzierisate.de@IT",
    "catchup_id": "",
@@ -140249,9 +140092,9 @@
    "channel_code": 7142,
    "logo": "https://images.pluto.tv/channels/655e5bc94261ca000810cb17/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 81920,
+   "category_bits": 98304,
    "category_ids": [
-    15,
+    16,
     17
    ],
    "epg_id": "PlutoTVSeriesComedia.us@BR",
@@ -140536,9 +140379,9 @@
    "channel_code": 7155,
    "logo": "https://images.pluto.tv/channels/5de802659167b10009e7deba/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "PlutoTVSeriesRetro.us@LatAm",
    "catchup_id": "",
@@ -140580,9 +140423,9 @@
    "channel_code": 7157,
    "logo": "https://images.pluto.tv/channels/5dc2c00abfed110009d97243/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "PlutoTVSherlock.de@GB",
    "catchup_id": "",
@@ -140646,9 +140489,9 @@
    "channel_code": 7160,
    "logo": "https://images.pluto.tv/channels/5d767ab2b456c8cf265ce921/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 81920,
+   "category_bits": 98304,
    "category_ids": [
-    15,
+    16,
     17
    ],
    "epg_id": "PlutoTVSitcoms.de@DACH",
@@ -140669,9 +140512,9 @@
    "channel_code": 7161,
    "logo": "https://images.pluto.tv/channels/5d767ab2b456c8cf265ce921/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 81920,
+   "category_bits": 98304,
    "category_ids": [
-    15,
+    16,
     17
    ],
    "epg_id": "PlutoTVSitcoms.de@GB",
@@ -141354,9 +141197,9 @@
    "channel_code": 7192,
    "logo": "https://i.imgur.com/FiIRQAR.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "PlutoTVTheTwilightZone.us@SD",
@@ -145058,28 +144901,6 @@
    "trusted": 0
   },
   {
-   "id": 7381,
-   "name": "Prudent Media",
-   "en_name": "Prudent Media",
-   "pinyin": "",
-   "channel_code": 7381,
-   "logo": "https://i.imgur.com/DG0x4UD.png",
-   "level": 0,
-   "category_bits": 256,
-   "category_ids": [
-    9
-   ],
-   "epg_id": "PrudentMedia.in@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://prudentmcdn.rixcast.com/prudentm.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
    "id": 7389,
    "name": "PSD TV",
    "en_name": "PSD TV",
@@ -146364,9 +146185,9 @@
    "channel_code": 7449,
    "logo": "https://images.pluto.tv/channels/696e61287d2afdec4ff2cb75/colorLogoPNG_1768842232781.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "PutoTVClassicTVCrimeDrama.us@CA",
    "catchup_id": "",
@@ -146573,6 +146394,28 @@
    "area": "",
    "urls": [
     "https://qatartv.akamaized.net/hls/live/20000612/qtvquran/master.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 7460,
+   "name": "Qausain TV",
+   "en_name": "Qausain TV",
+   "pinyin": "",
+   "channel_code": 7460,
+   "logo": "https://i.ibb.co/N70QyQ7/Qausain-TV-logo.png",
+   "level": 0,
+   "category_bits": 2097152,
+   "category_ids": [
+    22
+   ],
+   "epg_id": "QausainTV.ng@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://acasmedia3.acangroup.org/qausaintv/qausaintv_output/playlist.m3u8"
    ],
    "trusted": 0
   },
@@ -149375,28 +149218,6 @@
    "trusted": 0
   },
   {
-   "id": 7601,
-   "name": "Radio Omega TV",
-   "en_name": "Radio Omega TV",
-   "pinyin": "",
-   "channel_code": 7601,
-   "logo": "https://i.ibb.co/nfJhQMx/Bj7qf5-Tb-Z9.jpg",
-   "level": 0,
-   "category_bits": 64,
-   "category_ids": [
-    7
-   ],
-   "epg_id": "RadioOmegaTV.hn@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://5caf24a595d94.streamlock.net:1937/8142/8142/playlist.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
    "id": 7602,
    "name": "Radio Onda Digital",
    "en_name": "Radio Onda Digital",
@@ -149613,6 +149434,28 @@
    "area": "",
    "urls": [
     "https://media.3netmedia.ro/hls/stream.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 7612,
+   "name": "Radio Romania Antena Satelor",
+   "en_name": "Radio Romania Antena Satelor",
+   "pinyin": "",
+   "channel_code": 7612,
+   "logo": "https://www.antenasatelor.ro/templates/default/images/custom/logo-main.svg",
+   "level": 0,
+   "category_bits": 32,
+   "category_ids": [
+    6
+   ],
+   "epg_id": "RadioRomaniaAntenaSatelor.ro@720p",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://stream3.srr.ro/live/antenasatelor/chunklist_w1642210843.m3u8"
    ],
    "trusted": 0
   },
@@ -149991,28 +149834,6 @@
    "area": "",
    "urls": [
     "https://59d39900ebfb8.streamlock.net/RadioTelehit/RadioTelehit/playlist.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 7636,
-   "name": "Radio Tele Planet Compas",
-   "en_name": "Radio Tele Planet Compas",
-   "pinyin": "",
-   "channel_code": 7636,
-   "logo": "https://i.imgur.com/ddb4lsa.png",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "RadioTelePlanetCompas.ht@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://5dcab9aed5331.streamlock.net/mrcompas1/livestream/playlist.m3u8"
    ],
    "trusted": 0
   },
@@ -152297,9 +152118,9 @@
    "channel_code": 7763,
    "logo": "https://images.pluto.tv/channels/6964ba787e92438c2754e924/colorLogoPNG_1768209194548.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "Rawhide.se@SE",
@@ -152320,9 +152141,9 @@
    "channel_code": 7764,
    "logo": "https://images.pluto.tv/channels/6964ba787e92438c2754e924/colorLogoPNG_1768209194548.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "Rawhide.se@DK",
@@ -152343,9 +152164,9 @@
    "channel_code": 7765,
    "logo": "https://images.pluto.tv/channels/6964ba787e92438c2754e924/colorLogoPNG_1768209194548.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "Rawhide.se@NO",
@@ -153976,28 +153797,6 @@
    "trusted": 0
   },
   {
-   "id": 7844,
-   "name": "Red TVE Ventanas",
-   "en_name": "Red TVE Ventanas",
-   "pinyin": "",
-   "channel_code": 7844,
-   "logo": "https://i.imgur.com/Pzf2ZAW.png",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "RedTVEVentanas.ec@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://s2.tvdatta.com:3825/live/redtvelive.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
    "id": 7845,
    "name": "Red Uno",
    "en_name": "Red Uno",
@@ -154821,9 +154620,9 @@
    "channel_code": 7888,
    "logo": "https://images.pluto.tv/channels/65e9766eec9fda0008cb418a/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "Reno911.se@SE",
    "catchup_id": "",
@@ -154843,9 +154642,9 @@
    "channel_code": 7889,
    "logo": "https://images.pluto.tv/channels/65e9766eec9fda0008cb418a/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "Reno911.se@DK",
    "catchup_id": "",
@@ -154865,9 +154664,9 @@
    "channel_code": 7890,
    "logo": "https://images.pluto.tv/channels/65e9766eec9fda0008cb418a/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "Reno911.se@NO",
    "catchup_id": "",
@@ -155239,9 +155038,9 @@
    "channel_code": 7909,
    "logo": "https://xml-epgservice.cdnvideo.ru/EPGService/hs/xmldata/852f4b92-cae5-463e-aad6-cd8844c5a49/logo/69.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "Retro.ru@SD",
    "catchup_id": "",
@@ -155261,10 +155060,10 @@
    "channel_code": 7910,
    "logo": "https://i.imgur.com/hIlEfhl.png",
    "level": 0,
-   "category_bits": 34816,
+   "category_bits": 18432,
    "category_ids": [
     12,
-    16
+    15
    ],
    "epg_id": "RetroCartoon.br@SD",
    "catchup_id": "",
@@ -155372,9 +155171,9 @@
    "channel_code": 7915,
    "logo": "https://i.imgur.com/iUTL0pm.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "RetroTV.us@East",
    "catchup_id": "",
@@ -155394,10 +155193,10 @@
    "channel_code": 7916,
    "logo": "https://i.imgur.com/M40b4YI.png",
    "level": 0,
-   "category_bits": 33792,
+   "category_bits": 17408,
    "category_ids": [
     11,
-    16
+    15
    ],
    "epg_id": "RetroCrush.us@SD",
    "catchup_id": "",
@@ -155861,9 +155660,9 @@
    "channel_code": 7941,
    "logo": "https://images.pluto.tv/channels/5f8eb8a8b2619a000710605c/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "Ridiculousness.de@FR",
    "catchup_id": "",
@@ -155883,9 +155682,9 @@
    "channel_code": 7942,
    "logo": "https://images.pluto.tv/channels/6996296087742204bff43147/colorLogoPNG_1772645176417.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "Ridiculousness.us@SD",
    "catchup_id": "",
@@ -155971,9 +155770,9 @@
    "channel_code": 7946,
    "logo": "https://i.imgur.com/hM4yKMn.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "RiffTrax.us@US",
    "catchup_id": "",
@@ -157007,9 +156806,9 @@
    "channel_code": 8002,
    "logo": "https://i.imgur.com/pMMUvkt.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "RotanaClassic.sa@SD",
    "catchup_id": "",
@@ -157051,9 +156850,9 @@
    "channel_code": 8004,
    "logo": "https://i.imgur.com/IlT8U6S.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "RotanaComedy.sa@SD",
    "catchup_id": "",
@@ -158888,28 +158687,6 @@
    "area": "",
    "urls": [
     "https://flash2.xdevel.com/rtptv/rtptv/playlist.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 8091,
-   "name": "RTP",
-   "en_name": "RTP",
-   "pinyin": "",
-   "channel_code": 8091,
-   "logo": "https://i.imgur.com/nHMqAHn.jpeg",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "RTP.pe@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://live-evg7.tv360.bitel.com.pe/bitel/rtp/playlist.m3u8"
    ],
    "trusted": 0
   },
@@ -161049,28 +160826,6 @@
    "trusted": 0
   },
   {
-   "id": 8212,
-   "name": "RUTC TV",
-   "en_name": "RUTC TV",
-   "pinyin": "",
-   "channel_code": 8212,
-   "logo": "https://i.ibb.co/yPDhKBp/rutc-logo.jpg",
-   "level": 0,
-   "category_bits": 512,
-   "category_ids": [
-    10
-   ],
-   "epg_id": "RUTCTV.kr@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "http://d26sxnc75smwvh.cloudfront.net/livehttporigin/rutclive_720p2.stream/playlist.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
    "id": 8213,
    "name": "RUV 2",
    "en_name": "RUV 2",
@@ -161760,9 +161515,9 @@
    "channel_code": 8244,
    "logo": "https://images.pluto.tv/channels/66276091cee0d900085fe053/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "SabrinaTheTeenageWitch.de@GB",
    "catchup_id": "",
@@ -161782,9 +161537,9 @@
    "channel_code": 8245,
    "logo": "https://images.pluto.tv/channels/6512ecf63a0d700008db506a/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "SabrinatheTeenageWitch.se@SE",
    "catchup_id": "",
@@ -161804,9 +161559,9 @@
    "channel_code": 8246,
    "logo": "https://images.pluto.tv/channels/6512ecf63a0d700008db506a/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "SabrinatheTeenageWitch.se@DK",
    "catchup_id": "",
@@ -161826,9 +161581,9 @@
    "channel_code": 8247,
    "logo": "https://images.pluto.tv/channels/6512ecf63a0d700008db506a/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "SabrinatheTeenageWitch.se@NO",
    "catchup_id": "",
@@ -161848,9 +161603,9 @@
    "channel_code": 8248,
    "logo": "https://images.pluto.tv/channels/622f40c901d4b70007ad7609/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "SabrinaTotalverhext.de@DACH",
    "catchup_id": "",
@@ -162498,28 +162253,6 @@
    "area": "",
    "urls": [
     "https://d11lnfpmek70tc.cloudfront.net/nlpo/clr-nlpo/bad78523/index.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 8281,
-   "name": "Salvacion TV",
-   "en_name": "Salvacion TV",
-   "pinyin": "",
-   "channel_code": 8281,
-   "logo": "https://i.imgur.com/6HOViG9.png",
-   "level": 0,
-   "category_bits": 512,
-   "category_ids": [
-    10
-   ],
-   "epg_id": "SalvacionTV.pr@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://stream.eleden.com/livesalvatv/ngrp:livesalvatv_all/playlist.m3u8"
    ],
    "trusted": 0
   },
@@ -165184,6 +164917,28 @@
    "area": "",
    "urls": [
     "https://h056.video-stream-hosting.de/easycast7-live/_definst_/mp4:livestreamhd20/playlist.m3u8?ref="
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 8412,
+   "name": "Selaparang TV",
+   "en_name": "Selaparang TV",
+   "pinyin": "",
+   "channel_code": 8412,
+   "logo": "https://upload.wikimedia.org/wikipedia/id/c/ce/Logo_Selaparang_TV.png",
+   "level": 0,
+   "category_bits": 131072,
+   "category_ids": [
+    18
+   ],
+   "epg_id": "SelaparangTV.id@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://selaparangtv.siar.us/live/selaparangtv.m3u8"
    ],
    "trusted": 0
   },
@@ -168196,9 +167951,9 @@
    "channel_code": 8568,
    "logo": "https://dtil.tmsimg.com/assets/s143791_ld_h9_aa.png?lock=720x540",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "SirippoliTV.in@SD",
    "catchup_id": "",
@@ -168284,9 +168039,9 @@
    "channel_code": 8572,
    "logo": "https://images.pluto.tv/channels/633354b63df9700007f6a1b7/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "SitcomLegends.us@SD",
    "catchup_id": "",
@@ -168504,9 +168259,9 @@
    "channel_code": 8582,
    "logo": "https://images.pluto.tv/channels/67882c1c7b11714b795c2008/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "SketchyAF.us@SD",
    "catchup_id": "",
@@ -168802,6 +168557,28 @@
    "area": "",
    "urls": [
     "https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 8597,
+   "name": "Sky News Urdu",
+   "en_name": "Sky News Urdu",
+   "pinyin": "",
+   "channel_code": 8597,
+   "logo": "https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/sky-news-urdu-pk.png",
+   "level": 0,
+   "category_bits": 256,
+   "category_ids": [
+    9
+   ],
+   "epg_id": "SkyNewsUrdu.pk@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://lbgo.bozztv.com/ssh101/ssh101/skynews/playlist.m3u8"
    ],
    "trusted": 0
   },
@@ -169430,10 +169207,10 @@
    "channel_code": 8627,
    "logo": "https://i.imgur.com/aASNpKq.png",
    "level": 0,
-   "category_bits": 32772,
+   "category_bits": 16388,
    "category_ids": [
     3,
-    16
+    15
    ],
    "epg_id": "Smotrim100Klassika.ru@SD",
    "catchup_id": "",
@@ -169585,9 +169362,9 @@
    "channel_code": 8634,
    "logo": "https://provider-static.plex.tv/epg/cms/production/712dae9e-9111-4bbc-8ea4-242e891ab5b3/snl-vault-fclogo-72-dpi-1500-x-1000-3-2-channel-logo-dark-plex-1.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "SNLVault.us@SD",
    "catchup_id": "",
@@ -169795,28 +169572,6 @@
    "area": "",
    "urls": [
     "https://cdn.streamhispanatv.net:3409/live/soltvlive.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 8647,
-   "name": "Solar Television",
-   "en_name": "Solar Television",
-   "pinyin": "",
-   "channel_code": 8647,
-   "logo": "https://i.imgur.com/ufnWpUf.png",
-   "level": 0,
-   "category_bits": 131072,
-   "category_ids": [
-    18
-   ],
-   "epg_id": "SolarTelevision.pe@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://live-evg11.tv360.bitel.com.pe/bitel/solartvSRT/playlist.m3u8"
    ],
    "trusted": 0
   },
@@ -171174,10 +170929,10 @@
    "channel_code": 8714,
    "logo": "https://images.pluto.tv/channels/628751bb7154a40007168843/colorLogoPNG_1748431640253.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthPark.de@ES",
    "catchup_id": "",
@@ -171197,10 +170952,10 @@
    "channel_code": 8715,
    "logo": "https://images.pluto.tv/channels/628751bb7154a40007168843/colorLogoPNG_1748431640253.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthPark.de@GB",
    "catchup_id": "",
@@ -171220,10 +170975,10 @@
    "channel_code": 8716,
    "logo": "https://images.pluto.tv/channels/628751bb7154a40007168843/colorLogoPNG_1748431640253.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthPark.de@IT",
    "catchup_id": "",
@@ -171243,10 +170998,10 @@
    "channel_code": 8717,
    "logo": "https://images.pluto.tv/channels/61c098df897b9d00070375c8/colorLogoPNG_1754471522651.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthPark.se@SE",
    "catchup_id": "",
@@ -171266,10 +171021,10 @@
    "channel_code": 8718,
    "logo": "https://images.pluto.tv/channels/61c098df897b9d00070375c8/colorLogoPNG_1754471522651.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthPark.se@DK",
    "catchup_id": "",
@@ -171289,10 +171044,10 @@
    "channel_code": 8719,
    "logo": "https://images.pluto.tv/channels/61c098df897b9d00070375c8/colorLogoPNG_1754471522651.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthPark.se@NO",
    "catchup_id": "",
@@ -171312,10 +171067,10 @@
    "channel_code": 8720,
    "logo": "https://images.pluto.tv/channels/62bdb1c5e25122000798ac79/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthPark.us@CA",
    "catchup_id": "",
@@ -171335,10 +171090,10 @@
    "channel_code": 8721,
    "logo": "https://images.pluto.tv/channels/660bff28516d260008479e23/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkArmageddon.se@SE",
    "catchup_id": "",
@@ -171358,10 +171113,10 @@
    "channel_code": 8722,
    "logo": "https://images.pluto.tv/channels/660bff28516d260008479e23/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkArmageddon.se@DK",
    "catchup_id": "",
@@ -171381,10 +171136,10 @@
    "channel_code": 8723,
    "logo": "https://images.pluto.tv/channels/660bff28516d260008479e23/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkArmageddon.se@NO",
    "catchup_id": "",
@@ -171404,10 +171159,10 @@
    "channel_code": 8724,
    "logo": "https://images.pluto.tv/channels/62bdb919d36cbd0007e6ab8a/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkEnFrancais.us@CA",
    "catchup_id": "",
@@ -171427,10 +171182,10 @@
    "channel_code": 8725,
    "logo": "https://images.pluto.tv/channels/664f132c8ea5560008ce4d86/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkRockinOut.se@SE",
    "catchup_id": "",
@@ -171450,10 +171205,10 @@
    "channel_code": 8726,
    "logo": "https://images.pluto.tv/channels/664f132c8ea5560008ce4d86/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkRockinOut.se@DK",
    "catchup_id": "",
@@ -171473,10 +171228,10 @@
    "channel_code": 8727,
    "logo": "https://images.pluto.tv/channels/664f132c8ea5560008ce4d86/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkRockinOut.se@NO",
    "catchup_id": "",
@@ -171496,10 +171251,10 @@
    "channel_code": 8728,
    "logo": "https://images.pluto.tv/channels/63d7a8e5a9957100086bfc23/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkVersionOriginal.de@ES",
    "catchup_id": "",
@@ -171519,10 +171274,10 @@
    "channel_code": 8729,
    "logo": "https://images.pluto.tv/channels/646b14a0e94c3800082a8d3a/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkButtersCollection.de@DACH",
    "catchup_id": "",
@@ -171542,10 +171297,10 @@
    "channel_code": 8730,
    "logo": "https://images.pluto.tv/channels/65d87a66ec9fda0008a5ac11/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkButtersCollection.se@SE",
    "catchup_id": "",
@@ -171565,10 +171320,10 @@
    "channel_code": 8731,
    "logo": "https://images.pluto.tv/channels/65d87a66ec9fda0008a5ac11/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkButtersCollection.se@DK",
    "catchup_id": "",
@@ -171588,10 +171343,10 @@
    "channel_code": 8732,
    "logo": "https://images.pluto.tv/channels/65d87a66ec9fda0008a5ac11/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkButtersCollection.se@NO",
    "catchup_id": "",
@@ -171611,10 +171366,10 @@
    "channel_code": 8733,
    "logo": "https://images.pluto.tv/channels/646b14747cb4b1000875724d/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkCartmanCollection.de@DACH",
    "catchup_id": "",
@@ -171634,10 +171389,10 @@
    "channel_code": 8734,
    "logo": "https://images.pluto.tv/channels/65d87a058145cb0008265c2e/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkCartmanCollection.se@SE",
    "catchup_id": "",
@@ -171657,10 +171412,10 @@
    "channel_code": 8735,
    "logo": "https://images.pluto.tv/channels/65d87a058145cb0008265c2e/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkCartmanCollection.se@DK",
    "catchup_id": "",
@@ -171680,10 +171435,10 @@
    "channel_code": 8736,
    "logo": "https://images.pluto.tv/channels/65d87a058145cb0008265c2e/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkCartmanCollection.se@NO",
    "catchup_id": "",
@@ -171703,10 +171458,10 @@
    "channel_code": 8737,
    "logo": "https://images.pluto.tv/channels/65df4934f7f0af0008c32545/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkCartmanCollection.us@CA",
    "catchup_id": "",
@@ -171726,10 +171481,10 @@
    "channel_code": 8738,
    "logo": "https://images.pluto.tv/channels/65df71008b24c80008f04281/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkColecaoCartman.us@BR",
    "catchup_id": "",
@@ -171749,10 +171504,10 @@
    "channel_code": 8739,
    "logo": "https://images.pluto.tv/channels/65df704366eec8000898e32f/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkColecaoKenny.us@BR",
    "catchup_id": "",
@@ -171772,10 +171527,10 @@
    "channel_code": 8740,
    "logo": "https://images.pluto.tv/channels/65df713dec9fda0008b7a81d/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkColecaoKyle.us@BR",
    "catchup_id": "",
@@ -171795,10 +171550,10 @@
    "channel_code": 8741,
    "logo": "https://images.pluto.tv/channels/65df70b0f7f0af0008c3b316/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkColecaoStan.us@BR",
    "catchup_id": "",
@@ -171818,10 +171573,10 @@
    "channel_code": 8742,
    "logo": "https://images.pluto.tv/channels/65df731cec9fda0008b7aa8d/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkColeccionCartman.us@LatAm",
    "catchup_id": "",
@@ -171841,10 +171596,10 @@
    "channel_code": 8743,
    "logo": "https://images.pluto.tv/channels/65df7272ec9fda0008b7a970/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkColeccionKenny.us@LatAm",
    "catchup_id": "",
@@ -171864,10 +171619,10 @@
    "channel_code": 8744,
    "logo": "https://images.pluto.tv/channels/65df73520d4561000817c29b/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkColeccionKyle.us@LatAm",
    "catchup_id": "",
@@ -171887,10 +171642,10 @@
    "channel_code": 8745,
    "logo": "https://images.pluto.tv/channels/65df72db18036500081a8292/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkColeccionStan.us@LatAm",
    "catchup_id": "",
@@ -171910,10 +171665,10 @@
    "channel_code": 8746,
    "logo": "https://images.pluto.tv/channels/664f0eaa8ce31100088036bd/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkIntotheStars.se@SE",
    "catchup_id": "",
@@ -171933,10 +171688,10 @@
    "channel_code": 8747,
    "logo": "https://images.pluto.tv/channels/664f0eaa8ce31100088036bd/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkIntotheStars.se@DK",
    "catchup_id": "",
@@ -171956,10 +171711,10 @@
    "channel_code": 8748,
    "logo": "https://images.pluto.tv/channels/664f0eaa8ce31100088036bd/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkIntotheStars.se@NO",
    "catchup_id": "",
@@ -171979,10 +171734,10 @@
    "channel_code": 8749,
    "logo": "https://images.pluto.tv/channels/646b1404ee6a2f00082b5d66/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkKennyCollection.de@DACH",
    "catchup_id": "",
@@ -172002,10 +171757,10 @@
    "channel_code": 8750,
    "logo": "https://images.pluto.tv/channels/65d879bd0d4561000805d190/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkKennyCollection.se@SE",
    "catchup_id": "",
@@ -172025,10 +171780,10 @@
    "channel_code": 8751,
    "logo": "https://images.pluto.tv/channels/65d879bd0d4561000805d190/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkKennyCollection.se@DK",
    "catchup_id": "",
@@ -172048,10 +171803,10 @@
    "channel_code": 8752,
    "logo": "https://images.pluto.tv/channels/65d879bd0d4561000805d190/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkKennyCollection.se@NO",
    "catchup_id": "",
@@ -172071,10 +171826,10 @@
    "channel_code": 8753,
    "logo": "https://images.pluto.tv/channels/65df47f428730900089f83ac/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkKennyCollection.us@CA",
    "catchup_id": "",
@@ -172094,10 +171849,10 @@
    "channel_code": 8754,
    "logo": "https://images.pluto.tv/channels/646b14d0e1979c0008915a09/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkKyleCollection.de@DACH",
    "catchup_id": "",
@@ -172117,10 +171872,10 @@
    "channel_code": 8755,
    "logo": "https://images.pluto.tv/channels/65d87a908145cb0008265c6d/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkKyleCollection.se@SE",
    "catchup_id": "",
@@ -172140,10 +171895,10 @@
    "channel_code": 8756,
    "logo": "https://images.pluto.tv/channels/65d87a908145cb0008265c6d/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkKyleCollection.se@DK",
    "catchup_id": "",
@@ -172163,10 +171918,10 @@
    "channel_code": 8757,
    "logo": "https://images.pluto.tv/channels/65d87a908145cb0008265c6d/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkKyleCollection.se@NO",
    "catchup_id": "",
@@ -172186,10 +171941,10 @@
    "channel_code": 8758,
    "logo": "https://images.pluto.tv/channels/65df49b30d45610008172c5b/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkKyleCollection.us@CA",
    "catchup_id": "",
@@ -172209,10 +171964,10 @@
    "channel_code": 8759,
    "logo": "https://images.pluto.tv/channels/646b150a15939400089e2702/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkOriginalVersion.de@DACH",
    "catchup_id": "",
@@ -172232,10 +171987,10 @@
    "channel_code": 8760,
    "logo": "https://images.pluto.tv/channels/646b1438e94c3800082a8cff/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkStanCollection.de@DACH",
    "catchup_id": "",
@@ -172255,10 +172010,10 @@
    "channel_code": 8761,
    "logo": "https://images.pluto.tv/channels/65d879e266eec8000887e91b/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkStanCollection.se@SE",
    "catchup_id": "",
@@ -172278,10 +172033,10 @@
    "channel_code": 8762,
    "logo": "https://images.pluto.tv/channels/65d879e266eec8000887e91b/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkStanCollection.se@DK",
    "catchup_id": "",
@@ -172301,10 +172056,10 @@
    "channel_code": 8763,
    "logo": "https://images.pluto.tv/channels/65d879e266eec8000887e91b/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkStanCollection.se@NO",
    "catchup_id": "",
@@ -172324,10 +172079,10 @@
    "channel_code": 8764,
    "logo": "https://images.pluto.tv/channels/65df48ba28730900089f8480/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkStanCollection.us@CA",
    "catchup_id": "",
@@ -172347,10 +172102,10 @@
    "channel_code": 8765,
    "logo": "https://images.pluto.tv/channels/663115d923e24f000843b49c/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 17408,
+   "category_bits": 33792,
    "category_ids": [
     11,
-    15
+    16
    ],
    "epg_id": "SouthParkWelcometoCanada.us@CA",
    "catchup_id": "",
@@ -173446,6 +173201,28 @@
    "trusted": 0
   },
   {
+   "id": 8817,
+   "name": "Sportitalia 24",
+   "en_name": "Sportitalia 24",
+   "pinyin": "",
+   "channel_code": 8817,
+   "logo": "https://i.imgur.com/RSwnoLn.png",
+   "level": 0,
+   "category_bits": 262144,
+   "category_ids": [
+    19
+   ],
+   "epg_id": "Sportitalia24.it@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:silive24.smil/playlist.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
    "id": 8818,
    "name": "Sportitalia",
    "en_name": "Sportitalia",
@@ -173464,6 +173241,28 @@
    "area": "",
    "urls": [
     "https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 8819,
+   "name": "Sportitalia Motori",
+   "en_name": "Sportitalia Motori",
+   "pinyin": "",
+   "channel_code": 8819,
+   "logo": "https://i.imgur.com/hu56Ya5.png",
+   "level": 0,
+   "category_bits": 262144,
+   "category_ids": [
+    19
+   ],
+   "epg_id": "SportitaliaMotori.it@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8"
    ],
    "trusted": 0
   },
@@ -174095,9 +173894,9 @@
    "channel_code": 8851,
    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Star_Comedy_2024.svg/960px-Star_Comedy_2024.svg.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "StarComedy.pt@SD",
    "catchup_id": "",
@@ -175359,9 +175158,9 @@
    "channel_code": 8916,
    "logo": "https://i.imgur.com/JpKvjZe.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "StarzComedy.us@East",
    "catchup_id": "",
@@ -179901,9 +179700,9 @@
    "channel_code": 9141,
    "logo": "https://images.pluto.tv/channels/6054a9f4bc8a5f000771504c/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "TakeshisCastle.de@DACH",
    "catchup_id": "",
@@ -181045,10 +180844,10 @@
    "channel_code": 9198,
    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/TCM_2021.svg/960px-TCM_2021.svg.png",
    "level": 0,
-   "category_bits": 32772,
+   "category_bits": 16388,
    "category_ids": [
     3,
-    16
+    15
    ],
    "epg_id": "TCM.us@East",
    "catchup_id": "",
@@ -181068,10 +180867,10 @@
    "channel_code": 9199,
    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/TCM_2021.svg/960px-TCM_2021.svg.png",
    "level": 0,
-   "category_bits": 32772,
+   "category_bits": 16388,
    "category_ids": [
     3,
-    16
+    15
    ],
    "epg_id": "TCM.us@West",
    "catchup_id": "",
@@ -181675,28 +181474,6 @@
    "area": "",
    "urls": [
     "https://cdn.pishow.tv/ott/live/239/master.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 9234,
-   "name": "Tele 1",
-   "en_name": "Tele 1",
-   "pinyin": "",
-   "channel_code": 9234,
-   "logo": "https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png",
-   "level": 0,
-   "category_bits": 131072,
-   "category_ids": [
-    18
-   ],
-   "epg_id": "Tele1.tr@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://tele1-live.ercdn.net/tele1/tele1.m3u8"
    ],
    "trusted": 0
   },
@@ -184392,9 +184169,9 @@
    "channel_code": 9390,
    "logo": "https://i.imgur.com/WZeMZNy.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "TeleNostalgia.co@SD",
    "catchup_id": "",
@@ -185423,6 +185200,28 @@
    "trusted": 0
   },
   {
+   "id": 9442,
+   "name": "Televen",
+   "en_name": "Televen",
+   "pinyin": "",
+   "channel_code": 9442,
+   "logo": "https://i.imgur.com/cxvkUvK.png",
+   "level": 0,
+   "category_bits": 8,
+   "category_ids": [
+    4
+   ],
+   "epg_id": "Televen.ve@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "http://38.134.250.110:8000/play/a02i/index.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
    "id": 9443,
    "name": "TeleVenezia",
    "en_name": "TeleVenezia",
@@ -185776,24 +185575,24 @@
    "trusted": 0
   },
   {
-   "id": 9461,
-   "name": "Television Olanchana",
-   "en_name": "Television Olanchana",
+   "id": 9460,
+   "name": "Television Metropolis 19.2",
+   "en_name": "Television Metropolis 19.2",
    "pinyin": "",
-   "channel_code": 9461,
-   "logo": "https://i.imgur.com/8LnLEQz.png",
+   "channel_code": 9460,
+   "logo": "https://i.imgur.com/QaocW5x.png",
    "level": 0,
    "category_bits": 8,
    "category_ids": [
     4
    ],
-   "epg_id": "TelevisionOlanchana.hn@SD",
+   "epg_id": "TelevisionMetropolis192.hn@SD",
    "catchup_id": "",
    "timeshift_id": "",
    "region_id": 0,
    "area": "",
    "urls": [
-    "https://viewhn.com/canal30/live/playlist.m3u8"
+    "https://5e85d90130e77.streamlock.net/6014/6014/playlist.m3u8"
    ],
    "trusted": 0
   },
@@ -187213,9 +187012,9 @@
    "channel_code": 9532,
    "logo": "https://images.pluto.tv/channels/62e9145ec07f2a00070e68dc/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "TheAndyGriffithShow.us@SD",
    "catchup_id": "",
@@ -187235,9 +187034,9 @@
    "channel_code": 9533,
    "logo": "https://images.pluto.tv/channels/62e9145ec07f2a00070e68dc/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "TheAndyGriffithShow.us@CA",
    "catchup_id": "",
@@ -187257,9 +187056,9 @@
    "channel_code": 9534,
    "logo": "",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "TheArchive.us@SD",
    "catchup_id": "",
@@ -187368,9 +187167,9 @@
    "channel_code": 9541,
    "logo": "https://i.imgur.com/1a03FlX.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "TheCarolBurnettShow.us@SD",
    "catchup_id": "",
@@ -187434,9 +187233,9 @@
    "channel_code": 9544,
    "logo": "https://yt3.googleusercontent.com/aQ_vvywmcBt4X1SmeEMgT3uf7bb1Z__I9XVwabeg7RrSSEuIhswMlvwhyi0Wl4PlLHwXufLgOg=s900-c-k-c0x00ffffff-no-rj",
    "level": 0,
-   "category_bits": 81920,
+   "category_bits": 98304,
    "category_ids": [
-    15,
+    16,
     17
    ],
    "epg_id": "TheChatShowChannel.uk@SD",
@@ -187479,9 +187278,9 @@
    "channel_code": 9546,
    "logo": "https://provider-static.plex.tv/epg/cms/production/3acd803e-a5e3-430c-a34e-508123d2bd95/TheConners_1500x1000_Logo_Dark.png",
    "level": 0,
-   "category_bits": 81920,
+   "category_bits": 98304,
    "category_ids": [
-    15,
+    16,
     17
    ],
    "epg_id": "TheConners.us@SD",
@@ -187987,9 +187786,9 @@
    "channel_code": 9571,
    "logo": "https://i.imgur.com/iyYLuJj.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "TheLoop.us@SD",
@@ -188010,9 +187809,9 @@
    "channel_code": 9572,
    "logo": "https://images.pluto.tv/channels/62e91563ce7ce300076f917e/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "TheLoveBoat.us@SD",
    "catchup_id": "",
@@ -188982,9 +188781,9 @@
    "channel_code": 9617,
    "logo": "https://images.pluto.tv/channels/6964bc3806d76f50db3e315e/colorLogoPNG_1768230352673.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "TheWildWildWest.se@SE",
@@ -189005,9 +188804,9 @@
    "channel_code": 9618,
    "logo": "https://images.pluto.tv/channels/6964bc3806d76f50db3e315e/colorLogoPNG_1768230352673.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "TheWildWildWest.se@DK",
@@ -189028,9 +188827,9 @@
    "channel_code": 9619,
    "logo": "https://images.pluto.tv/channels/6964bc3806d76f50db3e315e/colorLogoPNG_1768230352673.png",
    "level": 0,
-   "category_bits": 98304,
+   "category_bits": 81920,
    "category_ids": [
-    16,
+    15,
     17
    ],
    "epg_id": "TheWildWildWest.se@NO",
@@ -189206,9 +189005,9 @@
    "channel_code": 9628,
    "logo": "https://i.imgur.com/AKa1X9d.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "ThikrayatTV.sa@SD",
    "catchup_id": "",
@@ -190191,28 +189990,6 @@
    "trusted": 0
   },
   {
-   "id": 9680,
-   "name": "Tlaxcala TV",
-   "en_name": "Tlaxcala TV",
-   "pinyin": "",
-   "channel_code": 9680,
-   "logo": "https://i.imgur.com/5vaEhfy.png",
-   "level": 0,
-   "category_bits": 131072,
-   "category_ids": [
-    18
-   ],
-   "epg_id": "TlaxcalaTV.mx@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://vid26.mega00.com:5443/live/streams/qNmc7nulmq8zPYZE1582752735050.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
    "id": 9681,
    "name": "TLC",
    "en_name": "TLC",
@@ -190660,10 +190437,10 @@
    "channel_code": 9701,
    "logo": "https://www.maxx-xs.nl/images/assets/3/c/3c123778ef66464786705dc4138303ec/COV/cover_l_01.png",
    "level": 0,
-   "category_bits": 32800,
+   "category_bits": 16416,
    "category_ids": [
     6,
-    16
+    15
    ],
    "epg_id": "TMF.nl@HDFAST",
    "catchup_id": "",
@@ -192206,9 +191983,9 @@
    "channel_code": 9779,
    "logo": "https://images.pluto.tv/channels/65e977042873090008b48be9/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "Tosh0.se@SE",
    "catchup_id": "",
@@ -192228,9 +192005,9 @@
    "channel_code": 9780,
    "logo": "https://images.pluto.tv/channels/65e977042873090008b48be9/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "Tosh0.se@DK",
    "catchup_id": "",
@@ -192250,9 +192027,9 @@
    "channel_code": 9781,
    "logo": "https://images.pluto.tv/channels/65e977042873090008b48be9/colorLogoPNG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "Tosh0.se@NO",
    "catchup_id": "",
@@ -194405,28 +194182,6 @@
    "trusted": 0
   },
   {
-   "id": 9885,
-   "name": "TRT",
-   "en_name": "TRT",
-   "pinyin": "",
-   "channel_code": 9885,
-   "logo": "https://upload.wikimedia.org/wikipedia/commons/6/67/Canal_trt_logo.PNG",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "TRT.ve@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://vcp12.myplaytv.com/trt/trt/playlist.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
    "id": 9886,
    "name": "TRT Arabi",
    "en_name": "TRT Arabi",
@@ -195933,9 +195688,9 @@
    "channel_code": 9960,
    "logo": "https://i.imgur.com/B02hbcV.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "TV2Comedy.hu@SD",
    "catchup_id": "",
@@ -196672,28 +196427,6 @@
    "area": "",
    "urls": [
     "https://vs.sednastream.com:1936/tv7/tv7/playlist.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 9999,
-   "name": "TV7 Benevento",
-   "en_name": "TV7 Benevento",
-   "pinyin": "",
-   "channel_code": 9999,
-   "logo": "https://i.imgur.com/VBhVaKB.png",
-   "level": 0,
-   "category_bits": 131072,
-   "category_ids": [
-    18
-   ],
-   "epg_id": "TV7Benevento.it@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "http://streaming.senecadot.com/live/flv:tv7.sdp/playlist.m3u8"
    ],
    "trusted": 0
   },
@@ -200006,9 +199739,9 @@
    "channel_code": 10179,
    "logo": "https://i.imgur.com/phHHs7l.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "TVLandSitcoms.us@SD",
    "catchup_id": "",
@@ -200501,28 +200234,6 @@
    "area": "",
    "urls": [
     "https://w1.manasat.com/tvmana-leste/smil:tvmana-leste.smil/playlist.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 10205,
-   "name": "TV MAR",
-   "en_name": "TV MAR",
-   "pinyin": "",
-   "channel_code": 10205,
-   "logo": "https://i.imgur.com/VXvbNjT.png",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "TVMAR.pe@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://live-evg11.tv360.bitel.com.pe/bitel/tvmarSRT/playlist.m3u8"
    ],
    "trusted": 0
   },
@@ -204302,28 +204013,6 @@
    "trusted": 0
   },
   {
-   "id": 10402,
-   "name": "TVenLinea",
-   "en_name": "TVenLinea",
-   "pinyin": "",
-   "channel_code": 10402,
-   "logo": "https://i.imgur.com/txV8lw0.png",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "TVenLinea.pe@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://srt.tvdatta.com/tvenlinea/index.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
    "id": 10403,
    "name": "TVes",
    "en_name": "TVes",
@@ -204860,9 +204549,9 @@
    "channel_code": 10431,
    "logo": "https://i.imgur.com/l5PBcKN.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "TVMaticComedy.br@SD",
    "catchup_id": "",
@@ -205058,9 +204747,9 @@
    "channel_code": 10440,
    "logo": "https://i.imgur.com/9LEiQPJ.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "TVN3.cl@SD",
    "catchup_id": "",
@@ -205432,9 +205121,9 @@
    "channel_code": 10462,
    "logo": "https://smotret.tv/images/tvoe-tv-yumor.webp",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "TvoyeTVYumor.ru@SD",
    "catchup_id": "",
@@ -207055,6 +206744,28 @@
    "trusted": 0
   },
   {
+   "id": 10542,
+   "name": "TVS",
+   "en_name": "TVS",
+   "pinyin": "",
+   "channel_code": 10542,
+   "logo": "https://i.imgur.com/J8ztiAN.png",
+   "level": 0,
+   "category_bits": 8,
+   "category_ids": [
+    4
+   ],
+   "epg_id": "TVS.ve@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://vcp10.myplaytv.com/tvs/tvs/playlist.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
    "id": 10543,
    "name": "TVS Bowling Network",
    "en_name": "TVS Bowling Network",
@@ -207106,9 +206817,9 @@
    "channel_code": 10545,
    "logo": "https://i.imgur.com/yyz1S2W.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "TVSCipherNetwork.us@SD",
    "catchup_id": "",
@@ -207128,10 +206839,10 @@
    "channel_code": 10546,
    "logo": "https://i.imgur.com/st1xMsw.png",
    "level": 0,
-   "category_bits": 32772,
+   "category_bits": 16388,
    "category_ids": [
     3,
-    16
+    15
    ],
    "epg_id": "TVSClassicMovies.us@SD",
    "catchup_id": "",
@@ -207173,9 +206884,9 @@
    "channel_code": 10548,
    "logo": "https://i.imgur.com/rXORbti.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "TVSComedyNetwork.us@SD",
    "catchup_id": "",
@@ -207305,9 +207016,9 @@
    "channel_code": 10555,
    "logo": "https://i.imgur.com/QtQGyMS.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "TVSHollywoodHistory.us@SD",
    "catchup_id": "",
@@ -207316,6 +207027,28 @@
    "area": "",
    "urls": [
     "https://rpn.bozztv.com/gusa/gusa-tvshollywoohistory/index.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 10556,
+   "name": "TVS Mainstreet",
+   "en_name": "TVS Mainstreet",
+   "pinyin": "",
+   "channel_code": 10556,
+   "logo": "https://i.imgur.com/N9nQpnP.png",
+   "level": 0,
+   "category_bits": 16384,
+   "category_ids": [
+    15
+   ],
+   "epg_id": "TVSMainstreet.us@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://rpn.bozztv.com/gusa/gusa-tvsmainst/index.m3u8"
    ],
    "trusted": 0
   },
@@ -207349,9 +207082,9 @@
    "channel_code": 10558,
    "logo": "https://i.imgur.com/q72FCCQ.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "TVSNostalgia.us@SD",
    "catchup_id": "",
@@ -207371,10 +207104,10 @@
    "channel_code": 10559,
    "logo": "https://i.imgur.com/w4fxiKi.png",
    "level": 0,
-   "category_bits": 32772,
+   "category_bits": 16388,
    "category_ids": [
     3,
-    16
+    15
    ],
    "epg_id": "TVSNostalgiaMovies.us@SD",
    "catchup_id": "",
@@ -207394,9 +207127,9 @@
    "channel_code": 10560,
    "logo": "https://i.imgur.com/oGE1MOP.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "TVSPetParadeNetwork.us@SD",
    "catchup_id": "",
@@ -207438,9 +207171,9 @@
    "channel_code": 10562,
    "logo": "https://i.imgur.com/5ljQwx2.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "TVSQuizShowNetwork.us@SD",
    "catchup_id": "",
@@ -207460,9 +207193,9 @@
    "channel_code": 10563,
    "logo": "https://i.imgur.com/jdnHci0.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "TVSRetro.gt@SD",
    "catchup_id": "",
@@ -207548,9 +207281,9 @@
    "channel_code": 10567,
    "logo": "https://i.imgur.com/WsaVAhx.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "TVSTalkNetwork.us@SD",
    "catchup_id": "",
@@ -207570,9 +207303,9 @@
    "channel_code": 10568,
    "logo": "https://i.imgur.com/JlFwnDD.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "TVSTallyHo.us@SD",
    "catchup_id": "",
@@ -207592,9 +207325,9 @@
    "channel_code": 10569,
    "logo": "https://i.imgur.com/3GTIs4j.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "TVSTavern.us@SD",
    "catchup_id": "",
@@ -207603,6 +207336,28 @@
    "area": "",
    "urls": [
     "https://rpn.bozztv.com/gusa/gusa-tavern/index.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 10570,
+   "name": "TVS Television Network",
+   "en_name": "TVS Television Network",
+   "pinyin": "",
+   "channel_code": 10570,
+   "logo": "",
+   "level": 0,
+   "category_bits": 8,
+   "category_ids": [
+    4
+   ],
+   "epg_id": "TVSTelevisionNetwork.us@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://rpn.bozztv.com/gusa/gusa-tvstn/index.m3u8"
    ],
    "trusted": 0
   },
@@ -207680,9 +207435,9 @@
    "channel_code": 10574,
    "logo": "https://i.imgur.com/dwr98qb.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "TVSWesternMovie.us@SD",
    "catchup_id": "",
@@ -209840,6 +209595,28 @@
    "trusted": 0
   },
   {
+   "id": 10679,
+   "name": "Univalle Television",
+   "en_name": "Univalle Television",
+   "pinyin": "",
+   "channel_code": 10679,
+   "logo": "https://i.imgur.com/qgrWDIs.png",
+   "level": 0,
+   "category_bits": 131072,
+   "category_ids": [
+    18
+   ],
+   "epg_id": "UnivalleTelevision.bo@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://master.tucableip.com/univalletv/playlist.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
    "id": 10680,
    "name": "Univer TV",
    "en_name": "Univer TV",
@@ -209913,10 +209690,10 @@
    "channel_code": 10683,
    "logo": "https://i.imgur.com/avBL8pQ.png",
    "level": 0,
-   "category_bits": 81924,
+   "category_bits": 98308,
    "category_ids": [
     3,
-    15,
+    16,
     17
    ],
    "epg_id": "UniversalComedy.us@SD",
@@ -210509,10 +210286,10 @@
    "channel_code": 10714,
    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/USA_Network_logo_%282016%29.svg/960px-USA_Network_logo_%282016%29.svg.png",
    "level": 0,
-   "category_bits": 344068,
+   "category_bits": 360452,
    "category_ids": [
     3,
-    15,
+    16,
     17,
     19
    ],
@@ -211480,9 +211257,9 @@
    "channel_code": 10763,
    "logo": "https://i.imgur.com/0bCLNUG.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "Vayasemanita.us@Spain",
    "catchup_id": "",
@@ -211899,10 +211676,10 @@
    "channel_code": 10782,
    "logo": "https://interra-cdn-europe1.b-cdn.net/zolo.png",
    "level": 0,
-   "category_bits": 32772,
+   "category_bits": 16388,
    "category_ids": [
     3,
-    16
+    15
    ],
    "epg_id": "VelvetGoldenCollection.ru@HD",
    "catchup_id": "",
@@ -211966,10 +211743,10 @@
    "channel_code": 10785,
    "logo": "https://antiabuse-container.b-cdn.net/serialyhity.png",
    "level": 0,
-   "category_bits": 82048,
+   "category_bits": 98432,
    "category_ids": [
     8,
-    15,
+    16,
     17
    ],
    "epg_id": "VelvetSeriesHits.ru@HD",
@@ -211990,10 +211767,10 @@
    "channel_code": 10786,
    "logo": "https://interra-cdn-europe1.b-cdn.net/soviet.png",
    "level": 0,
-   "category_bits": 32772,
+   "category_bits": 16388,
    "category_ids": [
     3,
-    16
+    15
    ],
    "epg_id": "VelvetSovetskoeKino.ru@HD",
    "catchup_id": "",
@@ -212036,10 +211813,10 @@
    "channel_code": 10788,
    "logo": "https://antiabuse-container.b-cdn.net/mirseriallogo.png",
    "level": 0,
-   "category_bits": 82048,
+   "category_bits": 98432,
    "category_ids": [
     8,
-    15,
+    16,
     17
    ],
    "epg_id": "VelvetWorldSeries.ru@HD",
@@ -212919,10 +212696,10 @@
    "channel_code": 10850,
    "logo": "https://i.imgur.com/qVYt8kP.png",
    "level": 0,
-   "category_bits": 16388,
+   "category_bits": 32772,
    "category_ids": [
     3,
-    15
+    16
    ],
    "epg_id": "ViasatKinoComedy.ua@SD",
    "catchup_id": "",
@@ -213471,9 +213248,9 @@
    "channel_code": 10878,
    "logo": "https://i.imgur.com/YoNOFu7.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "vijuPlusComedy.ru@HD",
    "catchup_id": "",
@@ -213910,28 +213687,6 @@
    "trusted": 0
   },
   {
-   "id": 10900,
-   "name": "Vision 3000",
-   "en_name": "Vision 3000",
-   "pinyin": "",
-   "channel_code": 10900,
-   "logo": "https://i.imgur.com/mogsnzp.png",
-   "level": 0,
-   "category_bits": 8,
-   "category_ids": [
-    4
-   ],
-   "epg_id": "Vision3000.do@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://ss2.tvrdomi.com:1936/vision3000/vision3000/playlist.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
    "id": 10901,
    "name": "Vision",
    "en_name": "Vision",
@@ -214302,28 +214057,6 @@
    "area": "",
    "urls": [
     "http://stream.mcquack.net/43/index.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
-   "id": 10921,
-   "name": "VIVA Russia",
-   "en_name": "VIVA Russia",
-   "pinyin": "",
-   "channel_code": 10921,
-   "logo": "https://i.imgur.com/OFhQQCD.png",
-   "level": 0,
-   "category_bits": 32,
-   "category_ids": [
-    6
-   ],
-   "epg_id": "VIVARussia.ru@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "https://live20.bozztv.com/akamaissh101/ssh101/vivarussia/playlist.m3u8"
    ],
    "trusted": 0
   },
@@ -214918,6 +214651,28 @@
    "area": "",
    "urls": [
     "http://ott.streann.com:8080/loadbalancer/services/public/channels/59e60c4997381ef50d15c041/playlist.m3u8"
+   ],
+   "trusted": 0
+  },
+  {
+   "id": 10954,
+   "name": "Vos y TV",
+   "en_name": "Vos y TV",
+   "pinyin": "",
+   "channel_code": 10954,
+   "logo": "https://i.imgur.com/294FDCB.png",
+   "level": 0,
+   "category_bits": 32,
+   "category_ids": [
+    6
+   ],
+   "epg_id": "VosyTV.ec@SD",
+   "catchup_id": "",
+   "timeshift_id": "",
+   "region_id": 0,
+   "area": "",
+   "urls": [
+    "https://cloud37.ecuatel.com/vostv/live/manifest.m3u8"
    ],
    "trusted": 0
   },
@@ -216008,9 +215763,9 @@
    "channel_code": 11015,
    "logo": "https://i.imgur.com/vaSXaFp.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "WantedDeadorAlive.us@SD",
    "catchup_id": "",
@@ -217308,9 +217063,9 @@
    "channel_code": 11074,
    "logo": "https://i.imgur.com/nNy9oTx.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "WesternTV.us@SD",
    "catchup_id": "",
@@ -217330,9 +217085,9 @@
    "channel_code": 11075,
    "logo": "",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "Westerns4U.us@SD",
    "catchup_id": "",
@@ -219508,28 +219263,6 @@
    "trusted": 0
   },
   {
-   "id": 11183,
-   "name": "XperTV",
-   "en_name": "XperTV",
-   "pinyin": "",
-   "channel_code": 11183,
-   "logo": "https://i.imgur.com/0Aftiln.png",
-   "level": 0,
-   "category_bits": 64,
-   "category_ids": [
-    7
-   ],
-   "epg_id": "XperTV.cr@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "",
-   "urls": [
-    "http://45.163.139.42:8000/play/a02x/index.m3u8"
-   ],
-   "trusted": 0
-  },
-  {
    "id": 11184,
    "name": "Xplore",
    "en_name": "Xplore",
@@ -219736,10 +219469,10 @@
    "channel_code": 11193,
    "logo": "https://i.imgur.com/j91M4Yf.png",
    "level": 0,
-   "category_bits": 32772,
+   "category_bits": 16388,
    "category_ids": [
     3,
-    16
+    15
    ],
    "epg_id": "XtremaCineClasico.ar@SD",
    "catchup_id": "",
@@ -221128,10 +220861,10 @@
    "channel_code": 11261,
    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/ZBCINEMA.png",
    "level": 0,
-   "category_bits": 32772,
+   "category_bits": 16388,
    "category_ids": [
     3,
-    16
+    15
    ],
    "epg_id": "ZBCinema.in@HD",
    "catchup_id": "",
@@ -221459,9 +221192,9 @@
    "channel_code": 11277,
    "logo": "https://i.imgur.com/QCRhS1n.png",
    "level": 0,
-   "category_bits": 32768,
+   "category_bits": 16384,
    "category_ids": [
-    16
+    15
    ],
    "epg_id": "ZeeCineClassic.in@SD",
    "catchup_id": "",
@@ -221547,9 +221280,9 @@
    "channel_code": 11281,
    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN2100002GD_20260325T012327SQUARE.png",
    "level": 0,
-   "category_bits": 16384,
+   "category_bits": 32768,
    "category_ids": [
-    15
+    16
    ],
    "epg_id": "ZeeComedyNation.in@HD",
    "catchup_id": "",
@@ -222319,10 +222052,10 @@
    "channel_code": 11318,
    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/zillarbarta.png",
    "level": 0,
-   "category_bits": 33024,
+   "category_bits": 16640,
    "category_ids": [
     9,
-    16
+    15
    ],
    "epg_id": "ZillarBartaNews.in@HD",
    "catchup_id": "",
@@ -222997,23 +222730,22 @@
   },
   {
    "id": 11353,
-   "name": "CCTV-1 综合",
-   "en_name": "CCTV-1",
+   "name": "CCTV1",
+   "en_name": "CCTV1",
    "pinyin": "",
    "channel_code": 11353,
-   "logo": "https://live.fanmingming.cn/tv/CCTV1.png",
+   "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV1.png",
    "level": 0,
    "category_bits": 1,
    "category_ids": [
     1
    ],
-   "epg_id": "CCTV1.cn@SD",
+   "epg_id": "",
    "catchup_id": "",
    "timeshift_id": "",
    "region_id": 0,
    "area": "中国",
    "urls": [
-    "http://74.91.26.218:82/live/cctv1.hd.m3u8",
     "http://101.66.198.18:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0",
     "http://74.91.26.218:82/live/cctv1hd.m3u8",
     "http://222.169.85.8:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0"
@@ -223022,46 +222754,44 @@
   },
   {
    "id": 11354,
-   "name": "CCTV-10 科教",
-   "en_name": "CCTV-10",
+   "name": "CCTV-10 (720p)",
+   "en_name": "CCTV-10 (720p)",
    "pinyin": "",
    "channel_code": 11354,
-   "logo": "https://live.fanmingming.cn/tv/CCTV10.png",
+   "logo": "",
    "level": 0,
    "category_bits": 1,
    "category_ids": [
     1
    ],
-   "epg_id": "CCTV10.cn@SD",
+   "epg_id": "",
    "catchup_id": "",
    "timeshift_id": "",
    "region_id": 0,
    "area": "中国",
    "urls": [
-    "http://74.91.26.218:82/live/cctv10.hd.m3u8",
     "http://74.91.26.218:82/live/cctv10hd.m3u8"
    ],
    "trusted": 1
   },
   {
    "id": 11355,
-   "name": "CCTV-11 戏曲",
-   "en_name": "CCTV-11",
+   "name": "CCTV-11 (720p)",
+   "en_name": "CCTV-11 (720p)",
    "pinyin": "",
    "channel_code": 11355,
-   "logo": "https://live.fanmingming.cn/tv/CCTV11.png",
+   "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV11.png",
    "level": 0,
    "category_bits": 1,
    "category_ids": [
     1
    ],
-   "epg_id": "CCTV11.cn@SD",
+   "epg_id": "",
    "catchup_id": "",
    "timeshift_id": "",
    "region_id": 0,
    "area": "中国",
    "urls": [
-    "http://74.91.26.218:82/live/cctv11.hd.m3u8",
     "http://74.91.26.218:82/live/cctv11hd.m3u8",
     "http://38.75.136.137:98/gslb/dsdqbv/cctv11hd.m3u8?auth=test20251009",
     "http://101.66.194.176:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=0&authid=0",
@@ -223071,46 +222801,44 @@
   },
   {
    "id": 11356,
-   "name": "CCTV-12 社会与法",
-   "en_name": "CCTV-12",
+   "name": "CCTV-12 (720p)",
+   "en_name": "CCTV-12 (720p)",
    "pinyin": "",
    "channel_code": 11356,
-   "logo": "https://live.fanmingming.cn/tv/CCTV12.png",
+   "logo": "",
    "level": 0,
    "category_bits": 1,
    "category_ids": [
     1
    ],
-   "epg_id": "CCTV12.cn@SD",
+   "epg_id": "",
    "catchup_id": "",
    "timeshift_id": "",
    "region_id": 0,
    "area": "中国",
    "urls": [
-    "http://74.91.26.218:82/live/cctv12.hd.m3u8",
     "http://74.91.26.218:82/live/cctv12hd.m3u8"
    ],
    "trusted": 1
   },
   {
    "id": 11357,
-   "name": "CCTV-13 新闻",
+   "name": "CCTV-13",
    "en_name": "CCTV-13",
    "pinyin": "",
    "channel_code": 11357,
-   "logo": "https://live.fanmingming.cn/tv/CCTV13.png",
+   "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV13.png",
    "level": 0,
    "category_bits": 1,
    "category_ids": [
     1
    ],
-   "epg_id": "CCTV13.cn@SD",
+   "epg_id": "",
    "catchup_id": "",
    "timeshift_id": "",
    "region_id": 0,
    "area": "中国",
    "urls": [
-    "http://74.91.26.218:82/live/cctv13.hd.m3u8",
     "https://event.pull.hebtv.com/jishi/cp1.m3u8",
     "http://74.91.26.218:82/live/cctv13hd.m3u8"
    ],
@@ -223118,23 +222846,22 @@
   },
   {
    "id": 11358,
-   "name": "CCTV-14 少儿",
+   "name": "CCTV-14",
    "en_name": "CCTV-14",
    "pinyin": "",
    "channel_code": 11358,
-   "logo": "https://live.fanmingming.cn/tv/CCTV14.png",
+   "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV14.png",
    "level": 0,
    "category_bits": 1,
    "category_ids": [
     1
    ],
-   "epg_id": "CCTV14.cn@SD",
+   "epg_id": "",
    "catchup_id": "",
    "timeshift_id": "",
    "region_id": 0,
    "area": "中国",
    "urls": [
-    "http://74.91.26.218:82/live/cctv14.hd.m3u8",
     "https://event.pull.hebtv.com/jishi/cp2.m3u8",
     "http://74.91.26.218:82/live/cctv14hd.m3u8"
    ],
@@ -223142,23 +222869,22 @@
   },
   {
    "id": 11359,
-   "name": "CCTV-15 音乐",
-   "en_name": "CCTV-15",
+   "name": "CCTV-15 (720p)",
+   "en_name": "CCTV-15 (720p)",
    "pinyin": "",
    "channel_code": 11359,
-   "logo": "https://live.fanmingming.cn/tv/CCTV15.png",
+   "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV15.png",
    "level": 0,
    "category_bits": 1,
    "category_ids": [
     1
    ],
-   "epg_id": "CCTV15.cn@SD",
+   "epg_id": "",
    "catchup_id": "",
    "timeshift_id": "",
    "region_id": 0,
    "area": "中国",
    "urls": [
-    "http://74.91.26.218:82/live/cctv15.hd.m3u8",
     "http://74.91.26.218:82/live/cctv15hd.m3u8",
     "http://38.75.136.137:98/gslb/dsdqbv/cctv15hd.m3u8?auth=test20251009",
     "http://101.66.194.176:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=0&authid=0",
@@ -223168,69 +222894,66 @@
   },
   {
    "id": 11360,
-   "name": "CCTV-16 奥林匹克",
+   "name": "CCTV-16",
    "en_name": "CCTV-16",
    "pinyin": "",
    "channel_code": 11360,
-   "logo": "https://live.fanmingming.cn/tv/CCTV16.png",
+   "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV16.png",
    "level": 0,
    "category_bits": 1,
    "category_ids": [
     1
    ],
-   "epg_id": "CCTV16.cn@SD",
+   "epg_id": "",
    "catchup_id": "",
    "timeshift_id": "",
    "region_id": 0,
    "area": "中国",
    "urls": [
-    "http://74.91.26.218:82/live/cctv16.hd.m3u8",
     "http://207.56.13.146:81/cdnlive/cctv16.m3u8"
    ],
    "trusted": 1
   },
   {
    "id": 11361,
-   "name": "CCTV-17 农业农村",
-   "en_name": "CCTV-17",
+   "name": "CCTV-17 (1080p)",
+   "en_name": "CCTV-17 (1080p)",
    "pinyin": "",
    "channel_code": 11361,
-   "logo": "https://live.fanmingming.cn/tv/CCTV17.png",
+   "logo": "",
    "level": 0,
    "category_bits": 1,
    "category_ids": [
     1
    ],
-   "epg_id": "CCTV17.cn@SD",
+   "epg_id": "",
    "catchup_id": "",
    "timeshift_id": "",
    "region_id": 0,
    "area": "中国",
    "urls": [
-    "http://74.91.26.218:82/live/cctv17.hd.m3u8",
     "http://74.91.26.218:82/live/cctv17hd.m3u8"
    ],
    "trusted": 1
   },
   {
    "id": 11362,
-   "name": "CCTV-2 财经",
-   "en_name": "CCTV-2",
+   "name": "CCTV2",
+   "en_name": "CCTV2",
    "pinyin": "",
    "channel_code": 11362,
-   "logo": "https://live.fanmingming.cn/tv/CCTV2.png",
+   "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV2.png",
    "level": 0,
    "category_bits": 1,
    "category_ids": [
     1
    ],
-   "epg_id": "CCTV2.cn@SD",
+   "epg_id": "",
    "catchup_id": "",
    "timeshift_id": "",
    "region_id": 0,
    "area": "中国",
    "urls": [
-    "http://74.91.26.218:82/live/cctv2.hd.m3u8",
     "http://101.66.194.176:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=0&authid=0",
     "http://74.91.26.218:82/live/cctv2hd.m3u8"
    ],
@@ -223238,54 +222961,31 @@
   },
   {
    "id": 11363,
-   "name": "CCTV-3 综艺",
-   "en_name": "CCTV-3",
+   "name": "CCTV-3 (720p)",
+   "en_name": "CCTV-3 (720p)",
    "pinyin": "",
    "channel_code": 11363,
-   "logo": "https://live.fanmingming.cn/tv/CCTV3.png",
+   "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV3.png",
    "level": 0,
    "category_bits": 1,
    "category_ids": [
     1
    ],
-   "epg_id": "CCTV3.cn@SD",
+   "epg_id": "",
    "catchup_id": "",
    "timeshift_id": "",
    "region_id": 0,
    "area": "中国",
    "urls": [
-    "http://74.91.26.218:82/live/cctv3.hd.m3u8",
     "http://74.91.26.218:82/live/cctv3hd.m3u8",
     "http://120.198.95.220:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&down=1"
    ],
    "trusted": 1
   },
   {
-   "id": 11364,
-   "name": "CCTV-4 中文国际",
-   "en_name": "CCTV-4",
-   "pinyin": "",
-   "channel_code": 11364,
-   "logo": "https://live.fanmingming.cn/tv/CCTV4.png",
-   "level": 0,
-   "category_bits": 1,
-   "category_ids": [
-    1
-   ],
-   "epg_id": "CCTV4.cn@SD",
-   "catchup_id": "",
-   "timeshift_id": "",
-   "region_id": 0,
-   "area": "中国",
-   "urls": [
-    "http://74.91.26.218:82/live/cctv4.hd.m3u8"
-   ],
-   "trusted": 1
-  },
-  {
    "id": 11365,
    "name": "CCTV-5 体育",
-   "en_name": "CCTV-5",
+   "en_name": "CCTV-5 体育",
    "pinyin": "",
    "channel_code": 11365,
    "logo": "https://live.fanmingming.cn/tv/CCTV5.png",
@@ -223306,23 +223006,22 @@
   },
   {
    "id": 11366,
-   "name": "CCTV-6 电影",
-   "en_name": "CCTV-6",
+   "name": "CCTV-6 (1080p)",
+   "en_name": "CCTV-6 (1080p)",
    "pinyin": "",
    "channel_code": 11366,
-   "logo": "https://live.fanmingming.cn/tv/CCTV6.png",
+   "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV6.png",
    "level": 0,
    "category_bits": 1,
    "category_ids": [
     1
    ],
-   "epg_id": "CCTV6.cn@SD",
+   "epg_id": "",
    "catchup_id": "",
    "timeshift_id": "",
    "region_id": 0,
    "area": "中国",
    "urls": [
-    "http://74.91.26.218:82/live/cctv6.hd.m3u8",
     "http://69.30.245.50/live/cctv6.m3u8",
     "http://198.204.228.26/live/cctv6hd.m3u8"
    ],
@@ -223330,69 +223029,66 @@
   },
   {
    "id": 11367,
-   "name": "CCTV-7 国防军事",
-   "en_name": "CCTV-7",
+   "name": "CCTV-7 (720p)",
+   "en_name": "CCTV-7 (720p)",
    "pinyin": "",
    "channel_code": 11367,
-   "logo": "https://live.fanmingming.cn/tv/CCTV7.png",
+   "logo": "",
    "level": 0,
    "category_bits": 1,
    "category_ids": [
     1
    ],
-   "epg_id": "CCTV7.cn@SD",
+   "epg_id": "",
    "catchup_id": "",
    "timeshift_id": "",
    "region_id": 0,
    "area": "中国",
    "urls": [
-    "http://74.91.26.218:82/live/cctv7.hd.m3u8",
     "http://74.91.26.218:82/live/cctv7hd.m3u8"
    ],
    "trusted": 1
   },
   {
    "id": 11368,
-   "name": "CCTV-8 电视剧",
-   "en_name": "CCTV-8",
+   "name": "CCTV-8 (720p)",
+   "en_name": "CCTV-8 (720p)",
    "pinyin": "",
    "channel_code": 11368,
-   "logo": "https://live.fanmingming.cn/tv/CCTV8.png",
+   "logo": "",
    "level": 0,
    "category_bits": 1,
    "category_ids": [
     1
    ],
-   "epg_id": "CCTV8.cn@SD",
+   "epg_id": "",
    "catchup_id": "",
    "timeshift_id": "",
    "region_id": 0,
    "area": "中国",
    "urls": [
-    "http://74.91.26.218:82/live/cctv8.hd.m3u8",
     "http://74.91.26.218:82/live/cctv8hd.m3u8"
    ],
    "trusted": 1
   },
   {
    "id": 11369,
-   "name": "CCTV-9 纪录",
-   "en_name": "CCTV-9",
+   "name": "CCTV9",
+   "en_name": "CCTV9",
    "pinyin": "",
    "channel_code": 11369,
-   "logo": "https://live.fanmingming.cn/tv/CCTV9.png",
+   "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV9.png",
    "level": 0,
    "category_bits": 1,
    "category_ids": [
     1
    ],
-   "epg_id": "CCTV9.cn@SD",
+   "epg_id": "",
    "catchup_id": "",
    "timeshift_id": "",
    "region_id": 0,
    "area": "中国",
    "urls": [
-    "http://74.91.26.218:82/live/cctv9.hd.m3u8",
     "http://101.66.194.29:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=0&authid=0",
     "https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=027139c7cf4563ddf379b1e51dd3c65e"
    ],
@@ -224011,7 +223707,7 @@
    "trusted": 1
   }
  ],
- "generated_at": 1793329504,
- "filtered_at": 1793329716,
+ "generated_at": 1793345415,
+ "filtered_at": 1793345638,
  "filter_policy": "conservative"
 }
