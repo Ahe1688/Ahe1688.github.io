@@ -27,6 +27,9 @@ jobs:
       - name: 剔除失效源（保守策略：只删 404/5xx/DNS失败/连接拒绝/重置/SSL错误/HTML错误页）
         run: python3 filter_sources.py channels.json channels.json --workers 80 --timeout 7
 
+      - name: 播放级验证（下载视频切片测速，剔除拉不到画面的源，快源排前）
+        run: python3 verify_playback.py channels.json channels.json --workers 80
+
       - name: 同步导出 M3U8 播放列表（与 channels.json 内容一致）
         run: python3 export_m3u8.py channels.json live.m3u8
 
