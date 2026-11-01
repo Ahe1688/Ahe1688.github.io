@@ -40,13 +40,46 @@ from cctv_sources import (build_cctv_channels, canon_cn,
 #    想增加更多源，往这个列表里加 URL 即可。
 # ---------------------------------------------------------------------------
 SOURCES = [
-    # iptv-org 全球主列表（每日自动验活、清理死链，最稳）
+    # iptv-org 全球主列表（每日自动验活、清理死链，最稳；经 is_cn_channel 过滤后只留中文台）
     "https://iptv-org.github.io/iptv/index.m3u",
-    # iptv-org 中国专属子集（CCTV / 卫视 / 地方更集中）
+    # iptv-org 中国专属子集（CCTV / 卫视 / 港澳台 / 地方更集中）
     "https://iptv-org.github.io/iptv/countries/cn.m3u",
-    # 可选：fanmingming 国内维护源（若你的运行环境能连上就启用）
-    # "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
 ]
+
+# 国内社区每日维护的中文聚合源（央视/卫视/地方台/港澳台），任一失败自动跳过
+CN_SOURCES = [
+    # best-fan 全量国内源（央视+卫视+省市地方台，每日校验，已克隆验证过）
+    "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all.m3u8",
+    # suxuang 每日维护（央视/卫视/地方，国内知名聚合）
+    "https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u",
+    # YueChan 每日抓取（央视/卫视/地方）
+    "https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
+    # Guovin/iptv-api 每日校验输出（量大，含地方台）
+    "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+    # fanmingming 国内维护源（IPv6，部分环境可达）
+    "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
+]
+
+# 只保留：央视 / 卫视 / 地方台 / 港澳台；删除国外台。
+# 规则：频道名含中文字符即视为中文频道；纯英文名需命中港澳台/央视白名单。
+CJK_RE = re.compile(r"[\u4e00-\u9fff]")
+CN_WHITELIST_RE = re.compile(
+    r"CCTV\s?[-+]?\s?\d|CGTN|\bTVB\b|ViuTV|\bHOY\b|RTHK|\bTDM\b|TVBS"
+    r"|\bFTV\b|Formosa\s?TV|\bCTS\b|\bTTV\b|\bEBC\b|\bSET\b|SANLIH"
+    r"|DaAi|MACAO|MACAU|myTVSUPER|TVeye",
+    re.I,
+)
+# 明确剔除：成人源
+DROP_GROUPS = {"成人", "adult"}
+
+
+def is_cn_channel(name, groups):
+    """判断频道是否属于「央视/卫视/地方台/港澳台」中文频道范围。"""
+    if any(norm_group(g) in DROP_GROUPS for g in groups):
+        return False
+    if CJK_RE.search(name):
+        return True
+    return bool(CN_WHITELIST_RE.search(name))
 
 UA = "Mozilla/5.0 (superlive-autogen) IPTV-Collector/1.0"
 
@@ -87,6 +120,12 @@ GROUP_CN = {
     "science": "科学",
     "legislative": "立法",
     "interactive": "互动",
+    # 港澳台地区分组归一化
+    "hong kong": "港澳台",
+    "hong kong sar china": "港澳台",
+    "macau": "港澳台",
+    "macao": "港澳台",
+    "taiwan": "港澳台",
 }
 
 # 中文频道按名称归类的规则（命中后追加到对应分类）
@@ -99,6 +138,10 @@ CN_RULES = [
     (re.compile(r"电影|Movies", re.I), "电影"),
     (re.compile(r"少儿|卡通|Kids|Cartoon", re.I), "少儿"),
     (re.compile(r"音乐|Music", re.I), "音乐"),
+    # 港澳台频道名（中英文）归入「港澳台」分类
+    (re.compile(r"香港|澳门|台湾|台北|TVB|ViuTV|HOY|RTHK|TDM|TVBS|凤凰|鳳凰"
+                r"|澳亞|亚视|亞視|三立|民視|民视|東森|东森|華視|华视|台視|台视"
+                r"|中視|中视|八大|大爱|大愛| Formosa|FTV\b", re.I), "港澳台"),
 ]
 
 
@@ -107,6 +150,13 @@ def norm_group(title):
     t = (title or "").strip()
     if not t:
         return "未分类"
+    # 中文聚合源的分组名强归一（不同源叫法不同，先归并再进映射）
+    if re.search(r"央视|CCTV", t, re.I):
+        return "央视"
+    if "卫视" in t:
+        return "卫视"
+    if re.search(r"港澳|台湾|香港|澳门", t):
+        return "港澳台"
     low = t.lower()
     if low in GROUP_CN:
         return GROUP_CN[low]
@@ -187,15 +237,21 @@ class CatMap:
 
 
 def build_iptv(entries, cm, skip_canons):
-    """从 iptv-org 条目构建频道；skip_canons 里的规范名（央视/卫视）跳过，
-    交由可信源接管，避免重复且陈旧的 403 烂源。"""
+    """从各源条目构建频道；skip_canons 里的规范名（央视/卫视）跳过，
+    交由可信源接管，避免重复且陈旧的 403 烂源。
+    仅保留中文频道（央视/卫视/地方台/港澳台），国外台全部剔除。"""
     channels = []
     seen_urls = set()
+    dropped = 0
     cid = 1
     for name, logo, groups, url, tvg_id in entries:
         if url in seen_urls:
             continue
         seen_urls.add(url)
+
+        if not is_cn_channel(name, groups):
+            dropped += 1
+            continue  # 国外台 / 非中文频道
 
         key = canon_cn(name)
         if key and key in skip_canons:
@@ -222,6 +278,7 @@ def build_iptv(entries, cm, skip_canons):
             "area": area, "urls": [url], "trusted": 0,
         })
         cid += 1
+    print(f"    [中文过滤] 保留 {len(channels)} 条，剔除国外/非中文 {dropped} 条")
     return channels, cid
 
 
@@ -251,7 +308,7 @@ def main():
     cm.get("卫视")
 
     all_entries = []
-    for url in SOURCES:
+    for url in SOURCES + CN_SOURCES:
         try:
             print(f"[抓取] {url}")
             txt = fetch(url)
