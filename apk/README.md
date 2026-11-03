@@ -6,16 +6,16 @@
 
 ---
 
-## 下载地址（推荐用国内加速线路，见下方说明）
+## 下载地址
 
-| 版本 | GitHub Pages 线路 | 国内加速线路（jsDelivr） | 包名 |
-|------|------------------|------------------------|------|
-| **v9.1 打开即拉·无后台（主力推荐）** | https://ahe1688.github.io/apk/superlive_v91.apk | https://cdn.jsdelivr.net/gh/Ahe1688/Ahe1688.github.io@main/apk/superlive_v91.apk | com.hd.zhibo |
-| **v11.1 M3U 源配置版** | https://ahe1688.github.io/apk/superlive_v111_m3u.apk | https://cdn.jsdelivr.net/gh/Ahe1688/Ahe1688.github.io@main/apk/superlive_v111_m3u.apk | com.hd.zhibo.m3u |
-| v9（已被 v9.1 取代） | https://ahe1688.github.io/apk/superlive_v9.apk | — | com.hd.zhibo |
-| v11（已被 v11.1 取代） | https://ahe1688.github.io/apk/superlive_v11_m3u.apk | — | com.hd.zhibo.m3u |
+| 版本 | 下载链接 | 大小 | 包名 |
+|------|----------|------|------|
+| **v9.1 打开即拉·无后台（主力推荐）** | https://ahe1688.github.io/apk/superlive_v91.apk | 10.5 MB | com.hd.zhibo |
+| **v11.1 M3U 源配置版** | https://ahe1688.github.io/apk/superlive_v111_m3u.apk | 10.5 MB | com.hd.zhibo.m3u |
+| v9（已被 v9.1 取代） | https://ahe1688.github.io/apk/superlive_v9.apk | 10.6 MB | com.hd.zhibo |
+| v11（已被 v11.1 取代） | https://ahe1688.github.io/apk/superlive_v11_m3u.apk | 10.7 MB | com.hd.zhibo.m3u |
 
-> **为什么推荐 jsDelivr 线路**：`ahe1688.github.io`（GitHub Pages）在部分国内网络环境下无法访问，会导致 APP 拉不到源、手动导入失败。jsDelivr 国内 CDN 一般可达。**如果你的手机能正常打开 github.io，两条线路效果相同。**
+> **下载提示**：`ahe1688.github.io` 在部分国内网络可能无法直接访问（jsDelivr 不分发 .apk 文件，无法提供国内镜像）。若浏览器打不开下载链接，请用电脑下载后通过 U 盘 / 微信文件传输助手等方式拷到设备安装。**注意：这只影响"下载安装包"这一步；装好后的 APP 拉直播源走的是 jsDelivr 国内线路（v9.1/v11.1），不受影响。**
 
 ---
 
