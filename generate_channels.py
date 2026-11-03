@@ -155,7 +155,7 @@ def norm_group(title):
         return "央视"
     if "卫视" in t:
         return "卫视"
-    if re.search(r"港澳|台湾|香港|澳门", t):
+    if re.search(r"港澳|台湾|香港|澳门|港[·•・.]*澳[·•・.]*台", t):
         return "港澳台"
     low = t.lower()
     if low in GROUP_CN:
