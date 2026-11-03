@@ -30,6 +30,8 @@ import urllib.request
 UA = "Mozilla/5.0 (Linux; Android 11) exe"   # 与直播 APP 播放器 UA 相近
 HOST_LOCKS = {}
 _lock = threading.Lock()
+HOST_CONCURRENCY = 6      # 同一主机最大并发（1 会串行拖慢，6 兼顾限流风险）
+SEG_MAX_BYTES = 512 * 1024
 SEG_RE = re.compile(r"^([^#\n][^\n]*\.(?:ts|m4s|mp4|aac))\s*$", re.M)
 NESTED_RE = re.compile(r"^([^#\n][^\n]*\.m3u8[^\n]*)\s*$", re.M)
 
@@ -42,16 +44,18 @@ def host_of(u):
 def _lock_for(host):
     with _lock:
         if host not in HOST_LOCKS:
-            HOST_LOCKS[host] = threading.Lock()
+            HOST_LOCKS[host] = threading.BoundedSemaphore(HOST_CONCURRENCY)
         return HOST_LOCKS[host]
 
 
 def fetch(url, timeout, max_bytes=0):
     """返回 (status, body_bytes, speed_kbps)。status: 200/'blocked'/'timeout'/其他错误串"""
-    host = host_of(url)
-    with _lock_for(host):   # 同主机串行，避免并发触发限流
-        req = urllib.request.Request(url, headers={"User-Agent": UA})
-        t0 = time.time()
+    sem = _lock_for(host_of(url))
+    if not sem.acquire(timeout=timeout + 4):    # 排队也限时，防止慢主机拖垮全局
+        return "timeout", b"", 0.0
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    t0 = time.time()
+    try:
         try:
             resp = urllib.request.urlopen(req, timeout=timeout)
         except urllib.error.HTTPError as e:
@@ -93,6 +97,8 @@ def fetch(url, timeout, max_bytes=0):
         dt = time.time() - t0
         sp = (len(data) / 1024.0 / dt) if dt > 0 and data else 0.0
         return resp.status, data, sp
+    finally:
+        sem.release()
 
 
 def resolve(url, base):
@@ -105,34 +111,48 @@ def resolve(url, base):
 
 
 def test_urls(urls):
-    """对一组 URL 逐个播放级测试，返回 [(url, speed_kbps)]（可播的）+ 是否被剔除。"""
-    playable = []
-    for u in urls[:2]:                      # 每频道最多试前 2 条备线
-        st, body, sp = fetch(u, timeout=8)
-        if st in ("blocked", "timeout"):    # 列表层受限：无法判断，保守不剔除
-            return playable, False
-        if st != 200:
-            continue                        # 该 url 死，试下一条备线
-        if b"#EXTM3U" not in body[:512] and b"#EXTINF" not in body[:512]:
-            continue                        # 返回的不是播放列表（HTML 等）
-        text = body.decode("utf-8", "replace")
-        m = NESTED_RE.search(text)
-        if m:                               # 主列表 → 跟进子列表
-            st2, body2, sp2 = fetch(resolve(m.group(1).strip(), u), timeout=8)
-            if st2 != 200 or b"#EXTINF" not in body2[:512]:
-                continue
-            text, u = body2.decode("utf-8", "replace"), resolve(m.group(1).strip(), u)
-        m = SEG_RE.search(text)
-        if not m:                           # 列表里没有任何视频切片
-            continue
-        st3, sdata, sp3 = fetch(resolve(m.group(1).strip(), u),
-                                timeout=10, max_bytes=1024 * 1024)
-        if st3 == 200 and sdata:
-            playable.append((u, round(sp3, 1)))
-        elif st3 == "timeout":
-            playable.append((u, 1.0))       # 切片超时：极慢但可能能播，垫底保留
-        # 切片 403/404/5xx/DNS → 该 url 不可播，不收录
-    return playable, False
+    """对一组 URL 做播放级测试，返回 [(url, speed_kbps)]（可播的）。
+    首个 URL 成功即停（备线保持原样跟随其后），大幅减少请求量。"""
+    first = urls[0]
+    st, body, sp = fetch(first, timeout=6)
+    if st in ("blocked", "timeout"):    # 列表层受限：无法判断，保守不剔除
+        return [(first, 0.0)], True     # (url, 未知速度) +受限标记
+    if st == 200 and (b"#EXTM3U" in body[:512] or b"#EXTINF" in body[:512]):
+        r = _probe_stream(first, body)
+        if r:
+            return [r], False
+    # 首 URL 不行 → 试第 2 条备线
+    for u in urls[1:2]:
+        st, body, sp = fetch(u, timeout=6)
+        if st in ("blocked", "timeout"):
+            return [(u, 0.0)], True
+        if st == 200 and (b"#EXTM3U" in body[:512] or b"#EXTINF" in body[:512]):
+            r = _probe_stream(u, body)
+            if r:
+                return [r], False
+    return [], False                    # 所有尝试都拿不到画面 → 剔除
+
+
+def _probe_stream(url, body):
+    """从播放列表内容跟进子列表并下载切片，成功返回 (url, speed)。"""
+    text = body.decode("utf-8", "replace")
+    m = NESTED_RE.search(text)
+    if m:                               # 主列表 → 跟进子列表
+        sub = resolve(m.group(1).strip(), url)
+        st2, body2, sp2 = fetch(sub, timeout=6)
+        if st2 != 200 or b"#EXTINF" not in body2[:512]:
+            return None
+        text, url = body2.decode("utf-8", "replace"), sub
+    m = SEG_RE.search(text)
+    if not m:                           # 列表里没有任何视频切片
+        return None
+    st3, sdata, sp3 = fetch(resolve(m.group(1).strip(), url),
+                            timeout=7, max_bytes=SEG_MAX_BYTES)
+    if st3 == 200 and sdata:
+        return (url, round(sp3, 1))
+    if st3 == "timeout":
+        return (url, 1.0)               # 切片超时：极慢但可能能播，垫底保留
+    return None                         # 切片 403/404/5xx/DNS → 不可播
 
 
 def main():
@@ -165,13 +185,17 @@ def main():
         if c.get("trusted") or c["id"] not in results:
             kept.append(c)
             continue
-        playable, _ = results[c["id"]]
+        playable, restricted = results[c["id"]]
+        if restricted:
+            kept.append(c)              # 403/超时：无法判断，原样保留
+            continue
         if not playable:
             removed.append(c)
             continue
-        playable.sort(key=lambda x: -x[1])            # 该频道内快 URL 排前
-        c["urls"] = [u for u, _ in playable]
-        c["speed"] = playable[0][1]                   # 首选 URL 速度 KB/s
+        url, speed = playable[0]
+        rest = [u for u in c["urls"] if u != url]
+        c["urls"] = [url] + rest        # 实测最快(可用)的排最前，备线跟随
+        c["speed"] = speed
         kept.append(c)
 
     # 全局排序：trusted 优先，其余按速度从快到慢（id 不变）
